@@ -1,6 +1,6 @@
 # This is my recorder for learing the machine learning
 
-### [Daily recorde](./daily/Readme.md)
+### [Daily record](./daily/Readme.md)
 
 ### [algorithm](./algorithm/Readme.md)
 
