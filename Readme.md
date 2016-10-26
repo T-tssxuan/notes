@@ -1,4 +1,4 @@
-# This is my recorder for learing the machine learning
+# This is my records for learing the machine learning
 
 ### [Daily recorde](./daily/Readme.md)
 
