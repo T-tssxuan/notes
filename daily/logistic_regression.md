@@ -18,7 +18,9 @@
 ### 6 [Student's t-distribution](https://en.wikipedia.org/wiki/Student%27s_t-distribution)
 
 
-### 6 [p-value](
+### 7 [p-value](https://en.wikipedia.org/wiki/P-value)
+1. The p-value is defined as the probability, under the assumption of hypothesis **H**, of obtaining a result equal to or more extreme than what was actually observed.
+2. 
 
 
 
