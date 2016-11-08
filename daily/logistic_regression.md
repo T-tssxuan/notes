@@ -1,7 +1,11 @@
 # logistic regression
 ### 1 [Logistic regression](https://en.wikipedia.org/wiki/Logistic_regression)
+1. Multinomial logistic regreesion(also know as: polytomous LR, multiclass LR, softmax regression, multinomial logit, maximum entropy (MaxEnt) classifier, conditional maximum entropy model)
+2. Ordered logit
 
 ### 2 [Multinomial logistic regreesion](https://en.wikipedia.org/wiki/Multinomial_logistic_regression)
+1. Independent variable.
+
 
 ### 3 [Ordered logit](https://en.wikipedia.org/wiki/Ordered_logit)
 
@@ -34,4 +38,5 @@
 ### 9 [odds and odds ratio](https://en.wikipedia.org/wiki/Logistic_regression)
 1. The odds of the dependent variable equaling a case (given some linear combination {\displaystyle x} x of the predictors) is equivalent to the exponential function of the linear regression expression
 2.
+
 
