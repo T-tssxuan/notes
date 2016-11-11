@@ -2,6 +2,8 @@
 ### 1 [Logistic regression](https://en.wikipedia.org/wiki/Logistic_regression)
 1. Multinomial logistic regreesion(also know as: polytomous LR, multiclass LR, softmax regression, multinomial logit, maximum entropy (MaxEnt) classifier, conditional maximum entropy model)
 2. Ordered logit
+3. Conditional logistic regression
+
 
 ### 2 [Multinomial logistic regreesion](https://en.wikipedia.org/wiki/Multinomial_logistic_regression)
 1. Independent variable.
