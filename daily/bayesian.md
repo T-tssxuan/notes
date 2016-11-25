@@ -1,0 +1,1 @@
+1. Bayesian curve fit: given **alpha** we get the Gaussian distribution of **w**. With the **w** and **beta**, we can get the distribution of **t**. So `p(w|x, t, alpha, beta) proportional to p(t|x, w, beta) * p(w|alpha)`, with this formula we can using the distribution of w to calculate a new x correspond t, with all w sum we can get the probability of given x with result t.
