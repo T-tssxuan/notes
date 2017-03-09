@@ -14,3 +14,10 @@
 2. The distance estimate.
 3. The loss function or the optimazation goal.
 4. The kd tree building and searching.
+
+#### 3. Naive Bayes method
+1. The aim function conduct.
+2. Maxium posterior likehood meaning.
+3. MLE and MAP.
+4. Bayes estimate.
+5. Laplace smoothing.
