@@ -21,3 +21,13 @@
 3. MLE and MAP.
 4. Bayes estimate.
 5. Laplace smoothing.
+
+#### 4. Decision tree
+1. Decision tree composed wity node and directed edge.
+2. There are internal node and leaf node.
+3. Internal node gets attributes and a class is a leaf node.
+4. How to building a decision tree.
+5. ID3, C4.5, CART.
+6. Information gain and information gain ratio.
+7. How to pruning.
+8. 
