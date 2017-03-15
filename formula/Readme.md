@@ -30,4 +30,8 @@
 5. ID3, C4.5, CART.
 6. Information gain and information gain ratio.
 7. How to pruning.
-8. 
+
+#### 5. Logistic regression
+1. Logistic distribution.
+2. odds and log odds
+3. 
