@@ -34,4 +34,12 @@
 #### 5. Logistic regression
 1. Logistic distribution.
 2. odds and log odds
-3. 
+
+#### 6. Support vector machines
+1. linear support vector machine in linearly separable case
+2. linear support vector machine
+3. non-linear support vector machine
+4. hard margin maximization and soft margin maximization
+5. Kernel function
+6. Sequential minimal optimization(SMO)
+7. 
