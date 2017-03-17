@@ -48,5 +48,20 @@
 2. Probably approximately correct.
 3. How to change the probability distribution.
 4. How to compose a strongly classifier from weakly classifiers.
-5. The process of Adaboost.
-6. 
+5. The process of Adaboost
+6. Additive model.
+7. Forward stagewise algorithm.
+8. Boosting tree.
+9. Gradient boosting.
+
+#### 8. Expectation maximization algorithm
+1. Observable variable and latent variable.
+2. Complete-data and imcomplete-data.
+3. Q function.
+4. Em algorithm and the unsupervised learning.
+5. Gaussian mixture model.
+6. F-function maximization-maximization algorithm.
+7. Generalized expectation maximization(GEM).
+
+#### 9. Hidden Markov model(HMM)
+1.
