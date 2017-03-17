@@ -64,4 +64,7 @@
 7. Generalized expectation maximization(GEM).
 
 #### 9. Hidden Markov model(HMM)
-1.
+1. State sequence and Observation sequence.
+2. Homogeneous markov chain.
+3. Computation problem, learning problem and prediction problem.
+4. forward algorithm and backward algorithm.
