@@ -42,4 +42,11 @@
 4. hard margin maximization and soft margin maximization
 5. Kernel function
 6. Sequential minimal optimization(SMO)
-7. 
+
+#### 7. AdaBoost
+1. Strongly learnable, weakly learnable.
+2. Probably approximately correct.
+3. How to change the probability distribution.
+4. How to compose a strongly classifier from weakly classifiers.
+5. The process of Adaboost.
+6. 
