@@ -68,3 +68,9 @@
 2. Homogeneous markov chain.
 3. Computation problem, learning problem and prediction problem.
 4. forward algorithm and backward algorithm.
+
+#### 10. Conditional random field, CRF
+1. Probabilistic undirected graphical model(Markov random field).
+2. pairwise Markov property, local Markov property, global Markov property.
+3. maximal clique and factorization.
+4. Conditional random field.
