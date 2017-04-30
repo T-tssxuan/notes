@@ -18,3 +18,10 @@
 3. Negative Sampling
 4. Subsampling of Frequent Words
 5. Learning Phrase
+
+#### 4. A Neural Attention Model for Abstractive Sentence Summarization
+1. Related to neural network language models(NNLM)
+2. Related to RNN
+3. Attention-based model
+4. 使用正文和标题做为摘要对
+5. As a next step we would like to further improve the grammaticality of the sum- maries in a data-driven way, as well as scale this system to generate paragraph-level summaries.
