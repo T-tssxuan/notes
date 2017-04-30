@@ -1,4 +1,6 @@
-### Experiments with a New Boosting Algorithm
+## Boosting related paper
+
+#### 1. Experiments with a New Boosting Algorithm
 1. AdaBoost which, theoretically, can be used to significantly reduce the error of any learning algorithm that consistently generates classifiers whose performance is a little better than random guessing.
 2. "pseudo-loss" which is a method for forcing a learning algorithm of multi-label concepts to concentrate on the labels that are hardest to discriminate.
 3. "Boosting" is a general method for improving the performance of any learning algorithm.

@@ -1,4 +1,6 @@
-### Generative Adversarial Nets
+## GAN related paper
+
+#### 1. Generative Adversarial Nets
 1. Precision: The fraction of detections reported by the model that were correct.
 2. Recall: The fraction of true events that were detected.
 3. F-score: 2pr/(p + r).

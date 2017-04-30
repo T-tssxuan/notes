@@ -1,4 +1,6 @@
-### DyNet: The Dynamic Neural Network Toolkit
+## Neural Network related paper
+
+#### 1. DyNet: The Dynamic Neural Network Toolkit
 1. In the static decalaration strategy that is used in toolkits like Theano, CNTK, and TensorFlow, the user first defines a computation graph, and then examples are fed into an engine that executes this computation and computes its derivative.
 2. One chanllenge with dynamic declaration is that because the symbolic computation graph is defined anew for every training example, its construction must have low overhead.
 3. Rapid prototyping and easy maintenance of efficient and correct model code is of paramount importance in deep learning.

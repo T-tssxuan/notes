@@ -1,4 +1,6 @@
-### A Survey on Transfer Learning
+## Transfer Learning related paper
+
+### 1. A Survey on Transfer Learning
 1. A major assumption in many machine learning and data mining algorithms is that the training and future data must be in the same feature space and have the same distribution. However, in many real-world applications, this assumption may not hold.
 2. This survey focus on categorizing and reviewing the current progress on transfer learning for classification, regression and clustering problems.
 3. Transfer learning allows the domains, tasks, and distributions used in training and testing to be different.
