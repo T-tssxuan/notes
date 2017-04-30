@@ -7,3 +7,4 @@
 4. 最大拟合词之间向量积和统计的共同出现信息
 <img src="http://chart.googleapis.com/chart?cht=tx&chl= ">\widehat{J}= \sum_{}^{i,j}f(X{i,j})(w{T}^{i}\widetilde{j}{j}-\log X{ij})^{2}" style="border:none;">
 5. 相对于CBOW, n skip-gram交果要提升很多
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" style="border:none;">
