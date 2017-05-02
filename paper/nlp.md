@@ -32,3 +32,7 @@
 3. Siamese network 直接从相似性以及非相似性中学习不变量以及选择句子的表示
 4. Siamese network 和 triplet network 也用于学习图片的相似性
 5. 先计算句向量，再进行cosin相似度比较
+
+#### 6. Siamese Recurrent Architectures for Learning Sentence Similarity
+1. bag-of-words/tf-idf 被其基本项限定
+2. 在相似度判断中使用L2可能导致不必要的plateaus
