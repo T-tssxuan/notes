@@ -25,3 +25,10 @@
 3. Attention-based model
 4. 使用正文和标题做为摘要对
 5. As a next step we would like to further improve the grammaticality of the sum- maries in a data-driven way, as well as scale this system to generate paragraph-level summaries.
+
+#### 5. Learning Text Similarity with Siamese Recurrent Networks
+1. 使用双向LSTM siamese architecture，学习把变长的string映身
+2. Siamese network 是一种非线性学习相似信息的架构
+3. Siamese network 直接从相似性以及非相似性中学习不变量以及选择句子的表示
+4. Siamese network 和 triplet network 也用于学习图片的相似性
+5. 先计算句向量，再进行cosin相似度比较
