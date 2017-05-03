@@ -36,3 +36,15 @@
 #### 6. Siamese Recurrent Architectures for Learning Sentence Similarity
 1. bag-of-words/tf-idf 被其基本项限定
 2. 在相似度判断中使用L2可能导致不必要的plateaus
+
+#### 7. Neural Summarization by Extracting Sentences and Words
+1. 使用encode抽到句子的表示，使用decoder进行理解
+2. 使用单个句子进行训练，而非使用标题以及第一句进行抽取
+3. decoder从文本中选取，而非从整个词表中抽取
+4. 结果字符集是从原文档中抽取的
+5. 使用规则对文章中的句子进行判断，如果包括某些词，则认为是摘要
+6. 对于oov则进行，则基于词向量找到相近的句子
+7. neural network-based hierarchical document reader and an attention-based hierarchical content extractor.
+8. 全局信息被提取，局部信息被保留
+9. 使用CNN提取句子级别的表示，使用RNN提取文档级别的表示
+10. 对比于 seq2seq，本文是直接输出突出的句子
