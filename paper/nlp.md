@@ -48,3 +48,8 @@
 8. 全局信息被提取，局部信息被保留
 9. 使用CNN提取句子级别的表示，使用RNN提取文档级别的表示
 10. 对比于 seq2seq，本文是直接输出突出的句子
+
+#### 8. Enriching Word Vectors with Subword Information
+1. 一种新的方式，每一个词看成是是一系列词的bag
+2. 词可以看成是word的集合
+3. 
