@@ -49,7 +49,7 @@
 9. 使用CNN提取句子级别的表示，使用RNN提取文档级别的表示
 10. 对比于 seq2seq，本文是直接输出突出的句子
 
-#### 8. Enriching Word Vectors with Subword Information
-1. 一种新的方式，每一个词看成是是一系列词的bag
-2. 词可以看成是word的集合
-3. 
+#### 8. Enriching Word Vectors with Subword Information(fb fasttext)
+1. 形态语气词常常被忽略，但是这对于有些特定的文章会产生很多不便
+2. 基于skip-gram model，每个字符表示成vector，每个词是字符的vector的和
+3. 大多数现有模型把词做为一个单独的向量，而忽略了词本身结构之间的关系，这对于一些语言是十分不利的
