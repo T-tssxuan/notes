@@ -53,3 +53,12 @@
 1. 形态语气词常常被忽略，但是这对于有些特定的文章会产生很多不便
 2. 基于skip-gram model，每个字符表示成vector，每个词是字符的vector的和
 3. 大多数现有模型把词做为一个单独的向量，而忽略了词本身结构之间的关系，这对于一些语言是十分不利的
+
+#### 8. TextRank: Bringing Order into Texts
+1. Graph-based 排名算法，是一种基于全局信息对结点进行递归的排序算法。
+2. 正如Graph-based 排名算法，投票越高的词其重要程度也越高
+3. 使用无向带权图，定义不同的结点之前的关系
+4. keyword extraction抽取文中最重要的词
+5. 使用co-occurrence定义词之间的关系
+6. sentence extraction抽取文中最重要的句子，使用similary来定义句子之间的相似度
+7. 进行摘要
