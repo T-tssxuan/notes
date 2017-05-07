@@ -62,3 +62,6 @@
 5. 使用co-occurrence定义词之间的关系
 6. sentence extraction抽取文中最重要的句子，使用similary来定义句子之间的相似度
 7. 进行摘要
+
+#### 9. Component-Enhanced Chinese Character Embeddings
+1. 基于汉字的边旁部首进行词向量提取
