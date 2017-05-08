@@ -65,3 +65,12 @@
 
 #### 9. Component-Enhanced Chinese Character Embeddings
 1. 基于汉字的边旁部首进行词向量提取
+
+#### 10. Character-level Convolutional Networks for Text Classification∗
+1. 文本分类主要包括文本feature抽取，和分类器设计
+2. 学习时，不需要语义和语法上的先验知识
+3. 使用pooling可以最高计算的尝试为6 conv layer and 3 fully-connected layer
+4. 使用定长的数据
+5. 使用data augmentation 可以提高深度模型的范化结果，但是在文本处理中，需要考虑到其顺序，因此，采用近义词典，对词进行替换，可能得到比较好的结果。
+6. Bag-of-means is misuse of word2vec
+6. 
