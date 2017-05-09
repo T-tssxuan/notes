@@ -73,4 +73,11 @@
 4. 使用定长的数据
 5. 使用data augmentation 可以提高深度模型的范化结果，但是在文本处理中，需要考虑到其顺序，因此，采用近义词典，对词进行替换，可能得到比较好的结果。
 6. Bag-of-means is misuse of word2vec
-6. 
+
+#### 11. FASTTEXT.ZIP: COMPRESSING TEXT CLASSIFICATION MODELS
+1. 丢失可接受的精度来获取更快的速度
+2. 使用压缩，去除不重要的词
+3. LSH，使用binarization strategy 进行cosin相似度搜索
+4. proposed approach 提到对于不对称信息分类的一个好的方法
+5. 使用PQ进行搜索，k和b的选取，使用搜索可以非常快
+6. 选取一些重要的feature，并保证每个文档都被覆盖
