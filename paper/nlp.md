@@ -81,3 +81,11 @@
 4. proposed approach 提到对于不对称信息分类的一个好的方法
 5. 使用PQ进行搜索，k和b的选取，使用搜索可以非常快
 6. 选取一些重要的feature，并保证每个文档都被覆盖
+
+#### 12. Distributed Representations of Sentences and Documents
+1. 提供一种定长向量表示句子的方法
+2. 连接多个向量，求得句子向量，并由此求句子之后的单词
+3. inspired使用每个词周围的词向的拼接或者均值做为当前向量的值
+4. 使用huffman tree进行hierarchical softmax
+5. 把句子的向量也当做词语分类的一部分
+6. 保持了句子的顺序信息
