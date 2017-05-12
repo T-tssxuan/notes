@@ -89,3 +89,4 @@
 4. 使用huffman tree进行hierarchical softmax
 5. 把句子的向量也当做词语分类的一部分
 6. 保持了句子的顺序信息
+
