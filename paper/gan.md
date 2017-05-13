@@ -14,3 +14,13 @@
 5. 对离散变量，我们使用softmax计算，对于连续变量，我们使用posterior计算
 6. 用抽象来教机器
 
+#### 3. Adversarial Multi-task Learning for Text Classification
+1. 使用神经网络可以提取不变特征，但是由于其可能被其它的任务影响，可能结果不好，本文提出一种使用gan来降低这种影响。
+2. 多任务学习是一种改进单任务的一种方法
+3. 对于share-private，使用GAN可以更干净,GAN使用内在的正交来防止他们之间相互影响
+4. 使用adversarial training and orthogonality constraints来隔离影响，使用GAN来学习TASK之间共有的特性，使用orthogonality去除privata和shared中多余的特征
+5. 可以使用无标签计算
+6. 一个简单的推论，好的共享特征应该有更多共同特征
+7. 使用对称网络，使得系统不能分辩句子到底是来自于哪一个网络
+8. 损失函数定义为，错分误差，ADV误差，以及正交误差
+
