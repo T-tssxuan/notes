@@ -90,3 +90,16 @@
 5. 把句子的向量也当做词语分类的一部分
 6. 保持了句子的顺序信息
 
+#### 13. A Deep Reinforced Model for Abstractive Summarization
+1. 在编码器中使用intra-temporal attention记录已经输入的词的关注权重，并在解码器中使用intra-temporal把已经输出的词考虑进来
+2. 结合maximum-liklihood cross-entropy loss和reinforcement learning的奖励机制来降低exposure bias
+3. 使用intra-temporal attention function机制来防止在不同的步骤关注相关的部分，此机制主要包括对decoder的隐状态、已生成词和encoder输入序列
+4. 使用decode查看之前decoder步骤来进一步防止重复生成相同的词
+5. 使用shared weight更适合summarization，另外，使用这种方式，可以加快模型收敛
+6. 通个观察发现，人生成的摘要基本不会出现同一个三元组两次
+7. 使用强化学习来训练任务
+8. 有监督网络在训练时，总是知道下一个结果是什么，这样可以调整，但是测试时，会导致误差被累积
+9. 使用强化学习和有监督学习来完成训练，其中有监督学习提升信息抓取力度、强化学习提升可读性
+10. 把标题、署名、内容使用特殊符号连接，全部小字，数字变成0，
+11. 90%训练、5%validation, 5%testing
+12. 首先使用maximum-likelihood训练，再进行ml + rl训练，200LSTM encode，400LSTM decode，15000词输入，5000词输出，通过选择出现频率最高的词，100维的词向量
