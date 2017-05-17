@@ -7,3 +7,7 @@
 4. reinforcement learning的variance十分高，如果没有适当的context-dependent normalization，非常不稳定
 5. SCST不是去衡量reward或者normalize reward signal，其使用其测试时使用的算法来回馈其行为
 6. 使用attention model去处理输入图像的不同位置
+
+#### 2. Convolutional Sequence to Sequence Learning
+1. 介绍一种基于cnn的神经网络处理seq2seq
+2. 
