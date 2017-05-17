@@ -103,3 +103,10 @@
 10. 把标题、署名、内容使用特殊符号连接，全部小字，数字变成0，
 11. 90%训练、5%validation, 5%testing
 12. 首先使用maximum-likelihood训练，再进行ml + rl训练，200LSTM encode，400LSTM decode，15000词输入，5000词输出，通过选择出现频率最高的词，100维的词向量
+
+#### 14. Deep Convolutional Neural Networks for Sentiment Analysis of Short Texts 2014
+1. Character to Sentence Convolutional Neural Network(CharSCNN) 使用两个CNN去抽取任何大小的字符和句子的特征
+2. 从character-level到sentence-level提取特征
+3. Word-Level Embedding: extract syntactic and semantic information
+4. Character-Level Embedding: morphological and shape information
+5. 句子级别的有两个问题：句子存在不同的长度；句子的重点会出现在不同的位置
