@@ -110,3 +110,9 @@
 3. Word-Level Embedding: extract syntactic and semantic information
 4. Character-Level Embedding: morphological and shape information
 5. 句子级别的有两个问题：句子存在不同的长度；句子的重点会出现在不同的位置
+
+#### 15. Incremental Skip-gram Model with Negative Sampling
+1. 现在的词嵌算法，包括SGNG是multi-pass algorithms，因些不能进行增量模型更新
+2. 分析证明，在无限数据集的情况下，increament SGNG算法效果与origin SGNG算法性能接近
+3. 自适应算法更适用于增量试训练，因为数据量之前是不知道的，而且可能一直不断的增加
+4. 记录TOP K个经常出现的词，这些词是一个在这K个数据中是动态出现的
