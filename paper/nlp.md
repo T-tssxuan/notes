@@ -116,3 +116,12 @@
 2. 分析证明，在无限数据集的情况下，increament SGNG算法效果与origin SGNG算法性能接近
 3. 自适应算法更适用于增量试训练，因为数据量之前是不知道的，而且可能一直不断的增加
 4. 记录TOP K个经常出现的词，这些词是一个在这K个数据中是动态出现的
+
+#### 16. Learning to Identify Ambiguous and Misleading News Headlines
+1. 准确的定义问题，以及对模糊和误导进行分别对待，使用class sequential rules提取信息来处理模糊定义，使用标题和文本结合来处理误导倾向的标题
+2. 使用co-training, semi-supervised method等方法来训练模型
+3. 新闻标题可以分为三类：全名合理的、模糊不清的、以及误导的
+4. 对于误导性标题，提取独立于正文的特征、依赖于正文的特征，并使用co-training进行训练
+
+
+2. 
