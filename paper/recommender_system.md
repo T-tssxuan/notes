@@ -36,3 +36,7 @@
 9. Weighted Approximate-Rank Pairwise(WARP) loss
 10. Using negative sample mining
 11. 防止数据稀疏，并使用covariance规范化
+
+#### 4. Combining Collaborative Filtering with Personal Agents for Better Recommendations
+1. 使用IF和CF结合达到更好的过滤目标
+2. CF的两个主要目标：哪个是我喜欢的，我有多喜欢某件物品
