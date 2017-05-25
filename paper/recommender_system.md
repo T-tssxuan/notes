@@ -23,3 +23,20 @@
 12. 引入feature的平方，二次方做为输入
 13. weighted logistic regression
 14. 加入了视频的时间标记
+
+#### 3. Collaborative Metric Learning
+1. 提出一种CML，不仅依赖于user preference，而且考虑user-user，item-item等因素
+2. 使用OFF-THE-SHELF、近似最近邻居搜索加快了TOP-K推荐任务的速度
+3. 三角不等式也是十分重要的
+4. 大多数据点乘矩阵不能满足三角不等式
+5. 一般的衡量矩阵不能反映user-user和item-item的关系
+6. 全局最优的本质是使相似的距离更近，不想似的距离更远
+7. 隐反馈存在一数据不平均的偏差
+8. 使用weighted ranking loss
+9. Weighted Approximate-Rank Pairwise(WARP) loss
+10. Using negative sample mining
+11. 防止数据稀疏，并使用covariance规范化
+
+#### 4. Combining Collaborative Filtering with Personal Agents for Better Recommendations
+1. 使用IF和CF结合达到更好的过滤目标
+2. CF的两个主要目标：哪个是我喜欢的，我有多喜欢某件物品
