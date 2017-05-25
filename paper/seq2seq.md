@@ -10,4 +10,10 @@
 
 #### 2. Convolutional Sequence to Sequence Learning
 1. 介绍一种基于cnn的神经网络处理seq2seq
-2. 
+
+#### 3. Massive Exploration of Neural Machine Translation Architectures
+1. NMT是一种end-to-end自动翻译方法
+2. 很多流行的NMT方法是基于ENCODER-DEODER机制的
+3. 一些建议：deep encoder比decoder难以训练；密集残差网络比常规的残差网络更好；LSTM比GRU好；精细的调节好的beam search对获取好的结果很重要
+4. 生成时，每个符号的值取决到其前面的值和context vector(attention vector)
+5. 我们以为更大的embedding可以得到更好的结果，但是并不是这样的
