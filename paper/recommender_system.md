@@ -40,3 +40,14 @@
 #### 4. Combining Collaborative Filtering with Personal Agents for Better Recommendations
 1. 使用IF和CF结合达到更好的过滤目标
 2. CF的两个主要目标：哪个是我喜欢的，我有多喜欢某件物品
+
+#### 5. Recurrent Recommender Networks
+1. 不使用隐状态，只学习转换函数
+2. 一般的方法考虑不到时序因素：1.人们对电影的看法是随时间改变的，2.对电影的感观随季节改变，3.用户的兴趣也是在不断的改变的
+3. 一些方法也有违因果关系，其使用未来的结果来衡量现在的情况
+4. 一个抓住要点的模型需要同时考虑时序因果关系、用户对电影的评价等因素
+5. 使用离散的隐状态进行描述
+6. 使用auto-encoder来进行非线性转换
+7. 同时考虑随时间变化的特性，以及不变特性
+8. Hedonic adaptation，用户在看到更喜欢的电影后，对过去的喜欢的电影的评介分下降
+9. 不能使用常规的BP，而是user和movie交替执行，使用subspace descent.
