@@ -28,3 +28,6 @@
 1. 我们的目标是训练G: X - Y，并且通过F: Y - X进行对偶训练，最后最小化由F(G(X)) = X完成训练目标
 2. 因为数据集的有限，寻求一种算法，可以自动学习不同的数据集之间的不同，以及关联
 3. 不像之前的任何方法，本算法不依赖任何既定的特征或者相似函数
+
+#### 5. LEARNING TO PROTECT COMMUNICATIONS WITH ADVERSARIAL NEURAL CRYPTOGRAPHY
+1. 
