@@ -51,3 +51,16 @@
 7. 同时考虑随时间变化的特性，以及不变特性
 8. Hedonic adaptation，用户在看到更喜欢的电影后，对过去的喜欢的电影的评介分下降
 9. 不能使用常规的BP，而是user和movie交替执行，使用subspace descent.
+
+#### 6. Scalable Coordinate Descent Approaches to Parallel Matrix Factorization for Recommender Systems
+1. [Code link](http://www.cs.utexas.edu/~rofuyu/libpmf/)
+2. Alternating Least Squares和Stochastic Gradient Descent是两个很常见的用于矩阵分解的方法
+3. 提出一个CCD++矩阵分解方法
+4. CCD++可以方便的适应于内存共享、多核和分布式系统
+5. ALS算法，更多的问题是分布式计算时，内存超出
+6. SGD时间复杂度更好，但是并行可能存在重写问题
+7. 使用coordinate descent每次更新一个变量
+8. CCD++ in Multi-core Systems
+9. CCD++ in Distributed Systems
+10. 由于W和H的量大，以及Hessian矩阵计算最也大，ALS不适合并行
+11. DSGD可以进行并行处理
