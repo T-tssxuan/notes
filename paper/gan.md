@@ -31,3 +31,9 @@
 
 #### 5. LEARNING TO PROTECT COMMUNICATIONS WITH ADVERSARIAL NEURAL CRYPTOGRAPHY
 1. 
+
+#### 6. Improved Techniques for Training GANs
+1. Feature matching用于防止Generator不会被overtrain
+2. GAN失败的主要原因是genrator塌缩到一点
+3. minibatch discrimination的主要思想是，使用多个样本结合，而不是单个的，这样可能可以防止collapse
+4. virtaul batch normalization(VBN)
