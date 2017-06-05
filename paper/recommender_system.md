@@ -64,3 +64,11 @@
 9. CCD++ in Distributed Systems
 10. 由于W和H的量大，以及Hessian矩阵计算最也大，ALS不适合并行
 11. DSGD可以进行并行处理
+
+#### 7. Low-Rank Linear Cold-Start Recommendation from Social Data
+1. LOCO a.使用线性回归获取对于偏好最优的社交信息，b.低维的权值克服社交数据高维特性，c.可扩展的low-rank权值，全名用randomised SVD
+2. 冷启动问题，可以使用一些附加信息来完成，如人口统计信息
+3. 寻找一个隐变量空间U，可以同时来预估用户偏好和社交特质
+4. 寻找T，使得社交属性X可以拟合用户属性
+5. social neighbourhood model没有考虑了属性之间的相关性，存在underfit风险；bpr-linmap模型考虑到，但是存在overfit的风险；CMF模型，计算复杂
+6. 为了使了回归可以训练，对W的rank进行限制，这样也带了等式变成non-convex的问题
