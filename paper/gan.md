@@ -37,3 +37,15 @@
 2. GAN失败的主要原因是genrator塌缩到一点
 3. minibatch discrimination的主要思想是，使用多个样本结合，而不是单个的，这样可能可以防止collapse
 4. virtaul batch normalization(VBN)
+
+#### 7. IRGAN: A Minimax Game for Unifying Generative and Discriminative Information Retrieval Models
+1. 信息获取主要有两种模式：a. 预测给出的文档相关性；b. 给出文档对，判别他们之间的相关性
+2. 判别模型：挖掘标注与非标注的数据中的信息，用于指导训练拟合文档内在相关性分布生成模型
+3. 生成模型：生成判别模型难以判别的例子
+4. 经典相关性模型着重于，如何从查询生成(相关)文档；独立模型，每个token是独立从相关文档档中生成；统计语言模型一般是从文档中生成查询元素；在词嵌模型中，词从其上下文中生成；在推荐系统中，也有类似的方法，从item的上下文中生成item
+5. 模型扩展到pointwise, pairwise, listwise, 其中pointwise基于人的判断来衡量相关性，pairwise主要是在所有文档对中找出最相关的文档对，listwise着重于返回最合理的相关性排序
+6. 观察到的正例和未观察到的正例之间会存在内在联系，生成器需要基于判别器的信息来快速推动这些未观察到的正例
+7. 与conditional GAN有些相似
+8. 生成模型提供了一种新的负采样方式
+9. 使用IR的奖励机制，是在传统模型中不可获取的
+10. 应用于：网页搜索在线排序(sf: LambdaRank, LambdaMART, RankNet)、item推荐系统(cf matrix factorisation)、问答系统(退化成IR的评估)
