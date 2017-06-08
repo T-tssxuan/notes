@@ -49,3 +49,9 @@
 8. 生成模型提供了一种新的负采样方式
 9. 使用IR的奖励机制，是在传统模型中不可获取的
 10. 应用于：网页搜索在线排序(sf: LambdaRank, LambdaMART, RankNet)、item推荐系统(cf matrix factorisation)、问答系统(退化成IR的评估)
+
+#### 8. DeLiGAN : Generative Adversarial Networks for Diverse and Limited Data
+1. 我们把潜在生成空间重新参数化生成一混合模型，并把模型与GAN一同训练
+2. 为了衡量类内的多样性，提出一种"inception-score"，这个评估方法与人类评估行为有一定联系
+3. Gaussian 成员之间是正交的
+4. 
