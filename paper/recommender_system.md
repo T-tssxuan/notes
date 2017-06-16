@@ -72,3 +72,15 @@
 4. 寻找T，使得社交属性X可以拟合用户属性
 5. social neighbourhood model没有考虑了属性之间的相关性，存在underfit风险；bpr-linmap模型考虑到，但是存在overfit的风险；CMF模型，计算复杂
 6. 为了使了回归可以训练，对W的rank进行限制，这样也带了等式变成non-convex的问题
+
+#### 8. Getting Deep Recommenders Fit: Bloom Embeddings for Sparse Binary Input/Output Networks
+1. 来自推荐领域的数据，常常具有很高维的输入输出特征，这样导致非常难以训练
+2. 使用Bloom embedding压缩输入输出的高维编码，在保证精度的条件下压缩至原有数据的1/5，在一些情况下甚至提升精度
+3. 使用Bloom embedding(BE)对输入输出进行编码
+4. 最后输出层使用softmax与原始空间建立联系
+5. 主要关注在推荐和协同过滤，但在自然语言处理也可以有应用
+6. 在数据ML(Movielens), MSD(Million song data set), AMZ(Amazon book reviews), BC(Book Crossing), YooChoose(YC), Penn treebank(PTB), CADE(CADE web directory)进行试实验
+7. 对比HT(Hashing trick), ECOC(Error-correcting output codes), PMI(Pairwise mutual information), CCA(Canonical correlation analysis)，BE拥用即时操作、常数时间复杂度、无监督等优点
+8. 当m接近d时，score并没有减少，证明BE没有弱化结果
+9. 可能在SVD相关上，有更好的结果
+10. CBE(co-occurrence-based Bloom embedding)，使用共现矩阵来降低冲突
