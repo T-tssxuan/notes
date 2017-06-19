@@ -54,3 +54,13 @@
 1. 我们把潜在生成空间重新参数化生成一混合模型，并把模型与GAN一同训练
 2. 为了衡量类内的多样性，提出一种"inception-score"，这个评估方法与人类评估行为有一定联系
 3. Gaussian 成员之间是正交的
+
+#### 9. ENERGY-BASED GENERATIVE ADVERSARIAL NETWORKS
+1. 使用energy-based区分函数，可以让我们应用到更多的架构，而不仅仅是二分的logistic输出
+2. 展示了一基于auto-encoder的energy-based架构，energy做为重构误差，结果显示能比一般的GAN得到更好的结果
+3. energy-based是一个数据驱动过程，在能量面上，正确的数据在较低的能量点，错误的数据在高能量点
+4. 区分器可以看成是生成器可训练的cost function，其在真实数据聚集区域能量低，在其它区域能量高；生成器可以看成是cost function可训练的参数，其目标是尽量降低cost function的值
+5. 由公式推导可以知道，最后的状态为：Pg = Pdata，达到了纳什均衡，并且用D(x)几乎在所有位置小于m
+6. 使用autoencoder的两个好处，其一，相对于单比特区分，训练更有效；基二，energy-based方法常常使用auto-encoder，另外其还有无监督等优点
+7. repelling regularizer for autoencoder: 用于防止判别autoencoder塌缩到一点或者一些数据上，类似于《Improved techniques for training gans》中的"minibatch discrimination"
+8. 使用cosin距离而非euclidean距离，是使其对值大小不敏感，并且PT(Pulling-away Term)定义的是生成器的Loss而非判别器
