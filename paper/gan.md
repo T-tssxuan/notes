@@ -63,4 +63,6 @@
 5. 由公式推导可以知道，最后的状态为：Pg = Pdata，达到了纳什均衡，并且用D(x)几乎在所有位置小于m
 6. 使用autoencoder的两个好处，其一，相对于单比特区分，训练更有效；基二，energy-based方法常常使用auto-encoder，另外其还有无监督等优点
 7. repelling regularizer for autoencoder: 用于防止判别autoencoder塌缩到一点或者一些数据上，类似于《Improved techniques for training gans》中的"minibatch discrimination"
-8. 使用cosin距离而非euclidean距离，是使其对值大小不敏感，并且PT(Pulling-away Term)定义的是生成器的Loss而非判别器
+8. “repelling regularizer”，使用cosin距离而非euclidean距离，是使其对值大小不敏感，并且PT(Pulling-away Term)定义的是生成器的Loss而非判别器
+
+#### 10. 
