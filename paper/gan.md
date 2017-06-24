@@ -1,4 +1,4 @@
-## GAN related paper
+# GAN related paper
 
 #### 1. Generative Adversarial Nets
 1. Precision: The fraction of detections reported by the model that were correct.
@@ -66,9 +66,9 @@
 8. “repelling regularizer”，使用cosin距离而非euclidean距离，是使其对值大小不敏感，并且PT(Pulling-away Term)定义的是生成器的Loss而非判别器
 
 #### 10. Adversarially Regularized Autoencoders for Generating Discrete Structures
-1. 同时训练编码空间GAN和离散结构autoencoder，ARAE(adversarially regularized autoencoder)
-2. 使用常规GAN输出连续编码空间表示，使用特定任务的autoencoder架构生成并解码这些潜在表示
-3. 离散结构autoencoder由两个部分组成：一个确定的编码器，一个解码器
-4. 本论文的生成器与WGAN的主要区别在于，GAN不在是基于数据集进行对搞生成，而是在autoencoder的编码空间进行生成
-5. 训练过程：a训练AE，b使用样本(正例)训练判别器和编码器、生成样本(负例)训练判别器，c使用判别器训练生成器
-
+1. 结合离散autoencoder和编码空间GAN，ARAE(adversarially regularized autoencoder)
+2. 使用GAN生成器输出连续编码空间表示，GAN判别器控制结果，使用autoencoder解码器解码把连续空间编码解析成离散编码
+3. 本论文的生成器与WGAN的主要区别在于，GAN不在是基于原始数据集进行生成，而是在autoencoder的编码空间进行生成
+4. 训练过程：a训练AE，b使用样本(正例)训练判别器和编码器、生成样本(负例)训练判别器，c使用判别器训练生成器
+5. 关于AE训练：autoencoder单独训练是为了训练其编码和解码能力，可以说是面向解码器训练编码器; AE编码器与GAN判别器一起训练，是使用判别器来规范化编码器，或者说是面向判别器特征空间训练编码器
+6. AE在训练时容易退化到一致映射(identity mapping)，使用GAN判别器进行规范化时，会使AE突出判别器所依赖的特征空间，AE解码器对AE编码器进行了"泛化"，其保证了AE编码器能生成“丰富”的信息，只有丰富信息才能更好的描述原始数据，然后通过判别器间接的“传递”到生成器
