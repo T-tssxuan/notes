@@ -65,4 +65,10 @@
 7. repelling regularizer for autoencoder: 用于防止判别autoencoder塌缩到一点或者一些数据上，类似于《Improved techniques for training gans》中的"minibatch discrimination"
 8. “repelling regularizer”，使用cosin距离而非euclidean距离，是使其对值大小不敏感，并且PT(Pulling-away Term)定义的是生成器的Loss而非判别器
 
-#### 10. 
+#### 10. Adversarially Regularized Autoencoders for Generating Discrete Structures
+1. 同时训练编码空间GAN和离散结构autoencoder，ARAE(adversarially regularized autoencoder)
+2. 使用常规GAN输出连续编码空间表示，使用特定任务的autoencoder架构生成并解码这些潜在表示
+3. 离散结构autoencoder由两个部分组成：一个确定的编码器，一个解码器
+4. 本论文的生成器与WGAN的主要区别在于，GAN不在是基于数据集进行对搞生成，而是在autoencoder的编码空间进行生成
+5. 训练过程：a训练AE，b使用样本(正例)训练判别器和编码器、生成样本(负例)训练判别器，c使用判别器训练生成器
+
