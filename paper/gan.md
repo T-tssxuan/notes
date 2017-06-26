@@ -91,3 +91,15 @@
 15. 实验二：回答一系列问题，包括是否喜欢、是否novelty、是否surprising、是否ambiguity、是否complexity、是否由电脑生成等，结果与实验一基本一致
 16. 实验三：目标是确定机器生成的作品能否视为艺术品，考察如下问题：Intentionality, Visual Structure, Communication, Inspiration, 结果让人震惊，CAN的结果比人的还好
 17. 实验四：比较style classification CAN和style ambiguity CAN，主要是测试创新性，考察两个问题：哪个更具有创新性、哪个更具有美学特征；结果显示，style ambiguity CAN优于style classification CAN
+
+#### 12. Towards Principled Methods for Training Generative Adversarial Networks
+1. 没有完整的理论解析GAN的训练过程，就算有，也都是一些启发式的并且对修改很敏感，本文就是针对这类问题提出解决方案
+2. GAN与VAE的主要区别在于G是如何训练的
+3. 传统的GAN依赖于最大似然，可以等价于最小化Kullback-Leibler距离，但是在KL中存在明显的非对称，对于Pr(x) > Pg(x)时，特别是Pg(x)覆盖的区域，cost会非常的大；而在于Pr(x) < Pg(x)，对于错误的结果，cost会非常的小
+4. 使用Jensen-shannon divergence距离可以有更好的结果
+5. 如果Z的维数小于X的维数，由lemma1可以知道，g(Z)在X空间下有会一系列的0
+6. 如果Pr和Pg的支撑集是独立且集中的，那么一定存在最优的判别器
+7. 
+
+#### 13. Wasserstein GAN
+1. 
