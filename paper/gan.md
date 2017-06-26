@@ -99,7 +99,10 @@
 4. 使用Jensen-shannon divergence距离可以有更好的结果
 5. 如果Z的维数小于X的维数，由lemma1可以知道，g(Z)在X空间下有会一系列的0
 6. 如果Pr和Pg的支撑集是独立且集中的，那么一定存在最优的判别器
-7. 
+7. Lemma2两个流形基本不会perfect align，那由于Lemma3由他们的交集的维数一定严格小于他们中任何一个的维数
+8. 通Theorem2.1和2.2可以知道，一个完美的判别器总是存在，这样BP就不能学到任何东西了
+9. logD loss function，不到出现梯度消失，但会出现不稳定的训练
+10. 当M和P都是封闭时，噪声会使M和P几乎重合
 
 #### 13. Wasserstein GAN
 1. 
