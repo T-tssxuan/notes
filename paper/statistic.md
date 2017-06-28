@@ -7,6 +7,9 @@
 4. 子网络的分布稳定，对其它网络的训练有增益效果
 5. 通过规范化，可以稳定其均值和标准差
 6. 通过处理输入，使用分布归一化，可以减弱bad case的影响
+7. Batch Normalization增益bp训练，通过减少对scale和初始值的影响
+8. 使用全局样本计进行规范化，是不可行的，因此使用Mini-Batch
+9. batch normalization可以有更高的learning rate
 
 #### 2. Noise-contrastive estimation: A new estimation principle for unnormalized statistical models
 1. 提出一种新的评估方法，主要思想是使用非线性logistic回归区分观察到的结果和生成的结果
