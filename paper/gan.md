@@ -112,3 +112,8 @@
 2. 传统使用L1或L2距离，存正一些不可避免的问题，如模糊、缺乏感观上的信息
 3. 一些论文，通过训练好的分类网络，提取高层次的特征，通过高层次信息来训练变换网络，除此之外，通地paerceptual损失来压制感观上变形
 4. 不断的训练网络，可以从不同的角度抓取到不同信息
+
+#### 15. Softmax GAN
+1. 由于对判别器和生成器的训练不平衡，导致梯度消失，本文提出使用softmax cross-entropy 代替logistic loss，除非生成结果跟目标完全符合，softmax的损失不会为0
+2. Least Square GAN, WGAN, Loss-Sensitive GAN这些GAN网络，都是基于无梯度消失问题的目标函数
+3. Importance Sampling和NCE都是在生成模型下使用分类型进行推进，但是在NCE中使用logistic loss来区分真实数据和噪声数据，在Importance Sampling中，使用softmax cross-entropy loss进行多分类区分
