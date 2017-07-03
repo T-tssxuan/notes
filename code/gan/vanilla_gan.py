@@ -112,11 +112,12 @@ for it in range(100000):
 
     X_mb, _ = mnist.train.next_batch(mb_size)
 
-    _, D_loss_curr = sess.run([D_solver, D_loss], feed_dict={X: X_mb, Z: sample_Z(mb_size, Z_dim)})
+    _, D_loss_curr, dlr, dlf = sess.run([D_solver, D_loss, D_loss_real, D_loss_fake], feed_dict={X: X_mb, Z: sample_Z(mb_size, Z_dim)})
     _, G_loss_curr = sess.run([G_solver, G_loss], feed_dict={Z: sample_Z(mb_size, Z_dim)})
 
     if it % 1000 == 0:
         print('Iter: {}'.format(it))
         print('D loss: {:.4}'. format(D_loss_curr))
         print('G_loss: {:.4}'.format(G_loss_curr))
+        print('D_loss_real: {:.4}, D_loss_fake: {:.4}'.format(dlr, dlf))
         print()
