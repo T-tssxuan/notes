@@ -136,3 +136,11 @@
 4. 相对于使用pre-train或者perceptual loss的方法，SGAN在中间生成表示的loss，而非只关注于最后的loss
 5. 由于high-level features存在不变性，在构建时其对底层也会存在不确定性，导致模糊的结果
 6. 加入了conditional loss会导致conditional model collapse的问题
+
+#### 18. Generative Adversarial Text to Image Synthesis
+1. 两个方面：学习文字表述图片中重要的部分；使用文字描述合成人类可能误以为真的图片
+2. 使用两个0-1 loss以及两个classifier分别对图像和文字描述进行分类
+3. 原生的判别器，只是简单的判别真假，并不得判别其中的文本信息；在训练开始，判别器可以很快的判别真假，但后期其必须同时判别G是否依赖生成条件
+4. 在句子描述之间进行插值
+5. 把噪声当成一种风格转化方式
+
