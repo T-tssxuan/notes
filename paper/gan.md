@@ -126,5 +126,11 @@
 6. Variational Inference: 使用variational Inference的方式进行下界逼近，使用Auto-encoder
 7. Synthetic Likelihoods: 使用合成的似然函数
 8. VAE-GAN使用特征区分空间上的重构度量上，使用对抗损失代替似然
-9. 
 
+#### 17. Stacked Generative Adversarial Networks
+1. bottom-up模式一般都是专注于抽取有用的表征，而对数据的分布无能为力
+2. 引入representation discriminators用于使得SGAN的中间表示保持在DNN的流形上
+3. 除了adversarial loss，还引入了conditional loss用于使得生成网络依赖于上层输入，引入novel entropy loss使得生成样本足够分散
+4. 相对于使用pre-train或者perceptual loss的方法，SGAN在中间生成表示的loss，而非只关注于最后的loss
+5. 由于high-level features存在不变性，在构建时其对底层也会存在不确定性，导致模糊的结果
+6. 加入了conditional loss会导致conditional model collapse的问题
