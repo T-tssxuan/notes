@@ -117,3 +117,11 @@
 1. 由于对判别器和生成器的训练不平衡，导致梯度消失，本文提出使用softmax cross-entropy 代替logistic loss，除非生成结果跟目标完全符合，softmax的损失不会为0
 2. Least Square GAN, WGAN, Loss-Sensitive GAN这些GAN网络，都是基于无梯度消失问题的目标函数
 3. Importance Sampling和NCE都是在生成模型下使用分类型进行推进，但是在NCE中使用logistic loss来区分真实数据和噪声数据，在Importance Sampling中，使用softmax cross-entropy loss进行多分类区分
+
+### 16. Stacked Generative Adversarial Networks
+1. bottom-up模式一般都是专注于抽取有用的表征，而对数据的分布无能为力
+2. 引入representation discriminators用于使得SGAN的中间表示保持在DNN的流形上
+3. 除了adversarial loss，还引入了conditional loss用于使得生成网络依赖于上层输入，引入novel entropy loss使得生成样本足够分散
+4. 相对于使用pre-train或者perceptual loss的方法，SGAN在中间生成表示的loss，而非只关注于最后的loss
+5. 由于high-level features存在不变性，在构建时其对底层也会存在不确定性，导致模糊的结果
+6. 加入了conditional loss会导致conditional model collapse的问题
