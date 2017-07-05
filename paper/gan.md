@@ -117,3 +117,14 @@
 1. 由于对判别器和生成器的训练不平衡，导致梯度消失，本文提出使用softmax cross-entropy 代替logistic loss，除非生成结果跟目标完全符合，softmax的损失不会为0
 2. Least Square GAN, WGAN, Loss-Sensitive GAN这些GAN网络，都是基于无梯度消失问题的目标函数
 3. Importance Sampling和NCE都是在生成模型下使用分类型进行推进，但是在NCE中使用logistic loss来区分真实数据和噪声数据，在Importance Sampling中，使用softmax cross-entropy loss进行多分类区分
+
+#### 16. Variational Approaches for Auto-Encoding Generative Adversarial Networks
+1. 使用合成的最大似然代替不可解的个似然函数、使用潜在分布代替未知的后验分布
+2. AE-GAN主要可以分成三个类别：a使用ae做为判别器，b使用denoising auto-encoder做为生成器的辅助损失，c或者两者结合
+3. VAE常常产生模糊的照片，但是没有GAN的模型塌缩的问题
+4. 一种克服不可解的marginal likelihood方法是不去计算，通过间接的方法进行取得j5. Density Ratio Trick，假设来自数据和生成样本的可能性一样，从需跳过对p(y=1)和p(y=0)的概率计算
+6. Variational Inference: 使用variational Inference的方式进行下界逼近，使用Auto-encoder
+7. Synthetic Likelihoods: 使用合成的似然函数
+8. VAE-GAN使用特征区分空间上的重构度量上，使用对抗损失代替似然
+9. 
+
