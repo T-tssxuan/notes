@@ -126,6 +126,8 @@
 6. Variational Inference: 使用variational Inference的方式进行下界逼近，使用Auto-encoder
 7. Synthetic Likelihoods: 使用合成的似然函数
 8. VAE-GAN使用特征区分空间上的重构度量上，使用对抗损失代替似然
+9. 两个对结果有很大影响的因素：The network architectures, The number of updates performed by the individual components of the model
+10. 
 
 #### 17. Stacked Generative Adversarial Networks
 1. bottom-up模式一般都是专注于抽取有用的表征，而对数据的分布无能为力
