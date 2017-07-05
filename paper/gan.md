@@ -118,7 +118,7 @@
 2. Least Square GAN, WGAN, Loss-Sensitive GAN这些GAN网络，都是基于无梯度消失问题的目标函数
 3. Importance Sampling和NCE都是在生成模型下使用分类型进行推进，但是在NCE中使用logistic loss来区分真实数据和噪声数据，在Importance Sampling中，使用softmax cross-entropy loss进行多分类区分
 
-### 16. Stacked Generative Adversarial Networks
+#### 16. Stacked Generative Adversarial Networks
 1. bottom-up模式一般都是专注于抽取有用的表征，而对数据的分布无能为力
 2. 引入representation discriminators用于使得SGAN的中间表示保持在DNN的流形上
 3. 除了adversarial loss，还引入了conditional loss用于使得生成网络依赖于上层输入，引入novel entropy loss使得生成样本足够分散
