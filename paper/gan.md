@@ -144,3 +144,6 @@
 4. 在句子描述之间进行插值
 5. 把噪声当成一种风格转化方式
 
+#### 19. Towards Understanding the Dynamics of Generative Adversarial Networks
+1. 一般来说损失函数是non-convex，这样导致GAN失败的原因难以查明
+2. 实践和分析都证明，配有最优判别器的GAN会收敛
