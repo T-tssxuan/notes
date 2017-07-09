@@ -122,3 +122,9 @@
 2. 使用co-training, semi-supervised method等方法来训练模型
 3. 新闻标题可以分为三类：全名合理的、模糊不清的、以及误导的
 4. 对于误导性标题，提取独立于正文的特征、依赖于正文的特征，并使用co-training进行训练
+
+#### 17. A Deep Network with Visual Text Composition Behavior
+1. 一种新型网络，可以层级表句子的组成，还能显示低层如何关注于单个单词的
+2.  Attention Gated Transformation (AGT)，每一层通过获取更多的词和句子，新的信息和之前的信息结合，产生新的表示
+3. Gate由Attention控制，但是每层的结果会被上层影响
+4. 分析attention和gate的分布，可以发现网络在合成词和句子的过程
