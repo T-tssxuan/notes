@@ -128,3 +128,13 @@
 2.  Attention Gated Transformation (AGT)，每一层通过获取更多的词和句子，新的信息和之前的信息结合，产生新的表示
 3. Gate由Attention控制，但是每层的结果会被上层影响
 4. 分析attention和gate的分布，可以发现网络在合成词和句子的过程
+
+#### 18. Efficient Vector Representation for Documents through Corruption
+1. Doc2VecC使用简单的平均词向量，并加上正则项来提取文档语义。
+2. 正则项主要作用为：提升稀有或信息量大的词，并使没有区分意义的词接近0
+3. Doc2VecC产生比Word2Vec更有意义的词向量
+4. Doc2VecC在训练文档表示过程中同时训练词向量表示
+5. Doc2VecC在训练过程中随机移除文档中的词，从而加快训练速度
+6. 训练复杂度只随词的增长而增长，与文档多少无关
+7. 使用Taylor Expansion对损失函数进行逼近
+8. 可能在长文本处理上，效果更好
