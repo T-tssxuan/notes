@@ -138,3 +138,10 @@
 6. 训练复杂度只随词的增长而增长，与文档多少无关
 7. 使用Taylor Expansion对损失函数进行逼近
 8. 可能在长文本处理上，效果更好
+
+#### 19. A Semantics-Based Measure of Emoji Similarity
+1. 通过词嵌模型分析emoji的语相似度
+2. EmoSim508数据库
+3. 主要的用处：1. 检索、2. 情感分析、3. 手机键盘分析
+4. deprecated
+
