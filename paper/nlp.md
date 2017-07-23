@@ -145,3 +145,9 @@
 3. 主要的用处：1. 检索、2. 情感分析、3. 手机键盘分析
 4. deprecated
 
+#### 20. High-risk learning: acquiring new word vectors from tiny data
+1. 从已有表示上学习新的词嵌表示
+2. 需要从小数据中获取词向量的主要原因是：a. 一些词语非常不常见，b. 快速取得新的词的词意
+3. 模拟人遇到生词的过程，从之前的词语中能个推断出当前词语的意义
+4. 通过从词典中取出新词的最近K个词，来测试训练效果
+5. 初始为context的和、高Learning rate、large window size
