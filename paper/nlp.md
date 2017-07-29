@@ -156,6 +156,7 @@
 1. 随着输入的增长，输出结果的误差情况越来越严重
 2. 从数据表中生成句子的主要特性有：a. 很容易生成与数据集对应的摘要，b. 摘要主要专注于覆盖数据库中的信息
 3. 神经网络系统能够产生较流利的输出，而且在词级的匹配上效果也很不错，但是其内容选择和长文本处理上有所欠缺
-4. 
+4. 数据集提供record和描述
+5. 三个标准: Content Selection(CS), Relation Generation(RG), Content Ordering(CO)
 
 #### 22. Recurrent neural network based language model
