@@ -162,6 +162,5 @@
 ### 22. On the State of the Art of Evaluation in Neural Language Models
 1. 本文揭示了一些常见的
 2. Capacity and Trainability in Recurrent Neural Networks提供了一些关于rnn网络能力跟参数个数之间的关系
-3. 
 
 #### 22. Recurrent neural network based language model
