@@ -180,5 +180,11 @@
 14. 自动评判标准：naturalness, difficulty
 15. 人类评判结果生成的比人类写的还高
 
+### 24. Effective Dimensionality Reduction for Word Embeddings
+1. 对训练好的词向量，进行再进一步的处理，如降维，以适应低配设备
+2. 首先对词向量进行中心化，然后使用pca比较
+3. 由于向量中，信息可能被一些主导，因此除去主导信息，可以提升词向量质量
+4. 发现在ppac算法之后，主导域重现，再次使用ppac有很大的必要
+5. 在PPA一文中发现，词向量(包括Glove, word2vec)均值向量偏大，而且大部分能量都集中在非常小的子空间中，如果移除高能子空间的影响，可以提升词向量质量。
 
 #### 22. Recurrent neural network based language model
