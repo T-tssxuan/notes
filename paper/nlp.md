@@ -195,4 +195,9 @@
 5. LSTM在长距离依赖上比一般RNN表现好不少，但是没有明确指出长/短上下文表示，而是单独用一个状态进行表示
 6. LSRC模型核心在于引入Hl和Hg分别抓取局部和全局信息
 7. 隐变最的时序相关变化性况，可以证明LSTM, RNN, LSRC等模型在对全局和局部信息抓取的性能
+
+### 26. A Study on Neural Network Language Modeling
+1. 本文对神经网络语言模式(NNLM)进行深入研究，包括重要性采样、分类、缓存、双向循环神经网络，分别从架构和知识表示两方面阐述
+2. 
+
 #### 22. Recurrent neural network based language model
