@@ -198,6 +198,20 @@
 
 ### 26. A Study on Neural Network Language Modeling
 1. 本文对神经网络语言模式(NNLM)进行深入研究，包括重要性采样、分类、缓存、双向循环神经网络，分别从架构和知识表示两方面阐述
-2. 
+2. 对于知识表示来说，NNLM一般来说是近似表示词序列在给定词料中的的统计分布，而非语言相关的知识，或者在自然语言中通过这些词序表达的信息
+3. Basic NNLM: NNLM是一种统计语言模型，也可以称之为神经概率模型或神经统计模型，主要有:FNNLM, RNNLM, LSTM-RNNLM
+4. Feed-forward Neural Network Language Model(FNNLM): FNNLM没有很好的方法去表示，因此一般都截取了最近的n个词用做输入，使用当前词用做输出
+5. NNLM一般使用Perplexity衡量性能，其表示用于编码测试数据所要的比特位数，其值越少，代表模型越接最真实的语言情况
+6. Recurrent Neural Network Language Model(RNNLM): RNNLM不仅关心输入空间，还关心内在状态空间，内在状态空间使表示序列之间的依赖关系
+7. Long Short Term Memor RNNLM(LSTM-RNNLM): 用于解决长距离依赖和梯度消失等问题
+8. Importance Sampling: 核心思想是使用采样的方法，近似log-likelihood gradient(可以视为两部分，目标值的正向推动，非目标真的反向推进)；为了防止发散，采样个数需随着训练进行而提升；Importance Sampling可以用于n-gram之类的模型，但不能直接用于RNNLM, LSTM-RNNLM
+9. Word Class: 每个词被当成一个单独的类，在预测词时，变成了，由历史预测词的分类，再由分类和历史预测词。
+10. hierarchical neural network language model: 能够加速训练，k/logk, k为所有的词数。
+11. 此外，分布式词表示可以用于表示词的相似性，但是层级表示会使得这种特征减弱，层数越线，效果越差
+12. Caching: 缓存语言模型是基于近期历史会有更大可能再次出现这一假设，在这一模型中，条件概率是标准模型和缓存插值；另一种是基于词类的缓存策略；在RNNLM中，通过记录输出和状态，用于未来同样的上下文环境预测
+13. Bidirectional Recurrent Neural Network: 通过反转输入顺序实现，一个解释是减少了因为跨跃长度而带来的损失，本文的解析是词序列从统计角度看可能更依赖于后续文本，而非之前的内容; 通过实验，可以发现正向和反向几乎可以获取等量的信息; BiRNN可以在翻译和语音识别等问题上实现更好的效果，但其对逐词处理场景并不适用。
+14. Model Architecture: 许多模型都是逐字进行处理，但是这与人在进行写作和说话的情况并不一样，一般来说，人都提前想好了要说的，或者想好了很大一部分，所以说逐字或者其它的顺序可能是不合理的
+15. Knowledge Representation: 一个常见的说法是，NNLM从语料中学到了词序列的概率分布，严格来说应该是某一语料中的语序概率分布；
+6. 
 
 #### 22. Recurrent neural network based language model
