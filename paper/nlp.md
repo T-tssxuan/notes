@@ -214,4 +214,10 @@
 15. Knowledge Representation: 一个常见的说法是，NNLM从语料中学到了词序列的概率分布，严格来说应该是某一语料中的语序概率分布；总的来说，NNLM的知识表示是词序列在特定训练语料上的分布式表示，无论是语言本身，如语法，还是语言涉及的知识，都不是NNLM能够得到的；NNLM不能动态的从新的数据集中学习知识
 16. Future: (GRU)RNNLM, dropout strategy, character level neural network language model；自然语言是人创造的，而语言知识是语言出现很久才创造的；语言知识涉及的证确词序，在真实场景中常常被误用；在现实生活中，语言只是声间或符号与抽象或真实物体的连接；因此，由于声音和符号的特片可能比自然语言更容易，可以通过找到声音和符号或物体之间的关系来处理自然语言。
 
+### 27. Hierarchical Probabilistic Neural Network Language Model
+1. 
+
+### 28. A Primer on Neural Network Models for Natural Language Processing
+1. 
+
 ### 22. Recurrent neural network based language model
