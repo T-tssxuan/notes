@@ -218,6 +218,33 @@
 1. 
 
 ### 28. A Primer on Neural Network Models for Natural Language Processing
-1. 
+1. nlp从sparse&linear的模型转换到dese&non-linear模型
+2. 神经网络的非线性使其容易与word-embedding相结合
+3. Straight-forward applications of a feed-forward network as a classifier replacement (usually coupled with the use of pre-trained word vectors) provide benefits also for CCG supertagging, dialog state tracking, pre-ordering for statistical machine translation and language modeling.
+4. Convolutional and pooling architecture show promising results on many tasks, including document classification, short-text categorization, sentiment classification, relation type classification between entities, event detection, paraphrase identification, semantic role labeling, question answering, predicting box-office revenues of movies based on critic reviews, modeling text interestingness, and modeling the relation between character-sequences and part-of-speech tags.
+5. Recurrent models have been shown to produce very strong results for language modeling; as well as for sequence tagging, machine translation, dependency parsing, sentiment analysis, noisy text normalization, dialog state tracking, response generation, and modeling the relation between character sequences and part-of-speech tags.
+6. Recursive models were shown to produce state-of-the-art or near state-of-the-art results for constituency and dependency parse re-ranking, discourse parsing, semantic relation classification, political ideology detection based on parse trees, sentiment classification, target-dependent sentiment classification and question answering.
+7. One Hot VS Dense; CBOW; Feature Combinations; Dimensionality; Vector Sharing; Network's Output
+8. 非线性激励函数是nn能表示复杂信息的关键
+9. HINGE: 无论是binary还是multiclass都是线性输出，HINGE LOSS在区分边界很好用，但是对成员概率判断效果有限
+10. loss function: HINGE(binary, multicalss), log loss, categorical cross-entropy loss, ranking loss
+11. 非监督的词向量训练方法是：相似的词有相似的向量
+12. 窗口的大小对词向量的影响：大窗口着重于主题相似；小窗口着重于语法和功能相似
+13. 词向量与语法信息十分相关
+14. SGD & Computation graph
+15. Initialization: xavier initialization, zero-mean Gaussian for ReLU
+16. Vanishing and Exploding gradients: shallower network, step-wise training, performing batch-normalization, LSTM, GRU, clipping the gradients if their norm exceeds a given threshold
+17. 如果网络不好使，要关注网络中saturation and dead neurons; saturation: 一般是输入值过大; dead: 梯度过大
+18. Shuffling & Learning Rate & Minibatches
+19. Regularization & dropout
+20. Model Cascading & Multi-task Learning
+21. NLP的输出一般不是分类标签或者类别分布，而是输出序列，树，或图
+22. Greedy Structured Prediction & Search Based Structured Prediction & Probabilistic Objective (CRF) & Reranking & MEMM and Hybrid Approaches
+23. Convolutional Layers: ordered sets of items; CBOW完全取忽略了词序; Dynamic, Hierarchical and k-max Pooling;
+24. Recurrent Neural Networks – Modeling Sequences and Stacks: backpropagation through time; Acceptor 使用最后的结果作为输出; Encoder最后的信息用作前面所有信息的编码; Transducer使用每一步的输出; Encoder - Decoder; Multi-layer (Stacked) RNNs; Bidirectional RNNs (biRNN); RNNs for Representing Stacks; 
+25. Concrete RNN Architectures: Simple RNN; LSTM; 
+26. Modeling Trees – Recursive Neural Networks
+
+
 
 ### 22. Recurrent neural network based language model
