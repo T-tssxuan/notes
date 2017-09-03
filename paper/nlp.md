@@ -245,6 +245,19 @@
 25. Concrete RNN Architectures: Simple RNN; LSTM; 
 26. Modeling Trees – Recursive Neural Networks
 
+### 29. A Convolutional Neural Network for Modelling Sentences
+1. Dynamic Convolutional Neural Network(DCNN)用于对句子语义建模
+2. 网络使用动态k-Max Pooling
+3. 网络可能处理不同的输入长的句子，并产生能够抓住长短距离的关系的特征图
+4. 算法的核心在于如何从句子的n-gram或词中抽取特征
+5. a. k-max pooling句子，取得top-k maximun，b. k可以动态选取，可以视为其它特征的函数
+6. one dimensional filter for each n-gram => k-max pooling and no-linearity => feature map of the sentence
+7. 高层的small filter可以抓住句子中远距离词之间语法或语义关系
+8. One-dimensional convolution的基本观点是：使用filter与每个n-gram进行点乘得到另一个序列
+9. wide convolution 相对于narrow convolution有一定优势
+10. Max-TDNN pros: 1. 对句子词序敏感，且不依赖外在结构；2. 每个词都有同等重要性；cons: 1. 只能考虑m范围的词语; 2. 当扩大filter或增加层数时，对句子的最小长度有基本要求
+11. Max-pooling cons: 1. 不能区分相应的feature是否多次出现; 2. 每次pooling过多的删减信息
+12. DCNN生成的树比语法树更一般化，其不被一些特点的语法约束，而且可以处理长短两种语义关系
 
 
 ### 22. Recurrent neural network based language model
