@@ -259,5 +259,10 @@
 11. Max-pooling cons: 1. 不能区分相应的feature是否多次出现; 2. 每次pooling过多的删减信息
 12. DCNN生成的树比语法树更一般化，其不被一些特点的语法约束，而且可以处理长短两种语义关系
 
+### 30. word2vec Parameter Learning Explained
+1. 对word2vec相关计算原理，过程都有详细的分析介绍
+
+
+
 
 ### 22. Recurrent neural network based language model
