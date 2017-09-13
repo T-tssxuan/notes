@@ -281,12 +281,20 @@
 1. 通过简化状态计算得到更具有并行性的RNN实现
 
 
-
-### 33. StarSpace: Embed All The Things!
+### 34. StarSpace: Embed All The Things!
 1. 一个通用的神经网络嵌入模型，可以处理: labeling tasks such as text classification, ranking tasks such as in- formation retrieval/web search, collaborative filtering-based or content-based recommendation, embedding of multi- relational graphs, and learning word, sentence or document level embeddings.
 2. 嵌入由不同离散特征组成的实体，并计算他们之间的相似性。
 3. StarSpace模型由不同的learning entities组成，每个entity由一组离散的features组成，如词语则可以视为n-gram模型。
 4. 在StartSpace模型中，任意的实体之间可以比较，即使他们是不同的种类。
 5. 选对feature进行建模，每个Feature由一个d维向量构成k
+6. Multiclass Classification: (a, b), (a, b-)，用样技术生成
+7. Multilabel Classification: 每个文档有多个标签，从中采成(a, b)对进行训练
+8. Collaborative Filtering-based Recommendation: 每个用户用其喜欢的物品表示，一个唯一的值表示用用户，用户与其喜欢的物品组成正例，其它的组成负例
+9. Collaborative Filtering-based Recommendation with out-of-sample user extension: 不用ID表示用户，而是且其喜欢的物品集合(不包括其中一个)，与这一个组成正例
+10. Content-based Recommendation: 用户由其喜欢的物品描述，物品由其特征描述
+11. Multi-Relational Knowledge Graphs (e.g. Link Predic- tion)
+12. Information Retrieval (e.g. Document Search) and Document Embeddings: 监督与非监督两种方式
+13. Learning Word Embeddings: word2vec
+14. Learning Sentence Embeddings: 使用来自同一文章的句子为正例
 
 ### 22. Recurrent neural network based language model
