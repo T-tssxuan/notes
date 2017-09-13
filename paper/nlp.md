@@ -282,5 +282,11 @@
 
 
 
+### 33. StarSpace: Embed All The Things!
+1. 一个通用的神经网络嵌入模型，可以处理: labeling tasks such as text classification, ranking tasks such as in- formation retrieval/web search, collaborative filtering-based or content-based recommendation, embedding of multi- relational graphs, and learning word, sentence or document level embeddings.
+2. 嵌入由不同离散特征组成的实体，并计算他们之间的相似性。
+3. StarSpace模型由不同的learning entities组成，每个entity由一组离散的features组成，如词语则可以视为n-gram模型。
+4. 在StartSpace模型中，任意的实体之间可以比较，即使他们是不同的种类。
+5. 选对feature进行建模，每个Feature由一个d维向量构成k
 
 ### 22. Recurrent neural network based language model
