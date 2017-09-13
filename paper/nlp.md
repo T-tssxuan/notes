@@ -279,5 +279,7 @@
 
 
 
+### 33. StarSpace: Embed All The Things!
+1. 嵌入由不同离散特征组成的实体，并计算他们之间的相似性。
 
 ### 22. Recurrent neural network based language model
