@@ -297,4 +297,6 @@
 13. Learning Word Embeddings: word2vec
 14. Learning Sentence Embeddings: 使用来自同一文章的句子为正例
 
+### 35. Neural Machine Translation and Sequence-to-sequence Models: A Tutorial
+
 ### 22. Recurrent neural network based language model
