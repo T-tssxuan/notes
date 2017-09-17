@@ -298,5 +298,9 @@
 14. Learning Sentence Embeddings: 使用来自同一文章的句子为正例
 
 ### 35. Neural Machine Translation and Sequence-to-sequence Models: A Tutorial
+1. Word-by-word Computation of Probabilities
+2. MLE方法保证了对训练数据的忠诚度
+3. 使用插值(interpolation)结合不同统计模型
+4. 
 
 ### 22. Recurrent neural network based language model
