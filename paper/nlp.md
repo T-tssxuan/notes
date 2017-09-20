@@ -305,6 +305,8 @@
 5. Perplexity: 我们依据语言模型随机概率分布随机选择词，平均有多少词选择是正确的。
 6. Unknown Words: Assume closed vocabulary; Iterpolate with an unknown words distribution; Add an <unk> word;
 7. Calculating features: 上下文中的信息，可能对预测有用。
-8. 
+8. Selection preferences: what will do what to what.
+9. vanishing gradient & exploding gradient
+10.  Greedy 1-best Search, Beam Search, 
 
 ### 22. Recurrent neural network based language model
