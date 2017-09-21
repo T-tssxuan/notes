@@ -12,4 +12,8 @@
 9. vanishing gradient & exploding gradient
 10.  Greedy 1-best Search, Beam Search,
 
+### 2. OpenNMT: Open-source Toolkit for Neural Machine Translation
+1. 完全基于sequence-to-sequence实现
+2. 包括诸如：multi-layer RNN, attention, bidirec- tional encoder, word features, input feeding, resid- ual connections, beam search, and several others.
+
 ### 2. Neural Machine Translation by Jointly Learning to Align and Translate
