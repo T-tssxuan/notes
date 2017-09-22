@@ -297,5 +297,17 @@
 13. Learning Word Embeddings: word2vec
 14. Learning Sentence Embeddings: 使用来自同一文章的句子为正例
 
+### 35. Think Globally, Embed Locally — Locally Linear Meta-embedding of Words
+1. 通过结合已有词嵌产生更加精确完善的meta-embedding
+2. 提出一种无监督算法，使用预训词向量做为输入，生产更加精确的meta-embedding
+3. 已经提出的词向量拼接，可以看成本文的一种特殊实例
+4. 面临的问题：训练语料不相同; 输入词向量维度不相同; 不同的词向量中，词的邻近词有很大的不同
+5. 提出locally-linear meta-embedding学习方法，a) 只需要在词表中的词，b) 可以meta-embed不同长度的源词嵌，c) 对不同词嵌的邻近变化敏感
+6. 算法主要分为两步：a) recosntuction step: 对每个源词嵌进行细性结合每个词的最邻近词; b) projection step: 计算meta-embedding
+7. 本方法解决了源词嵌不对齐，以及词语缺失等问题
+8. 使用BallTree algorithm加速搜索
+9. 不同的词嵌来源，其优化目标也不一样，这样邻近词表就会进行互补，从而达到更优的效果
+10. 下一步方向，跨语言meta-embedding实现
+
 
 ### 22. Recurrent neural network based language model
