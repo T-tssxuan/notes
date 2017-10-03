@@ -309,5 +309,16 @@
 9. 不同的词嵌来源，其优化目标也不一样，这样邻近词表就会进行互补，从而达到更优的效果
 10. 下一步方向，跨语言meta-embedding实现
 
+### 36. BLEU: a Method for Automatic Evaluation of Machine Translation
+1. 提出一种自动机器翻译度量方法，具有语言独立、类似人工衡量、并且高效
+2. 翻译的三个方面，adequacy, fidelity, fluency
+3. BLUE最基本准则是，对比并统计候选结果与真实结果应用n-gram后匹配的个数
+4. 1-gram用于保证adequacy, 更长的n-gram增加流畅性
+5. 在单句上不同的人衡量结果有所不同，BLUE一般用于平均性能
+6. 对于不存在的词，以及出现过多的词进行惩罚
+7. 一个词对，应该只依赖一个参考，而非多个
+8. brevity penality: 关注长度、词语、词序
+
+
 
 ### 22. Recurrent neural network based language model
