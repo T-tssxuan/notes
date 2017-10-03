@@ -16,4 +16,7 @@
 1. 完全基于sequence-to-sequence实现
 2. 包括诸如：multi-layer RNN, attention, bidirec- tional encoder, word features, input feeding, resid- ual connections, beam search, and several others.
 
-### 2. Neural Machine Translation by Jointly Learning to Align and Translate
+### 3. Neural Machine Translation by Jointly Learning to Align and Translate
+1. 常规的encoder-decoder模型，都使用固定长度向量表示输入句子，本文推测这可能是encoder-decoder模型的瓶颈之一，本文提出来扩展方法，使得模型能够自动从源句子中搜索与目标词相关的部分，而非进行硬分割。
+2. 如何把不同长短句子的信息压缩到一个固定长度的向量中去，是常规encoder-decoder模型需要考虑的一个问题
+3. 本文提出的扩展模型，不需要网络把整个句子的信息嵌入信息，而是在解码时自动搜索源句子
