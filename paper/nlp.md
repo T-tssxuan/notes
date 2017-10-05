@@ -319,6 +319,10 @@
 7. 一个词对，应该只依赖一个参考，而非多个
 8. brevity penality: 关注长度、词语、词序
 
-
+### 37. Efficient Estimation of Word Representations in Vector Space
+1. 使用Huffman binary tree做为层级softmax
+2. CBOW
+3. Skip-gram
+4. skip-gram在semantic和syntactic要优于CBOW
 
 ### 22. Recurrent neural network based language model
