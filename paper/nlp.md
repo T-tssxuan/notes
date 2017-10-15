@@ -287,7 +287,7 @@
 3. StarSpace模型由不同的learning entities组成，每个entity由一组离散的features组成，如词语则可以视为n-gram模型。
 4. 在StartSpace模型中，任意的实体之间可以比较，即使他们是不同的种类。
 5. 选对feature进行建模，每个Feature由一个d维向量构成k
-6. Multiclass Classification: (a, b), (a, b-)，用样技术生成
+6. Multiclass Classification: (a, b), (a, b-)，用采样技术生成
 7. Multilabel Classification: 每个文档有多个标签，从中采成(a, b)对进行训练
 8. Collaborative Filtering-based Recommendation: 每个用户用其喜欢的物品表示，一个唯一的值表示用用户，用户与其喜欢的物品组成正例，其它的组成负例
 9. Collaborative Filtering-based Recommendation with out-of-sample user extension: 不用ID表示用户，而是且其喜欢的物品集合(不包括其中一个)，与这一个组成正例
@@ -324,5 +324,15 @@
 2. CBOW
 3. Skip-gram
 4. skip-gram在semantic和syntactic要优于CBOW
+
+### 38. Linguistic Regularities in Continuous Space Word Representations
+1. 使用输入层权重隐性表示词的向量，可以很好的抓住语法和语义特征，并且每一种特征都具有特征空间偏移特性
+2. 训练一个网络，一方面可以得到模型本身，另一方面，可以得到词的表示
+3. 使用网络训练，由上文预测下文
+4. 提供一个offset衡量分布式表示的方法
+5. 所有结果，以及附加品，都是无监督学习取得
+6. 基于cosine distance的偏移测量
+7. 语义和语法测试集
+
 
 ### 22. Recurrent neural network based language model
