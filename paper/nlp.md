@@ -277,13 +277,62 @@
 3. 跨语言的词嵌训练，可以增加跨语言的相似程度
 4. 通过无监督的方法，来训练双语词嵌，主要是方法是拉开文档中正确的词和随机词的评分间隔
 
+### 33. Training RNNs as Fast as CNNs
+1. 通过简化状态计算得到更具有并行性的RNN实现
 
 
-### 33. StarSpace: Embed All The Things!
+### 34. StarSpace: Embed All The Things!
 1. 一个通用的神经网络嵌入模型，可以处理: labeling tasks such as text classification, ranking tasks such as in- formation retrieval/web search, collaborative filtering-based or content-based recommendation, embedding of multi- relational graphs, and learning word, sentence or document level embeddings.
 2. 嵌入由不同离散特征组成的实体，并计算他们之间的相似性。
 3. StarSpace模型由不同的learning entities组成，每个entity由一组离散的features组成，如词语则可以视为n-gram模型。
 4. 在StartSpace模型中，任意的实体之间可以比较，即使他们是不同的种类。
 5. 选对feature进行建模，每个Feature由一个d维向量构成k
+6. Multiclass Classification: (a, b), (a, b-)，用采样技术生成
+7. Multilabel Classification: 每个文档有多个标签，从中采成(a, b)对进行训练
+8. Collaborative Filtering-based Recommendation: 每个用户用其喜欢的物品表示，一个唯一的值表示用用户，用户与其喜欢的物品组成正例，其它的组成负例
+9. Collaborative Filtering-based Recommendation with out-of-sample user extension: 不用ID表示用户，而是且其喜欢的物品集合(不包括其中一个)，与这一个组成正例
+10. Content-based Recommendation: 用户由其喜欢的物品描述，物品由其特征描述
+11. Multi-Relational Knowledge Graphs (e.g. Link Predic- tion)
+12. Information Retrieval (e.g. Document Search) and Document Embeddings: 监督与非监督两种方式
+13. Learning Word Embeddings: word2vec
+14. Learning Sentence Embeddings: 使用来自同一文章的句子为正例
+
+### 35. Think Globally, Embed Locally — Locally Linear Meta-embedding of Words
+1. 通过结合已有词嵌产生更加精确完善的meta-embedding
+2. 提出一种无监督算法，使用预训词向量做为输入，生产更加精确的meta-embedding
+3. 已经提出的词向量拼接，可以看成本文的一种特殊实例
+4. 面临的问题：训练语料不相同; 输入词向量维度不相同; 不同的词向量中，词的邻近词有很大的不同
+5. 提出locally-linear meta-embedding学习方法，a) 只需要在词表中的词，b) 可以meta-embed不同长度的源词嵌，c) 对不同词嵌的邻近变化敏感
+6. 算法主要分为两步：a) recosntuction step: 对每个源词嵌进行细性结合每个词的最邻近词; b) projection step: 计算meta-embedding
+7. 本方法解决了源词嵌不对齐，以及词语缺失等问题
+8. 使用BallTree algorithm加速搜索
+9. 不同的词嵌来源，其优化目标也不一样，这样邻近词表就会进行互补，从而达到更优的效果
+10. 下一步方向，跨语言meta-embedding实现
+
+### 36. BLEU: a Method for Automatic Evaluation of Machine Translation
+1. 提出一种自动机器翻译度量方法，具有语言独立、类似人工衡量、并且高效
+2. 翻译的三个方面，adequacy, fidelity, fluency
+3. BLUE最基本准则是，对比并统计候选结果与真实结果应用n-gram后匹配的个数
+4. 1-gram用于保证adequacy, 更长的n-gram增加流畅性
+5. 在单句上不同的人衡量结果有所不同，BLUE一般用于平均性能
+6. 对于不存在的词，以及出现过多的词进行惩罚
+7. 一个词对，应该只依赖一个参考，而非多个
+8. brevity penality: 关注长度、词语、词序
+
+### 37. Efficient Estimation of Word Representations in Vector Space
+1. 使用Huffman binary tree做为层级softmax
+2. CBOW
+3. Skip-gram
+4. skip-gram在semantic和syntactic要优于CBOW
+
+### 38. Linguistic Regularities in Continuous Space Word Representations
+1. 使用输入层权重隐性表示词的向量，可以很好的抓住语法和语义特征，并且每一种特征都具有特征空间偏移特性
+2. 训练一个网络，一方面可以得到模型本身，另一方面，可以得到词的表示
+3. 使用网络训练，由上文预测下文
+4. 提供一个offset衡量分布式表示的方法
+5. 所有结果，以及附加品，都是无监督学习取得
+6. 基于cosine distance的偏移测量
+7. 语义和语法测试集
+
 
 ### 22. Recurrent neural network based language model

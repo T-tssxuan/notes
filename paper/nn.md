@@ -1,6 +1,6 @@
 ## Neural Network related paper
 
-#### 1. DyNet: The Dynamic Neural Network Toolkit
+### 1. DyNet: The Dynamic Neural Network Toolkit
 1. In the static decalaration strategy that is used in toolkits like Theano, CNTK, and TensorFlow, the user first defines a computation graph, and then examples are fed into an engine that executes this computation and computes its derivative.
 2. One chanllenge with dynamic declaration is that because the symbolic computation graph is defined anew for every training example, its construction must have low overhead.
 3. Rapid prototyping and easy maintenance of efficient and correct model code is of paramount importance in deep learning.
@@ -11,7 +11,7 @@
 8. DyNet: there are no separate steps for definition and execution: the necessary computation graph is created, on the fly, as the loss calculation is executed, and a new graph is created for each training instance.
 9. Advantageous of DyNet: 1) Define a different computation architecture for each training example of batch, allowing for the handling of variably sized or structured input using flow-control facilities of the host language. 2) Interleave definition and execution of computation, all  for the handling of cases where the structure of computation may change depending on the results of previous computation steps.
 
-#### 2. An overview of gradient descent optimization algorithms
+### 2. An overview of gradient descent optimization algorithms
 1. 有三个gradient descent的变种，即：Batch gradient descent, Stochastic gradient descent, Mini-batch gradient descent，他们之间的主要区别在于用于计算梯度数据量；取决于数据量，我们在时间和精度之间进行权衡
 2. Batch gradient descent: 计算所有数据后，进行一次更新；由于遍历所有数据才更新一次，效率很低；不能进行在线计算；可以保正在convex函数中找到最优解，和non-convex函数的次优解
 3. Stochastic gradient descent: 在每一个样例的基础上进行参数更新；Batch gradient descent会进行很多冗余计算，如很多差不多的样本重复计算；sgd进行高频高方差的更新，会导致目标函数摆动相当严重；相对于bgd保证到当前最优，sgd可以跳到新的且可能更好的局部最优解；通过降低lr，可以防止overshooting，此时sgd更接近bgd，几乎能找到convex的全局最优解和non-covex的局部最优解
@@ -25,3 +25,15 @@
 11. Adam: 引入梯度矩囝的一阶估计和二阶估计来调整参数学习率；其中一阶参数用于动量，二阶参数用于控制学习率；可以视为RMSprop 和 momentum的给合
 12. AdaMax: Adam对于v实际使用的是l2正则，我们可以范化为lp正则；AdaMax使用的是linfinit 正则，就变成了u = max(beta * v, g)
 13. Nadam: 
+
+### 3. Neural Turing Machines
+1. 结合神经网络，外部用于与注意力机制交互的资源。
+2. 系统与图灵机、冯诺伊曼架构相信，但是其是端到端可微，并可以使用梯度下降进行训练
+3. RNN是Turing-Complete，因此其具有模拟任何流程的能力
+4. 本文从心理学，语言学，神经科学，以及人工智能和神经网络等主题展开
+5. NTM主要有网络控制器，和记忆存储
+6. 不像常规图灵机只操作一个内存单元，NTM使用attention机制与内存进行模糊读写操作
+7. content-based addressing: 基于控制器值和位置内容值之间的相似程度（简单）; 
+cation-based addressing: 基于位置的寻址方式
+8. 寻址系统由三部分组成：基于内容; 基于内容的结果可以选择和偏移，使得可以进行连续寻址; 前一步的结果，可以用于迭代寻址，访问间隔地址序列
+9. 使用循环神经网络作为网络控制器
