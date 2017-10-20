@@ -16,4 +16,3 @@
 4. AlphaGo Fan&Lee policy network使用监督学习，预测人类步骤，并使用强化学习调整; value network用于预测游戏相互搏弈的胜者
 5. AlphaGo Zero: 1. 完全无人类参与; 2. 只使用白子和黑子用做输入; 3. 使用单一网络，而非分开policy和value网络; 4. 只使用树搜索来衡量位置和样例移动，不使用MonteCarlo rollout
 6. 一个新的reinforcement learning嵌入在训练过程中
-7. 
