@@ -334,5 +334,14 @@
 6. 基于cosine distance的偏移测量
 7. 语义和语法测试集
 
+### 39. WORD TRANSLATION WITHOUT PARALLEL DATA
+1. 不需要平行语料，只需要单一语言语料
+2. 训练分为两步，a. 对抗训练，把两种语言映射到目标空间，b. 抽取合成词典，转化成the closed-form Procrustes solution
+3. 提出一种与映射质量高相关的非监督筛选标准
+4. 给出12种语言的词典，并给出相应的监督与非监督训练对
+5. 使用CSLS生成词典
+6. 由于低频词效果有限，只训练top 50000词
+7. 保证W矩阵接近正交，可以增加效果
+8. 计算翻译的平均cosin距离，用作验证标准
 
 ### 22. Recurrent neural network based language model
