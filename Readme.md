@@ -1,9 +1,5 @@
 # This is my records for learing the machine learning
 
-### [Daily record](./daily/Readme.md)
-
-### [algorithm](./algorithm/Readme.md)
-
-### [example](./example/Readme.md)
-
-### [lib](./example/Readme.md)
+1. [Daily record](./daily/Readme.md)
+2. [algorithms](./algorithms/Readme.md)
+3. [paper](./paper/Readme.md)
