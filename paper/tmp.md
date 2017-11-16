@@ -41,3 +41,10 @@ Semi andWeakly Supervised Semantic Segmentation Using Generative
 Adversarial Network
 Unsupervised domain adaptation in brain lesion
 segmentation with adversarial networks
+
+https://sites.google.com/site/lhrbss/
+
+
+Hairong Liu, Longin Jan Latecki, Shuicheng Yan, "Dense Subgraph Partition of Positive Hypergraphs", TPAMI [PDF] [PROOF] [CODE] (accepted).
+Hairong Liu, Longin Jan Latecki, Shuicheng Yan, "Fast Detection of Dense Subgraph with Iterative Shrinking and Expansion",  TPAMI [PDF] [CODE].
+Hairong Liu, Longin Jan Latecki, Shuicheng Yan, "Robust Clustering as Ensemble of Affinity Relations", NIPS, 2010. [PDF] [CODE]
