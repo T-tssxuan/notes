@@ -12,3 +12,8 @@
 3. shrink phase and the expansion phase
 4. 相似度计算，以及聚类分析
 
+### 3. Dense Subgraph Partition of Positive Hypergraphs
+1. positive hypergraphs: 除了自环都有正权重
+2. 提出DSP框架，能够自动、精确、高效的检测密集子图
+3. 提出计算DSP的算法
+4. min-partition algorithm: 可以在常规PC上处理百万级数据
