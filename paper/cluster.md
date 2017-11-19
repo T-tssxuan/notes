@@ -6,3 +6,9 @@
 3. 通过KNN算法，初始化算法
 4. 算法复杂度O(nthk)，t迭代次数，h点能包涵的超次个数，k类别多少
 
+### 2. Fast Detection of Dense Subgraphs with Iterative Shrinking and Expansion
+1. 近似mean shift algorithm
+2. 高效检测dense subgraph; 相似性问题; 聚类
+3. shrink phase and the expansion phase
+4. 相似度计算，以及聚类分析
+
