@@ -291,3 +291,4 @@
 290. Billion-scale similarity search with gpus (2017, 14)
 291. Parseval networks: Improving robustness to adversarial examples (2017, )
 292. The earth mover’s distance as a metric for image retrieval (2000, 3080)
+293. A Discriminative CNN Video Representation for Event Detection
