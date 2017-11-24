@@ -1,6 +1,6 @@
 ## Recommender system related paper
 
-#### 1. Collaborative Filtering for Implicit Feedback Datasets
+### 1. Collaborative Filtering for Implicit Feedback Datasets
 1. 把数据样本当成广义上的正例和负例，这样构成了一个关于隐性反馈的因果模型
 2. CF存在冷启动的问题
 3. 无负反馈数据、本质上存在噪声、显反馈的数据代表的是喜好，而隐反馈数量代表是置信度、衡量隐反馈系统需要相应的措施。
@@ -8,7 +8,7 @@
 5. item-oriented model 都有没有很好的区别用户偏好和置信度
 6. 使用交叉计算user-factor和iter-factor的方法来计算矩阵
 
-#### 2. Deep Neural Networks for YouTube Recommendations
+### 2. Deep Neural Networks for YouTube Recommendations
 1. Scale: The system get a very large scale of data
 2. Freshness: There are a very dynamic corpus with many hours of video are uploaded per second.
 3. Noise: Historical user behavior on YouTube is inherently difficult to predict due to sparsity and a variety of unobservable external factors.
@@ -24,7 +24,7 @@
 13. weighted logistic regression
 14. 加入了视频的时间标记
 
-#### 3. Collaborative Metric Learning
+### 3. Collaborative Metric Learning
 1. 提出一种CML，不仅依赖于user preference，而且考虑user-user，item-item等因素
 2. 使用OFF-THE-SHELF、近似最近邻居搜索加快了TOP-K推荐任务的速度
 3. 三角不等式也是十分重要的
@@ -37,11 +37,11 @@
 10. Using negative sample mining
 11. 防止数据稀疏，并使用covariance规范化
 
-#### 4. Combining Collaborative Filtering with Personal Agents for Better Recommendations
+### 4. Combining Collaborative Filtering with Personal Agents for Better Recommendations
 1. 使用IF和CF结合达到更好的过滤目标
 2. CF的两个主要目标：哪个是我喜欢的，我有多喜欢某件物品
 
-#### 5. Recurrent Recommender Networks
+### 5. Recurrent Recommender Networks
 1. 不使用隐状态，只学习转换函数
 2. 一般的方法考虑不到时序因素：1.人们对电影的看法是随时间改变的，2.对电影的感观随季节改变，3.用户的兴趣也是在不断的改变的
 3. 一些方法也有违因果关系，其使用未来的结果来衡量现在的情况
@@ -52,7 +52,7 @@
 8. Hedonic adaptation，用户在看到更喜欢的电影后，对过去的喜欢的电影的评介分下降
 9. 不能使用常规的BP，而是user和movie交替执行，使用subspace descent.
 
-#### 6. Scalable Coordinate Descent Approaches to Parallel Matrix Factorization for Recommender Systems
+### 6. Scalable Coordinate Descent Approaches to Parallel Matrix Factorization for Recommender Systems
 1. [Code link](http://www.cs.utexas.edu/~rofuyu/libpmf/)
 2. Alternating Least Squares和Stochastic Gradient Descent是两个很常见的用于矩阵分解的方法
 3. 提出一个CCD++矩阵分解方法
@@ -65,7 +65,7 @@
 10. 由于W和H的量大，以及Hessian矩阵计算最也大，ALS不适合并行
 11. DSGD可以进行并行处理
 
-#### 7. Low-Rank Linear Cold-Start Recommendation from Social Data
+### 7. Low-Rank Linear Cold-Start Recommendation from Social Data
 1. LOCO a.使用线性回归获取对于偏好最优的社交信息，b.低维的权值克服社交数据高维特性，c.可扩展的low-rank权值，全名用randomised SVD
 2. 冷启动问题，可以使用一些附加信息来完成，如人口统计信息
 3. 寻找一个隐变量空间U，可以同时来预估用户偏好和社交特质
@@ -73,7 +73,7 @@
 5. social neighbourhood model没有考虑了属性之间的相关性，存在underfit风险；bpr-linmap模型考虑到，但是存在overfit的风险；CMF模型，计算复杂
 6. 为了使了回归可以训练，对W的rank进行限制，这样也带了等式变成non-convex的问题
 
-#### 8. Getting Deep Recommenders Fit: Bloom Embeddings for Sparse Binary Input/Output Networks
+### 8. Getting Deep Recommenders Fit: Bloom Embeddings for Sparse Binary Input/Output Networks
 1. 来自推荐领域的数据，常常具有很高维的输入输出特征，这样导致非常难以训练
 2. 使用Bloom embedding压缩输入输出的高维编码，在保证精度的条件下压缩至原有数据的1/5，在一些情况下甚至提升精度
 3. 使用Bloom embedding(BE)对输入输出进行编码
@@ -84,3 +84,8 @@
 8. 当m接近d时，score并没有减少，证明BE没有弱化结果
 9. 可能在SVD相关上，有更好的结果
 10. CBE(co-occurrence-based Bloom embedding)，使用共现矩阵来降低冲突
+
+### 9. Multi-Rate Deep Learning for Temporal Recommendation
+1. 使用用户近期数据进行预测，但是可能出现冷启动wenti
+2. Long term and short term分别对用户进行建模
+3. Deep Semantic Structured Model 用户静态兴趣，LSTM用户week or daily, LSTM全局兴趣
