@@ -344,4 +344,10 @@
 ### 40. Hierarchical Probabilistic Neural Network Language Model
 1. 层级结构
 
+### 41. DisSent: Sentence Representation Learning from Explicit Discourse Relations
+1. 使用'because but, although等词来标识句子之间的关系。
+2. 使用双向lstm encode句子，然后进行时域maxpooling，然后向量相加
+3. 使用依存分析去掉一些discourse使用
+
 ### 22. Recurrent neural network based language model
+
