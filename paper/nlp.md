@@ -349,5 +349,11 @@
 2. 使用双向lstm encode句子，然后进行时域maxpooling，然后向量相加
 3. 使用依存分析去掉一些discourse使用
 
+### 42. Learning Distributed Representations of Sentences from Unlabelled Data
+1. 提出一种新的句子或短语训练目标- Sequential Denoising Autoencoders(SDAEs)和FastSent
+2. 不使用botton up策略，pharse或sentence表示是在词向量的数学运算的基础上
+3. k
+2. 
+
 ### 22. Recurrent neural network based language model
 
