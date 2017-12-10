@@ -293,3 +293,6 @@
 292. The earth mover’s distance as a metric for image retrieval (2000, 3080)
 293. A Discriminative CNN Video Representation for Event Detection
 294. A Discriminative CNN Video Representation for Event Detection
+295. Improving the Fisher Kernel for Large-Scale Image Classification(2010, 1800)
+296. Aggregating local descriptors into a compact image representation(2010, 1280)
+297. Aggregating local image descriptors into com- pact codes(2012, 844)
