@@ -89,3 +89,6 @@
 1. 使用用户近期数据进行预测，但是可能出现冷启动wenti
 2. Long term and short term分别对用户进行建模
 3. Deep Semantic Structured Model 用户静态兴趣，LSTM用户week or daily, LSTM全局兴趣
+
+### 10. A Multi-View Deep Learning Approach for Cross Domain User Modeling in Recommendation Systems
+1. 
