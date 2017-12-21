@@ -1,6 +1,6 @@
 ## Statistic related paper
 
-#### 1. Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift 
+### 1. Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift 
 1. 训练神经网络十分困难的原因在于每一层的分布随时间改变
 2. batch normalization可以使我们在不那么精细的微调达到较高的学习率
 3. 使用mini-batch是对全局的一种代替；一次训练多个，比一个个训练更加高效
@@ -11,7 +11,7 @@
 8. 使用全局样本计进行规范化，是不可行的，因此使用Mini-Batch
 9. batch normalization可以有更高的learning rate
 
-#### 2. Noise-contrastive estimation: A new estimation principle for unnormalized statistical models
+### 2. Noise-contrastive estimation: A new estimation principle for unnormalized statistical models
 1. 提出一种新的评估方法，主要思想是使用非线性logistic回归区分观察到的结果和生成的结果
 2. 一个片理normalization的方法是，忽略Z(alpha)，把其视为常量
 3. 通过对比数据和噪声，来学习数据中的一些特性，我们把这称为：通过对比学习
@@ -20,5 +20,9 @@
 6. 关于对比噪声的分布的选择: a. 容易生成，b. 能够通过log-pdf进行分析，c. 可以推导出较小的MSE，可选的有：高斯、混合高斯、ICA分布
 7. 一般来说，噪声分布应该接近数据分布，否则可能学不到有用的信息
 
-#### 3. A Tutorial on Energy-Based Learning
+### 3. Billion-scale similarity search with GPUs
+1. 使用gpu进行大规模相似性计算
+2. 
+
+### 3. A Tutorial on Energy-Based Learning
 1. 
