@@ -22,7 +22,6 @@
 
 ### 3. Billion-scale similarity search with GPUs
 1. 使用gpu进行大规模相似性计算
-2. 
 
 ### 3. A Tutorial on Energy-Based Learning
 1. 
