@@ -90,5 +90,15 @@
 2. Long term and short term分别对用户进行建模
 3. Deep Semantic Structured Model 用户静态兴趣，LSTM用户week or daily, LSTM全局兴趣
 
+### 10. Wide & Deep Learning for Recommender Systems
+1. 使用乘法生成的特征能够很好的表现数据情况，但是其需要特征工程
+2. 当交互网络过于稀疏时，很可能推荐出关系不大的数据
+3. 推荐引擎，memorization和generalization
+4. 使用embedding可能导致过分generalize，从而使得推荐很多非相关的数据
+5. FTRL for wide model, AdaGrad for deep model
+6. 每一批数据到达，都需要重新进行训练，很慢，使用热启动
+
 ### 10. A Multi-View Deep Learning Approach for Cross Domain User Modeling in Recommendation Systems
 1. 
+
+

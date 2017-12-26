@@ -297,4 +297,5 @@
 296. Aggregating local descriptors into a compact image representation(2010, 1280)
 297. Aggregating local image descriptors into com- pact codes(2012, 844)
 298. Product quantization for nearest neighbor search(2011, 1101)
-299.
+299. Strategies for training large scale neural network language models.(2011, 221)
+300. Collaborative deep learning for recommender systems(2014, 196)
