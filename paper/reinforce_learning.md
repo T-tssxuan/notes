@@ -24,3 +24,6 @@
 4. Monte Carlo rollouts, fast rollout policy
 5. PUCT, value network, 
 6. 网络，输入，value, policy
+
+### 4. Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm
+1. 
