@@ -98,6 +98,10 @@
 5. FTRL for wide model, AdaGrad for deep model
 6. 每一批数据到达，都需要重新进行训练，很慢，使用热启动
 
+### 11. Use of Deep Learning in Modern Recommendation System: A Summary of Recent Works
+1. 三个主要的分类：collaborative filtering, content based, hybrid recommendation models
+2. 应用到collaborative filtering的占大多数
+
 ### 10. A Multi-View Deep Learning Approach for Cross Domain User Modeling in Recommendation Systems
 1. 
 
