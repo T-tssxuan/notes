@@ -353,7 +353,13 @@
 1. 提出一种新的句子或短语训练目标- Sequential Denoising Autoencoders(SDAEs)和FastSent
 2. 不使用botton up策略，pharse或sentence表示是在词向量的数学运算的基础上
 3. k
-2. 
+
+### 43. Advances in Pre-Training Distributed Word Representations
+1. 提出一种新的词向量预训方法
+2. 几种很少一起使用的策略：the position dependent features，the phrase rep- resentations，the use of subword information
+3. 原始word2vec只是简单的平均窗口中的词，并没有考虑位置信息
+4. 原始cbow只是unigrams，没有考虑到词序
+5. 标准的词向量忽略了词的内部结构
 
 ### 22. Recurrent neural network based language model
 

@@ -299,3 +299,8 @@
 298. Product quantization for nearest neighbor search(2011, 1101)
 299. Strategies for training large scale neural network language models.(2011, 221)
 300. Collaborative deep learning for recommender systems(2014, 196)
+301. Learning word embeddings efficiently with noise-contrastive estimation(2013, 225)
+302. Enriching Word Vectors with Subword Information(2017, )
+303. Improving
+distributional similarity with lessons learned from word embeddings.(2015, 408)
+304. 
