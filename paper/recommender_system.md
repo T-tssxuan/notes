@@ -102,6 +102,9 @@
 1. 三个主要的分类：collaborative filtering, content based, hybrid recommendation models
 2. 应用到collaborative filtering的占大多数
 
+### 12. SAR: Semantic Analysis for Recommendation
+1. 
+
 ### 10. A Multi-View Deep Learning Approach for Cross Domain User Modeling in Recommendation Systems
 1. 
 
