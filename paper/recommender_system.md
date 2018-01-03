@@ -106,7 +106,7 @@
 1. 使用更丰富的潜在特征进行推荐
 2. 把user和item表示在同一个空间
 3. 使用2层体系
-4. 
+4. 不推荐
 
 ### 10. A Multi-View Deep Learning Approach for Cross Domain User Modeling in Recommendation Systems
 1. 
