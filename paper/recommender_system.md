@@ -108,6 +108,12 @@
 3. 使用2层体系
 4. 不推荐
 
+### 13. Deep Reinforcement Learning for List-wise Recommendations
+1. 大部分推荐系统最大化短期收益，但最大化长期收益可以取得更多利润
+2. a.跟用户交互时不断更新策略，直到收敛，b. 最大化长期收益
+3. DQN可以推荐list，但是其忽略了item之间的关系
+4. 
+
 ### 10. A Multi-View Deep Learning Approach for Cross Domain User Modeling in Recommendation Systems
 1. 
 
