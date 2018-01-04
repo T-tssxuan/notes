@@ -112,7 +112,20 @@
 1. 大部分推荐系统最大化短期收益，但最大化长期收益可以取得更多利润
 2. a.跟用户交互时不断更新策略，直到收敛，b. 最大化长期收益
 3. DQN可以推荐list，但是其忽略了item之间的关系
-4. 
+2. 当忽略item之间的相关性时，推荐的结果非常相似，但是一般来说，互补的推荐比相似性推荐可以得到更高的回报。
+3. 提出一种主要方法，获取相互关系，并生成互补队列
+4. 提出的方法，即可以适应large action space，也可以减少冗余，加快计算
+5. 使使模拟的方法进行线下训练，
+6. 基于用户行为，训练item的低维表示
+7. 根据CF，相似的用户会有相同的选择，在历史中匹配相同的状态和行为用户模拟
+8. 使用状态和行为的相似度来衡量回报权重，为了使搜索空间变小，从回报空间进行计算
+9. 使用序列长度控制短期和长期行为
+
+### 14. Linear Submodular Bandits and their Application to Diversified Retrieval
+
+### 15. Neural word embedding as implicit matrix factorization.
+
+### 16. Personalized Deep Learning for Tag Recommenda- tion
 
 ### 10. A Multi-View Deep Learning Approach for Cross Domain User Modeling in Recommendation Systems
 1. 

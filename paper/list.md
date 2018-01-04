@@ -303,4 +303,5 @@
 302. Enriching Word Vectors with Subword Information(2017, )
 303. Improving
 distributional similarity with lessons learned from word embeddings.(2015, 408)
-304. 
+304. Linear submodular bandits and their application to diversi ed retrievalj
+305. Neural word embedding as implicit matrix factorization.
