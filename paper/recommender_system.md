@@ -121,6 +121,26 @@
 8. 使用状态和行为的相似度来衡量回报权重，为了使搜索空间变小，从回报空间进行计算
 9. 使用序列长度控制短期和长期行为
 
+### 14. Deep Learning based Recommender System: A Survey and New Perspectives
+1. 大部分是转会为排序问题，一部分是为评分问题，少部分转化为分类问题
+2. NCF，传统CF可以视为NCF的特例，NCF可以使用Negative smapling进行加速
+3. DW可以用于解决回归和分类模型
+4. DeepFM 是一个端到端的模型，其包涵了Factorization machine和MLP
+5. Attention 可以提升推荐效果，一般分为item-level和component-level
+6. Autoencoder: a) 使用瓶颈层提取信息，b) 完善用户评分
+7. pairwise model is more suitable for ranking lists generation
+8. CNN
+9. RNN: a) pretraining with full data, fine-tuning with the most recent click-sequences, b) consider the side information, c) 
+10. RBM
+11. NADE
+12. GAN
+13. Apart from accuracy, other evaluation metrics such as, diversity [3, 102], novelty, serendipity, coverage, trustworthiness, privacy, interpretability etc. 
+14. 
+
+### 15. Embedding-basedNewsRecommendationforMillionsofUsers.
+
+### 15. LocallyConnectedDeepLearningFrameworkfor Industrial-scale Recommender Systems
+
 ### 14. Linear Submodular Bandits and their Application to Diversified Retrieval
 
 ### 15. Neural word embedding as implicit matrix factorization.
