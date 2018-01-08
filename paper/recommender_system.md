@@ -121,6 +121,18 @@
 8. 使用状态和行为的相似度来衡量回报权重，为了使搜索空间变小，从回报空间进行计算
 9. 使用序列长度控制短期和长期行为
 
+### 14. Deep Learning based Recommender System: A Survey and New Perspectives
+1. 推荐系统主要有：cf, content-based, hybird recommender. 但是这些方法在稀疏数据和冷启动方面存在局限性
+2. rating prediction, ranking prediction
+(top-n recommendation) and classifcation. 
+3. 
+
+### A survey of collaborative fltering techniques
+
+###  Cross-domain recommender systems: A survey of the state of the art.
+
+### Cross Domain Recommender Systems: A Systematic Literature Review
+
 ### 14. Linear Submodular Bandits and their Application to Diversified Retrieval
 
 ### 15. Neural word embedding as implicit matrix factorization.
