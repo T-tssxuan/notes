@@ -361,5 +361,8 @@
 4. 原始cbow只是unigrams，没有考虑到词序
 5. 标准的词向量忽略了词的内部结构
 
+### 44. Recent Advances in Recurrent Neural Networks
+1. 
+
 ### 22. Recurrent neural network based language model
 

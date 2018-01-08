@@ -125,13 +125,29 @@
 1. 推荐系统主要有：cf, content-based, hybird recommender. 但是这些方法在稀疏数据和冷启动方面存在局限性
 2. rating prediction, ranking prediction
 (top-n recommendation) and classifcation. 
-3. 
+3. 大部分是转会为排序问题，一部分是为评分问题，少部分转化为分类问题
+4. NCF，传统CF可以视为NCF的特例，NCF可以使用Negative smapling进行加速
+5. DW可以用于解决回归和分类模型
+6. DeepFM 是一个端到端的模型，其包涵了Factorization machine和MLP
+7. Attention 可以提升推荐效果，一般分为item-level和component-level
+6. Autoencoder: a) 使用瓶颈层提取信息，b) 完善用户评分
+8. pairwise model is more suitable for ranking lists generation
+9. CNN
+10. RNN: a) pretraining with full data, fine-tuning with the most recent click-sequences, b) consider the side information, c) 
+11. RBM
+12. NADE
+13. GAN
+14. Apart from accuracy, other evaluation metrics such as, diversity [3, 102], novelty, serendipity, coverage, trustworthiness, privacy, interpretability etc. 
 
 ### A survey of collaborative fltering techniques
 
 ###  Cross-domain recommender systems: A survey of the state of the art.
 
 ### Cross Domain Recommender Systems: A Systematic Literature Review
+
+### 15. Embedding-basedNewsRecommendationforMillionsofUsers.
+
+### 15. LocallyConnectedDeepLearningFrameworkfor Industrial-scale Recommender Systems
 
 ### 14. Linear Submodular Bandits and their Application to Diversified Retrieval
 
