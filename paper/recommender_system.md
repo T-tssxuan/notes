@@ -139,6 +139,10 @@
 13. GAN
 14. Apart from accuracy, other evaluation metrics such as, diversity [3, 102], novelty, serendipity, coverage, trustworthiness, privacy, interpretability etc. 
 
+### 15. Learning Continuous User Representations through Hybrid Filtering with doc2vec
+1. user2vec，使用用户历史行为转化成向量
+2. context2vec，用户和app metadata转化成向量
+
 ### A survey of collaborative fltering techniques
 
 ###  Cross-domain recommender systems: A survey of the state of the art.
