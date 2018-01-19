@@ -143,6 +143,10 @@
 1. user2vec，使用用户历史行为转化成向量
 2. context2vec，用户和app metadata转化成向量
 
+### 16. Reinforcement Learning based Recommender System using Biclustering Technique
+1. 把推荐转化成MDP过程，但是存在过多的离散行为
+2. 使用biclustering转化成gridworld game
+
 ### A survey of collaborative fltering techniques
 
 ###  Cross-domain recommender systems: A survey of the state of the art.
