@@ -361,6 +361,13 @@
 4. 原始cbow只是unigrams，没有考虑到词序
 5. 标准的词向量忽略了词的内部结构
 
+### 44. Zero-Shot Relation Extraction via Reading Comprehension
+1. 一般的方法不能抽取未提前说明或没在训练中见到过的实体
+2. 在数据和模型都提出了新方法，1) 使用距离监督来处理巨量的关系，2) 使用众包的方法来收集和验证每一个关系的问题
+3. 在解决阅读理角问题上，与解决关系抽取填空问题存在一定的相似性
+4. 问题的难点在于把关系转化成问题，而非处理每个实体的答案，这样在标时也从实体标转化成为关系标注，提升了效率
+5. 第一个schema level基于众包的qa数据集
+
 ### 44. Recent Advances in Recurrent Neural Networks
 1. 
 
