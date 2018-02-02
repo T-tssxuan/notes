@@ -313,3 +313,5 @@ distributional similarity with lessons learned from word embeddings.(2015, 408)
 312. Topic Aware Neural Response Generation
 313. A Hierarchical Recurrent Encoder-Decoder For Generative Context-Aware Query Suggestion
 314. Quantitative Evaluation of User Simulation Techniques for Spoken Dialogue Systems
+315. Similarity Search in High Dimensions via Hashing (2890, 1999)
+316. Hashing for Similarity Search: A Survey (2014)
