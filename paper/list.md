@@ -305,3 +305,11 @@
 distributional similarity with lessons learned from word embeddings.(2015, 408)
 304. Linear submodular bandits and their application to diversi ed retrievalj
 305. Neural word embedding as implicit matrix factorization.
+306. A Neural Conversational Model
+307. How NOT To Evaluate Your Dialogue System
+308. A Diversity-Promoting Objective Function for Neural Conversation Models
+310. Emotional Chatting Machine: Emotional Conversation Generation with Internal and External Memory
+311. A Persona-Based Neural Conversation Model
+312. Topic Aware Neural Response Generation
+313. A Hierarchical Recurrent Encoder-Decoder For Generative Context-Aware Query Suggestion
+314. Quantitative Evaluation of User Simulation Techniques for Spoken Dialogue Systems
