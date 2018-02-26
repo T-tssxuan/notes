@@ -2,7 +2,7 @@ import os
 import logging
 import sys
 
-class Tools:
+class Logger:
     log_file = ''
 
     def set_log_file(file_name):
