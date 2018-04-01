@@ -37,3 +37,9 @@
 cation-based addressing: 基于位置的寻址方式
 8. 寻址系统由三部分组成：基于内容; 基于内容的结果可以选择和偏移，使得可以进行连续寻址; 前一步的结果，可以用于迭代寻址，访问间隔地址序列
 9. 使用循环神经网络作为网络控制器
+
+
+### 4. Group Normalization
+1. a replace for the batch normalization
+2. the drawback of the batch normalization: batch not always exist, variance change, batch should be bigger.
+

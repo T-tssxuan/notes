@@ -147,6 +147,16 @@
 1. 把推荐转化成MDP过程，但是存在过多的离散行为
 2. 使用biclustering转化成gridworld game
 
+### 17. Demystifying Core Ranking in Pinterest Image Search
+1. cascading for acceration online performance
+
+### 18. Evaluation of Session-based Recommendation Algorithms
+1. session-based algorithms predict user immediate next actions
+2. amazon 'user buy also buy' can be recognized a extreme case of such a session-based approach.
+3. 
+
+### 19. Sequence-Aware Recommender Systems 
+
 ### A survey of collaborative fltering techniques
 
 ###  Cross-domain recommender systems: A survey of the state of the art.
