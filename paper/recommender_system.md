@@ -153,7 +153,8 @@
 ### 18. Evaluation of Session-based Recommendation Algorithms
 1. session-based algorithms predict user immediate next actions
 2. amazon 'user buy also buy' can be recognized a extreme case of such a session-based approach.
-3. 
+3. 主要对四种算法进行比较: baseline methods, nearest-neighbor techniques, recurrent neural networks, and (hybrid) factorization-based methods.
+4. 
 
 ### 19. Sequence-Aware Recommender Systems 
 
