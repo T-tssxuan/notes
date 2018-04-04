@@ -153,7 +153,12 @@
 ### 18. Evaluation of Session-based Recommendation Algorithms
 1. session-based algorithms predict user immediate next actions
 2. amazon 'user buy also buy' can be recognized a extreme case of such a session-based approach.
-3. 
+3. AR method count the co-occurrency of i and j in a session
+4. using different nearest neighbor schemes
+5. gru4rec: BPR loss, TOP1 loss, MAX loss(best)
+6. Factorization-based Methods: Factorized Personalized Markov Chains (fpmc), Factored Item Similarity Models (fism), Factorized Sequential Prediction with Item Similarity Models (fossil), Session-based Matrix Factorization (smf).
+7. Popularity bias
+8. Data set: e-commerce, music, news.
 
 ### 19. Sequence-Aware Recommender Systems 
 
