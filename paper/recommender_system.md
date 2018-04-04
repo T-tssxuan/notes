@@ -159,6 +159,7 @@
 6. Factorization-based Methods: Factorized Personalized Markov Chains (fpmc), Factored Item Similarity Models (fism), Factorized Sequential Prediction with Item Similarity Models (fossil), Session-based Matrix Factorization (smf).
 7. Popularity bias
 8. Data set: e-commerce, music, news.
+9. 主要对四种算法进行比较: baseline methods, nearest-neighbor techniques, recurrent neural networks, and (hybrid) factorization-based methods.
 
 ### 19. Sequence-Aware Recommender Systems 
 
