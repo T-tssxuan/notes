@@ -385,6 +385,10 @@
 7. 1) 转化文本为向量表示，2) 转化记忆为向量表示，3) 选出与文本相关的记忆单元，4) 记忆可以进行多次查询，5) 使用最后查询向量表示与候选者进行softmax，得到相应概率
 8. policy: MemN2N, state: 聊天记录，action: MemN2N结果，reword: 对(1),错(0)，
 9. 使用batch size来确定模型更新时间
+
+### 47. 360° Stance Detection
+1. 
+
 ### 44. Recent Advances in Recurrent Neural Networks
 1. 
 
