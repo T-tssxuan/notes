@@ -387,7 +387,14 @@
 9. 使用batch size来确定模型更新时间
 
 ### 47. 360° Stance Detection
-1. 
+1. 一个使用自然语言检测言论风向的应用
+
+### 48. Investigating Capsule Networks with Dynamic Routing for Text Classification
+1. 使用了三个方法来减轻capsules的扰动，并在6个任务中4个达到了较好的结果
+2. 使用capsules的向量输出，来代替CNN的标量输出，用于保证局部的词序信息。
+
+
+### 49. Linguistically regularized lstms for sentiment classification
 
 ### 44. Recent Advances in Recurrent Neural Networks
 1. 
