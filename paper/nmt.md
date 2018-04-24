@@ -41,3 +41,9 @@
 11. 对各种语言encoder都能编码到相同的空间，这样方便decoder进行解码
 12. total loss: auto_src + auto_tgt + cd_src_tgt + cd_tgt_src + adv
 13. 在100000个平行对时，训练的效果跟supervised方法近似
+
+### 6. Phrase-Based & Neural Unsupervised Machine Translation
+1. back-translation key idea is to maintain two medels, one for translating the source into the target and the other to translate the target to the source.
+2. pharse based translation system is better than neural system when labeled data is scare.
+3. We claim that unsupervised MT can be accomplished by leveraging three components : suitable initialization, language modeling and iterative back-translation
+4. 
