@@ -46,4 +46,5 @@
 1. back-translation key idea is to maintain two medels, one for translating the source into the target and the other to translate the target to the source.
 2. pharse based translation system is better than neural system when labeled data is scare.
 3. We claim that unsupervised MT can be accomplished by leveraging three components : suitable initialization, language modeling and iterative back-translation
-4. 
+4.Initialization with BPE code; Language Modeling is a denoising autoencoding; Back-translation; Sharing Latent Representations is used to constraint the result(share the encoder parameters and decode parameters); compare with others we removed the adversarial term, and simplify the model.
+5. NMT for the language share many things language, the PBSMT used to train the languages shares rarely information
