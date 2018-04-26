@@ -161,6 +161,10 @@
 8. Data set: e-commerce, music, news.
 9. 主要对四种算法进行比较: baseline methods, nearest-neighbor techniques, recurrent neural networks, and (hybrid) factorization-based methods.
 
+### 19. Analyzing and Characterizing User Intent in Information-seeking Conversations
+1. CA for simple question are typically referred to as information-seeking conversations
+2. 
+
 ### 19. Sequence-Aware Recommender Systems 
 1. 
 
