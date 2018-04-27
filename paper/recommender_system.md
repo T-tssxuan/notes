@@ -163,7 +163,7 @@
 
 ### 19. Analyzing and Characterizing User Intent in Information-seeking Conversations
 1. CA for simple question are typically referred to as information-seeking conversations
-2. 
+2. Gain insight on human intent dynamics during information-seeking conversations.
 
 ### 19. Sequence-Aware Recommender Systems 
 1. 
