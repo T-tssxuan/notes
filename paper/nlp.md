@@ -393,6 +393,14 @@
 1. 使用了三个方法来减轻capsules的扰动，并在6个任务中4个达到了较好的结果
 2. 使用capsules的向量输出，来代替CNN的标量输出，用于保证局部的词序信息。
 
+### 49. THE UNREASONABLE EFFECTIVENESS OF THE FORGET GATE
+1. provided another network just use the forget gate
+2. half parameter and two-third of the element-wise multiplications.
+3. the key is the parameter initialization
+
+
+### 50. LSTM: A Search Space Odyssey
+
 
 ### 49. Linguistically regularized lstms for sentiment classification
 
