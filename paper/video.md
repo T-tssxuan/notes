@@ -6,3 +6,5 @@
 3. 提出Product Quantization来加速执行速度
 4. 使用CNN提取frame描述->规范化->average pooling->Re-normalization
 5. Max pooling也是一种生成表示的方法，但是不常用于event detection
+
+### 2. ECO: Efficient Convolutional Network for Online Video Understanding

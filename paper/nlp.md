@@ -398,6 +398,8 @@
 2. half parameter and two-third of the element-wise multiplications.
 3. the key is the parameter initialization
 
+### 50. Dataset and Neural Recurrent Sequence Labeling Model for Open-Domain Factoid Question Answering
+
 
 ### 50. LSTM: A Search Space Odyssey
 
