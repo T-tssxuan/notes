@@ -398,6 +398,16 @@
 2. half parameter and two-third of the element-wise multiplications.
 3. the key is the parameter initialization
 
+### 50. Scalable attribute-aware network embedding with localily
+1. 网络词向量可以方便联合学习拓扑和属性
+2. linearity and scalable
+3. 
+
+### node2vec: Scalable feature learning for networks
+### Line: Large-scale information network embedding. 
+### Deepwalk:Onlinelearning of social representations.
+### Nonlinear dimensionality reduction by locally linear embedding(12142)
+### Aglobalgeometric framework for nonlinear dimensionality reduction(10000)
 ### 50. Dataset and Neural Recurrent Sequence Labeling Model for Open-Domain Factoid Question Answering
 
 
