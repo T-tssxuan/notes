@@ -165,6 +165,11 @@
 1. CA for simple question are typically referred to as information-seeking conversations
 2. Gain insight on human intent dynamics during information-seeking conversations.
 
+### 19. Collaborative Memory Network for Recommendation Systems(pass)
+1. Proposed Collaborative Memory Networks(CMN), a network unify global(latent factor) and local(neighborhood-based)
+2. memory component and neural attention mechanism -> neighborhood component; stacking multiple memory modules yield deeper architectures.
+3. CF can generally be grouped in three categories: memory or neighborhood-based approaches, latent factor models and hybrid models.
+
 ### 19. Sequence-Aware Recommender Systems 
 1. 
 
