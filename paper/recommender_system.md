@@ -170,6 +170,11 @@
 2. memory component and neural attention mechanism -> neighborhood component; stacking multiple memory modules yield deeper architectures.
 3. CF can generally be grouped in three categories: memory or neighborhood-based approaches, latent factor models and hybrid models.
 
+#### 19. An Universal Image Attractiveness Ranking Framework
+1. combine dnn and rank net gets deep attractiveness rank net.
+2. constructed a data set IASBS(image attractiveness side-by-side)
+3. 
+
 ### 19. Sequence-Aware Recommender Systems 
 1. 
 
