@@ -174,6 +174,7 @@
 1. combine dnn and rank net gets deep attractiveness rank net.
 2. constructed a data set IASBS(image attractiveness side-by-side)
 3. 
+3. using in commercial search engine.
 
 ### 19. Sequence-Aware Recommender Systems 
 1. 
