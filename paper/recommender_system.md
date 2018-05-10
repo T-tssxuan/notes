@@ -176,6 +176,13 @@
 3. 
 3. using in commercial search engine.
 
+#### 20. Cross Domain Regularization for Neural Ranking Models using Adversarial Learning
+1. tranditional model made less assumption about the data, which get more robust cross domain result
+2. Our goal is to train deep neural ranking models that learn useful
+representations from the data without “overfitting” to the distributions of the training domains.
+3. using domain adversarial discriminator to restrict the ranking model.
+4. We propose using an adversarial agent to force the features learned by the ranking model to be domain agnostic by shifting the model parameters in the opposite direction to domain specific spaces on the manifold
+
 ### 19. Sequence-Aware Recommender Systems 
 1. 
 

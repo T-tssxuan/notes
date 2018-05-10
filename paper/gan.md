@@ -162,4 +162,6 @@
 11. 对比机器生成和随机人生成结果
 12. 对抗网络可能着重于差异大的数据集
 
+### 21. Adversarial Feature Learning
+
 ### 21. Deep Semantic Hashing with Generative Adversarial Networks
