@@ -165,18 +165,18 @@
 1. CA for simple question are typically referred to as information-seeking conversations
 2. Gain insight on human intent dynamics during information-seeking conversations.
 
-### 19. Collaborative Memory Network for Recommendation Systems(pass)
+### 20. Collaborative Memory Network for Recommendation Systems(pass)
 1. Proposed Collaborative Memory Networks(CMN), a network unify global(latent factor) and local(neighborhood-based)
 2. memory component and neural attention mechanism -> neighborhood component; stacking multiple memory modules yield deeper architectures.
 3. CF can generally be grouped in three categories: memory or neighborhood-based approaches, latent factor models and hybrid models.
 
-#### 19. An Universal Image Attractiveness Ranking Framework
+#### 21. An Universal Image Attractiveness Ranking Framework
 1. combine dnn and rank net gets deep attractiveness rank net.
 2. constructed a data set IASBS(image attractiveness side-by-side)
 3. 
 3. using in commercial search engine.
 
-#### 20. Cross Domain Regularization for Neural Ranking Models using Adversarial Learning
+#### 21. Cross Domain Regularization for Neural Ranking Models using Adversarial Learning
 1. tranditional model made less assumption about the data, which get more robust cross domain result
 2. Our goal is to train deep neural ranking models that learn useful
 representations from the data without “overfitting” to the distributions of the training domains.
