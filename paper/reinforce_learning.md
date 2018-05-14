@@ -25,5 +25,7 @@
 5. PUCT, value network, 
 6. 网络，输入，value, policy
 
+### 4. Vector-based navigation using grid-like representations in artificial agents
+
 ### 4. Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm
 1.  
