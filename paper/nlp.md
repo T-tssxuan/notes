@@ -401,7 +401,6 @@
 ### 50. Scalable attribute-aware network embedding with localily
 1. 网络词向量可以方便联合学习拓扑和属性
 2. linearity and scalable
-3. 
 
 ### node2vec: Scalable feature learning for networks
 ### Line: Large-scale information network embedding. 
