@@ -402,6 +402,8 @@
 1. 网络词向量可以方便联合学习拓扑和属性
 2. linearity and scalable
 
+### 51. An Empirical Evaluation of Generic Convolutional and Recurrent Networks for Sequence Modeling
+
 ### node2vec: Scalable feature learning for networks
 ### Line: Large-scale information network embedding. 
 ### Deepwalk:Onlinelearning of social representations.
