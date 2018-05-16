@@ -403,6 +403,11 @@
 2. linearity and scalable
 
 ### 51. An Empirical Evaluation of Generic Convolutional and Recurrent Networks for Sequence Modeling
+1. 本文发现，每简单的卷积网络都可以超过权威的循环神经网络。
+2. 有许多论文对各种循环神经网络进行过验证。
+3. 本文结合Causal Convolutions、Dilated Convolutions、Residual Connections得到TCN
+4. TCN的主要优点有：并行、灵活的接收域、稳定的梯度、训练占用内存少、可变长输入。
+5. 本文在The adding problem、Sequential MNIST and P-MNIST、Copy memory、JSB Chorales and Nottingham、PennTreebank、Wikitext-103、LAMBADA、text8等多个数据集上进行试验，与常见的LSTM、GRU等网络进行对比，在结果和性能上TCN都取得了相当不错的优势。
 
 ### node2vec: Scalable feature learning for networks
 ### Line: Large-scale information network embedding. 
