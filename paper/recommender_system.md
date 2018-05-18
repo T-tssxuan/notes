@@ -205,4 +205,4 @@ representations from the data without “overfitting” to the distributions of 
 ### 10. A Multi-View Deep Learning Approach for Cross Domain User Modeling in Recommendation Systems
 1. 
 
-
+### Author Commitment and Social Power: Automatic Belief Tagging to Infer the Social Context of Interactions

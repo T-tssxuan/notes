@@ -164,4 +164,6 @@
 
 ### 21. Adversarial Feature Learning
 
-### 21. Deep Semantic Hashing with Generative Adversarial Networks
+### 22. Deep Semantic Hashing with Generative Adversarial Networks
+
+### 23. What's in a Domain? Learning Domain-Robust Text Representations using Adversarial Training
