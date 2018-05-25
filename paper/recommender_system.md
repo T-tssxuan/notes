@@ -183,6 +183,11 @@ representations from the data without “overfitting” to the distributions of 
 3. using domain adversarial discriminator to restrict the ranking model.
 4. We propose using an adversarial agent to force the features learned by the ranking model to be domain agnostic by shifting the model parameters in the opposite direction to domain specific spaces on the manifold
 
+#### 22. MARS: Memory Attention-Aware Recommender System
+1. MARS utilizes a memory component and a novel attentional mechanism to learn deep adaptive user representations
+2. To answer this question, we observed one essential characteristic of users’ interests: diversity
+3. 
+
 ### 19. Sequence-Aware Recommender Systems 
 1. 
 

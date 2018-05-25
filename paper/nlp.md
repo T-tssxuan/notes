@@ -409,6 +409,9 @@
 4. TCN的主要优点有：并行、灵活的接收域、稳定的梯度、训练占用内存少、可变长输入。
 5. 本文在The adding problem、Sequential MNIST and P-MNIST、Copy memory、JSB Chorales and Nottingham、PennTreebank、Wikitext-103、LAMBADA、text8等多个数据集上进行试验，与常见的LSTM、GRU等网络进行对比，在结果和性能上TCN都取得了相当不错的优势。
 
+### 52. Attention is all you need
+1. 
+
 ### 52. Paper Abstract Writing through Editing Mechanism
 
 ### node2vec: Scalable feature learning for networks
