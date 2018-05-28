@@ -19,7 +19,10 @@
 ### 4. New Methods in Automatic Extracting 
 1. 关键词（关键词字典），基于标题和首句，基于位置（首句，段落的开始）
 
-### 5. 
+### 5. Generic Text Summarization Using Relevance Measure and Latent Semantic Analysis
+1. Standard IR method
+2. The latent semantic methods.
+3. Get the largest index of the k'th right singular value.
 
 
 ### 2. QANet: Combining Local Convolution with Global Self-Attention for Reading Comprehension
