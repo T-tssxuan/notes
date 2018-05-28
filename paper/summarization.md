@@ -24,5 +24,14 @@
 2. The latent semantic methods.
 3. Get the largest index of the k'th right singular value.
 
+### 6. LexRank: Graph-based Lexical Centrality as Salience in Text Summarization
+1. using graph and adjance matrix
+2. Random walks on the sentence-based graphs can help in text summarization.
+3.  We propose a graph representation of a document cluster, where vertices represent the sentences and edges are defined in terms of the similarity relation between pairs of sentences
+4. Centrality of a sentence is often defined in terms of the
+centrality of the words that it contains.
+5. The centroid of a cluster is a pseudo-document which consists of words that have tf×idf scores above a predefined threshold
+6. We hypothesize that the sentences that are similar to many of the other sentences in a cluster are more central (or salient) to the topic.
+
 
 ### 2. QANet: Combining Local Convolution with Global Self-Attention for Reading Comprehension
