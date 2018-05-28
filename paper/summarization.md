@@ -9,4 +9,17 @@
 6. 使用switch来判断是否生成OOV
 7. 两个级别的抽取，关键字级别和句子级别
 
+
+### 2. Text Summarization Techniques: A Brief Survey
+1. 关注于extractive summarization
+
+### 3. The automatic creation of literature abstracts 
+1. 基于统计、词表、以及词之间的位置，计算句子的重要程度
+
+### 4. New Methods in Automatic Extracting 
+1. 关键词（关键词字典），基于标题和首句，基于位置（首句，段落的开始）
+
+### 5. 
+
+
 ### 2. QANet: Combining Local Convolution with Global Self-Attention for Reading Comprehension

@@ -186,7 +186,11 @@ representations from the data without “overfitting” to the distributions of 
 #### 22. MARS: Memory Attention-Aware Recommender System
 1. MARS utilizes a memory component and a novel attentional mechanism to learn deep adaptive user representations
 2. To answer this question, we observed one essential characteristic of users’ interests: diversity
-3. 
+3. We argue that a fixed user representation largely restrains models from accurately modeling users’ diverse interests
+4.  a memory component and a novel item-level attention mechanism
+5. Adaptive user representation, and using memory component to capture users' interest
+6. An interpretable model
+7. String Performance
 
 ### 19. Sequence-Aware Recommender Systems 
 1. 
