@@ -190,7 +190,7 @@ representations from the data without “overfitting” to the distributions of 
 4.  a memory component and a novel item-level attention mechanism
 5. Adaptive user representation, and using memory component to capture users' interest
 6. An interpretable model
-7. String Performance
+7. Strong Performance
 
 ### 19. Sequence-Aware Recommender Systems 
 1. 
