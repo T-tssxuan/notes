@@ -416,6 +416,10 @@
 4. Multi-head attention allows the model to jointly attend to information from different representation subspaces at different positions. With a single attention head, averaging inhibits this.
 5. Positional Encoding: position embeding and sinusoidal
 
+### 53. OpenSeq2Seq: extensible toolkit for distributed and mixed precision training of sequence-to-sequence models
+1. seq2seq, and fully supporting ditributed and mixed-precision training
+2. any encoder can combined with any decoder
+
 ### 52. Paper Abstract Writing through Editing Mechanism
 
 ### node2vec: Scalable feature learning for networks
