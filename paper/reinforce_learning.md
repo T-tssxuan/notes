@@ -30,7 +30,8 @@
 ### 5. End-to-End Reinforcement Learning for Automatic Taxonomy Induction
 1. abandon the previous two stage method, because they believe the two stage style may suffer from error propagation.
 2. The two stage stye method isolated the two stage of the classify, and the different level of edge does not equally.
-3. 
+
+### 6. Asynchronous Methods for Deep Reinforcement Learning
 
 ### 4. Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm
 1.  
