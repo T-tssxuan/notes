@@ -420,6 +420,11 @@
 1. seq2seq, and fully supporting ditributed and mixed-precision training
 2. any encoder can combined with any decoder
 
+### 54. Deep contextualized word representations
+1. ELMo representations are deep, in the sense that they are a function of all of the internal layers of the biLM
+2. we show that the higher-level LSTM states capture context-dependent aspects of word meaning,  while lower level states model aspects of syntax
+3. Our approach also benefits from subword units through the use of character convolutions, and we seamlessly incorporate multi-sense information into downstream tasks without explicitly training to predict predefined sense classes.
+
 ### 52. Paper Abstract Writing through Editing Mechanism
 
 ### node2vec: Scalable feature learning for networks
