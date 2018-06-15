@@ -30,3 +30,9 @@
 2. 使用位置编码
 3. source位置编码相比target位置编码重要
 4. multi-hop attention
+
+### 6. Know What You Don’t Know: Unanswerable Questions for SQuAD
+1.  Existing datasets either focus exclusively on answerable questions, or use automatically generated unanswerable questions that are easy to identify.
+2. To do well on SQuAD 2.0,systems must not only answer questions when possible, but also determine when noanswer is supported by the paragraph and abstain from answering.
+3. that success on SQuAD does not ensure robustness to distracting sentences
+4. One root cause of these problems is SQuAD’s focus on questions for which a correct answer is guaranteed to exist in the context document. 
