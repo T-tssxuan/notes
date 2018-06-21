@@ -43,3 +43,12 @@ cation-based addressing: 基于位置的寻址方式
 1. a replace for the batch normalization
 2. the drawback of the batch normalization: batch not always exist, variance change, batch should be bigger.
 
+### 5. Relational inductive biases, deep learning, and graph networks
+1. infinite use of finite means, combinatorial generalization is very important to AI
+2. In contrast with past approaches in AI, modern deep learning methods (LeCun et al., 2015; Schmidhuber, 2015; Goodfellow et al., 2016) often follow an “end-to-end” design philosophy which emphasizes minimal a priori representational and computational assumptions, and seeks to avoid explicit structure and “hand-engineering”.
+3. We suggest that a key path forward for modern AI is to commit to combinatorial generalization as a top priority, and we advocate for integrative approaches to realize this goal. 
+4. entity, relation, relational inductive biase
+5. Our GN framework generalizes and extends various graph neural network, MPNN, and NLNN approaches, and supports constructing complex architectures from simple building blocks
+6. a. flex relationship, b. order invariance, c. reusable
+7. 
+
