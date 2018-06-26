@@ -50,5 +50,4 @@ cation-based addressing: 基于位置的寻址方式
 4. entity, relation, relational inductive biase
 5. Our GN framework generalizes and extends various graph neural network, MPNN, and NLNN approaches, and supports constructing complex architectures from simple building blocks
 6. a. flex relationship, b. order invariance, c. reusable
-7. 
 
