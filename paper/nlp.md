@@ -426,6 +426,13 @@
 3. Our approach also benefits from subword units through the use of character convolutions, and we seamlessly incorporate multi-sense information into downstream tasks without explicitly training to predict predefined sense classes.
 4. syntactic information is better represented at lower layers while semantic information is captured a higher layers
 
+### 55. Sliced Recurrent Neural Networks
+1. 在不改变RNN单元的情况下，加速RNN的运行速度
+2. 只针对RNN的速体结构进行改变，并不改变局部运行情况，这对单元没有特别的要求
+3. 在6个大数据集上进行训练，取得很不错的结果
+4. 把每层分成n份，在有需要时进行padding
+5. 在某些参数设置的情况下，SRNN和RNN是等价的
+
 ### 52. Paper Abstract Writing through Editing Mechanism
 
 ### node2vec: Scalable feature learning for networks
