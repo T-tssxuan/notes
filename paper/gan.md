@@ -162,6 +162,10 @@
 11. 对比机器生成和随机人生成结果
 12. 对抗网络可能着重于差异大的数据集
 
+### 21. Adversarial Generation of Natural Language
+1. 使判别器强制在连续的输出值上进行操作
+2. 深入调研了GAN在离散值上工作的情况
+
 ### 21. Adversarial Feature Learning
 
 ### 22. Deep Semantic Hashing with Generative Adversarial Networks
