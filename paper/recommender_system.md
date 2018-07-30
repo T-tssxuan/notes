@@ -215,3 +215,5 @@ representations from the data without “overfitting” to the distributions of 
 1. 
 
 ### Author Commitment and Social Power: Automatic Belief Tagging to Infer the Social Context of Interactions
+
+### A quantum-inspired classical algorithm for recommendation systems

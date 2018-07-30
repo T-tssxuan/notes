@@ -166,6 +166,13 @@
 1. 使判别器强制在连续的输出值上进行操作
 2. 深入调研了GAN在离散值上工作的情况
 
+### 22. Glow: Generative Flow with Invertible 1×1 Convolutions
+1. 生成模型可以刻服数据有效性和泛化问题，主要从a. 可以在虚拟的场景下进行交互训练, b. 学习到有意义的特征，在少量的标签下。
+2. GAN经常使用一个非常高维的输入，以保证能覆盖数据中所有的模式。
+3. actnorm, invertible 1x1 convolution, affine coupling layers
+
+### 23. Flow-gan: Combining maximum likelihood and adversarial learning in generative models
+
 ### 21. Adversarial Feature Learning
 
 ### 22. Deep Semantic Hashing with Generative Adversarial Networks
