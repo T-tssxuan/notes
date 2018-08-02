@@ -433,6 +433,18 @@
 4. 把每层分成n份，在有需要时进行padding
 5. 在某些参数设置的情况下，SRNN和RNN是等价的
 
+### 56. Recent Trends in Deep Learning Based Natural Language Processing
+1. The main advantage of distributional vectors is that they capture similarity between words
+2. Another limitation comes from learning embeddings based only on a small window of surrounding words, sometimes words such as good and bad share almost the same em- bedding
+3. 
+
+### 57. Learning Sentiment-Specific Word Embedding for Twitter Sentiment Classification∗
+1. 情感分析专用词向量
+
+### 58. A Unified Architecture for Natural Language Processing: Deep Neural Networks with Multitask Learning
+
+### 58. “Beyond bilingual: Multi-sense word em- beddings using multilingual context,”
+
 ### 52. Paper Abstract Writing through Editing Mechanism
 
 ### node2vec: Scalable feature learning for networks

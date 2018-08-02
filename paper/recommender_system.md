@@ -170,20 +170,20 @@
 2. memory component and neural attention mechanism -> neighborhood component; stacking multiple memory modules yield deeper architectures.
 3. CF can generally be grouped in three categories: memory or neighborhood-based approaches, latent factor models and hybrid models.
 
-#### 21. An Universal Image Attractiveness Ranking Framework
+### 21. An Universal Image Attractiveness Ranking Framework
 1. combine dnn and rank net gets deep attractiveness rank net.
 2. constructed a data set IASBS(image attractiveness side-by-side)
 3. 
 3. using in commercial search engine.
 
-#### 21. Cross Domain Regularization for Neural Ranking Models using Adversarial Learning
+### 21. Cross Domain Regularization for Neural Ranking Models using Adversarial Learning
 1. tranditional model made less assumption about the data, which get more robust cross domain result
 2. Our goal is to train deep neural ranking models that learn useful
 representations from the data without “overfitting” to the distributions of the training domains.
 3. using domain adversarial discriminator to restrict the ranking model.
 4. We propose using an adversarial agent to force the features learned by the ranking model to be domain agnostic by shifting the model parameters in the opposite direction to domain specific spaces on the manifold
 
-#### 22. MARS: Memory Attention-Aware Recommender System
+### 22. MARS: Memory Attention-Aware Recommender System
 1. MARS utilizes a memory component and a novel attentional mechanism to learn deep adaptive user representations
 2. To answer this question, we observed one essential characteristic of users’ interests: diversity
 3. We argue that a fixed user representation largely restrains models from accurately modeling users’ diverse interests
@@ -191,6 +191,14 @@ representations from the data without “overfitting” to the distributions of 
 5. Adaptive user representation, and using memory component to capture users' interest
 6. An interpretable model
 7. Strong Performance
+
+### 23. Deep Interest Network for Click-Through Rate Prediction
+1. 使用定长的vector会使得模型不能理解用户行为的多样性
+2. mini-batch aware regularization and data adaptive activation function which can help training industrial deep networks with hundreds of millions of parameters.
+3. we develop a novel mini-batch aware regularization where only parameters of non-zero features appearing in each mini-batch par- ticipate in the calculation of L2-norm, making the computation acceptable. 
+4. 用户可能有多角度的兴趣，但只有部分兴趣被激活
+5. Dice with moving mean and variance
+
 
 ### 19. Sequence-Aware Recommender Systems 
 1. 
