@@ -199,6 +199,18 @@ representations from the data without “overfitting” to the distributions of 
 4. 用户可能有多角度的兴趣，但只有部分兴趣被激活
 5. Dice with moving mean and variance
 
+### 24. DeepFM: A Factorization-Machine based Neural Network for CTR Prediction
+1. Wide & deep architecture of DeepFM. The wide and deep component share the same input raw feature vector, which enables DeepFM to learn low- and high-order feature interactions simulta- neously from the input raw features.
+2. FM一般只考虑到order-2
+3. It can capture order-2 feature interactions much more effec- tively than previous approaches especially when the dataset is sparse.
+4. 手特征工程
+
+### 25. Ad click prediction: a view from the trenches
+
+
+
+
+### 24. Entire Space Multi-Task Model
 
 ### 19. Sequence-Aware Recommender Systems 
 1. 

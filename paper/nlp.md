@@ -436,7 +436,10 @@
 ### 56. Recent Trends in Deep Learning Based Natural Language Processing
 1. The main advantage of distributional vectors is that they capture similarity between words
 2. Another limitation comes from learning embeddings based only on a small window of surrounding words, sometimes words such as good and bad share almost the same em- bedding
-3. 
+3. the performance of each network depends on the global semantics required by the task itself.
+4. 
+
+### 57. Language Modeling with Gated Convolutional Networks
 
 ### 57. Learning Sentiment-Specific Word Embedding for Twitter Sentiment Classification∗
 1. 情感分析专用词向量
