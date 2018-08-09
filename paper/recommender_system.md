@@ -232,6 +232,19 @@ representations from the data without “overfitting” to the distributions of 
 4. discount与搜索引擎是否要考虑长期收益
 5. 证明了最大化累积收益就是最大化GM
 
+### 28. Billion-scale Commodity Embedding for E-commerce Recommendation in Alibaba
+1. Taobao的主要三个问题，scalability, sparsity and cold start
+2. The methods are based on a well- known graph embedding framework
+3. 为了适应数据量，设计了两步操作，matching和ranking
+4. 核心问题在于用户跟item之间的相似度
+5. 使用random-wolk，然后可以得到高阶相似度
+6. Double Graph Embedding with side information
+7. 不同的side information使用不同的权重
+8. CF只考虑了共现信息，没有考虑到序列信息
+9. 边使用点之间的转移概率
+10. 把图进行拆分，5000w结点，每个图
+
+
 ### 28. Online Learning to Rank in Stochastic Click Models
 
 ### 28. Stochastic Rank-1 Bandits
