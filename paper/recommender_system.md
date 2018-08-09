@@ -225,6 +225,19 @@ representations from the data without “overfitting” to the distributions of 
 5. 针对正样例选择负样例，三个原则：同类，不同值，时间近
 6. Reinforcement learning for robots using neural networks
 
+### 27. Reinforcement Learning to Rank in E-Commerce Search Engine: Formalization, Analysis, and Application
+1. 提出使用rl为最大化多阶段搜索一个session中的累积收益
+2. 搜索引擎常常需要进行多轮交互
+3. 证明了最大长累积收益是有必要的
+4. discount与搜索引擎是否要考虑长期收益
+5. 证明了最大化累积收益就是最大化GM
+
+### 28. Online Learning to Rank in Stochastic Click Models
+
+### 28. Stochastic Rank-1 Bandits
+
+### 29. Multiple-play bandits in the position-based model
+
 ### 26. Session-based recommendations with recurrent neural networks
 1. ***这里说gru好于lstm***
 
@@ -241,8 +254,6 @@ representations from the data without “overfitting” to the distributions of 
 ### 30. Cumulated gain-based evaluation of IR techniques
 
 ### 30. A user browsing model to predict search engine click data from past observations
-
-
 
 ### 24. Entire Space Multi-Task Model
 
@@ -271,3 +282,18 @@ representations from the data without “overfitting” to the distributions of 
 ### Author Commitment and Social Power: Automatic Belief Tagging to Infer the Social Context of Interactions
 
 ### A quantum-inspired classical algorithm for recommendation systems
+
+### Optimizing search engines using clickthrough data
+
+### Learning to rank for information retrieval.
+
+### Usingconfidenceboundsforexploitation-explorationtrade-offs
+
+### Cas- cading bandits: Learning to rank in the cascade model
+
+
+### The epoch-greedy algorithm for multi-armed bandits with side information.
+
+### Interactively optimizing information retrieval systems as a dueling bandits problem
+
+### Ranked bandits in metric spaces: learning diverse rankings over large document collections

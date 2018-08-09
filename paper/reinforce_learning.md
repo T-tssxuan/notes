@@ -50,3 +50,13 @@
 
 ### 4. Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm
 1.  
+
+### 5. Policy gradient methods for reinforcement learning with function approximation
+
+### 6. Deterministic policy gradient algorithms.
+
+### 7. Near-optimal reinforcement learning in polynomial time
+
+### 8. Learning from delayed rewards
+
+### 9. Continuous control with deep reinforcement learning
