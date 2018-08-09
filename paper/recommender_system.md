@@ -217,9 +217,16 @@ representations from the data without “overfitting” to the distributions of 
 9. 使用Decoder进行状态空间生成
 10. 使用cosine similarity把生成的item映身至真实空间
 
+### 26. Recommendations with Negative Feedback via Pairwise Deep Reinforcement Learning
+1. static and short term reward
+2. 认识到负反馈的重要，并使用其增强推荐效果
+3. 正样本可能会被负样本给覆盖
+4. 引入负状态序列
+5. 针对正样例选择负样例，三个原则：同类，不同值，时间近
+6. Reinforcement learning for robots using neural networks
+
 ### 26. Session-based recommendations with recurrent neural networks
 1. ***这里说gru好于lstm***
-2. 
 
 ### 25. Ad click prediction: a view from the trenches
 
@@ -227,8 +234,13 @@ representations from the data without “overfitting” to the distributions of 
 
 ### 27. Pairwise Interaction Tensor Factorization for Personalized Tag Recommendation
 
-### 28. 
+### 28. Learningandadaptivityininteractive recommender systems
 
+### 29. A hybrid web recommender system based on q-learning.
+
+### 30. Cumulated gain-based evaluation of IR techniques
+
+### 30. A user browsing model to predict search engine click data from past observations
 
 
 
