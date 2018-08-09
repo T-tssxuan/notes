@@ -31,6 +31,21 @@
 1. abandon the previous two stage method, because they believe the two stage style may suffer from error propagation.
 2. The two stage stye method isolated the two stage of the classify, and the different level of edge does not equally.
 
+### 6. DDPG algorithm
+
+### 7. An MDP-based recommender system
+
+
+### 8. Improving recommender systems with adaptive conversational strategies
+
+### 9. Deep Reinforcement Learning with Attention for Slate Markov Decision Processes with High-Dimensional States and Actions, 2015
+
+### 10. A hybrid web recommender system based on q-learning, 2008
+
+### 11. Deep reinforcement learning in large discrete action spaces
+
+### 12. Continuous control with deep reinforcement learning
+
 ### 6. Asynchronous Methods for Deep Reinforcement Learning
 
 ### 4. Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm

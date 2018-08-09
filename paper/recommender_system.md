@@ -205,7 +205,29 @@ representations from the data without “overfitting” to the distributions of 
 3. It can capture order-2 feature interactions much more effec- tively than previous approaches especially when the dataset is sparse.
 4. 手特征工程
 
+### 25. Deep Reinforcement Learning for Page-wise Recommendations, 2018
+1. 利用用户实时反馈
+2. 如何合理的展示一页的商品
+3. 一种生成相容的候选并在2-D的页面展示的方法
+4. 在真实的电子商务数据中应用
+5. Actor: Actor framework with the Encoder-Decoder architecture.
+6. 使用Encoder生成初始状态和实时用户状态
+7. 对商品在2D空间上进行排列，并使用CNN
+8. 把卷积结果输入到RNN中，并以sinit作用RNN初始状态，并对卷积结果使用attention
+9. 使用Decoder进行状态空间生成
+10. 使用cosine similarity把生成的item映身至真实空间
+
+### 26. Session-based recommendations with recurrent neural networks
+1. ***这里说gru好于lstm***
+2. 
+
 ### 25. Ad click prediction: a view from the trenches
+
+### 26. Deep Crossing: Web-scale modeling without manually crafted combinatorial features
+
+### 27. Pairwise Interaction Tensor Factorization for Personalized Tag Recommendation
+
+### 28. 
 
 
 
