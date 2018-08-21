@@ -439,6 +439,11 @@
 3. the performance of each network depends on the global semantics required by the task itself.
 4. 
 
+### 57. FASTER: An Embedded Concurrent Key-Value Store for State Management
+- 证明了访问的时间关联
+- 无锁并发哈希索引：一种支持内存和主存的并发日志结构，同时支持内存就地更新
+- 专注于：云应用和状态存储可以在低开销下将状态管理深度集成到高级语言逻辑中，
+
 ### 57. Language Modeling with Gated Convolutional Networks
 
 ### 57. Learning Sentiment-Specific Word Embedding for Twitter Sentiment Classification∗

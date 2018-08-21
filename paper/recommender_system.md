@@ -225,14 +225,14 @@ representations from the data without “overfitting” to the distributions of 
 5. 针对正样例选择负样例，三个原则：同类，不同值，时间近
 6. Reinforcement learning for robots using neural networks
 
-### 27. Reinforcement Learning to Rank in E-Commerce Search Engine: Formalization, Analysis, and Application
+### 27. Reinforcement Learning to Rank in E-Commerce Search Engine: Formalization, Analysis, and Application, 2018
 1. 提出使用rl为最大化多阶段搜索一个session中的累积收益
 2. 搜索引擎常常需要进行多轮交互
 3. 证明了最大长累积收益是有必要的
 4. discount与搜索引擎是否要考虑长期收益
 5. 证明了最大化累积收益就是最大化GM
 
-### 28. Billion-scale Commodity Embedding for E-commerce Recommendation in Alibaba
+### 28. Billion-scale Commodity Embedding for E-commerce Recommendation in Alibaba, 2018
 1. Taobao的主要三个问题，scalability, sparsity and cold start
 2. The methods are based on a well- known graph embedding framework
 3. 为了适应数据量，设计了两步操作，matching和ranking
@@ -244,8 +244,39 @@ representations from the data without “overfitting” to the distributions of 
 9. 边使用点之间的转移概率
 10. 把图进行拆分，5000w结点，每个图
 
+### 28. Online Learning to Rank in Stochastic Click Models, 2017
+- click model是指用户如何跟文档列表进行交互的
+- 不同的算法针对不同的模型提出的，他们不具有转移性
+- BatchRank针对瀑布流和基于位置的模型
+- stochastic click brandits framework
+- 默认用户的满足度不会随着点击的增加而下降
+- 
 
-### 28. Online Learning to Rank in Stochastic Click Models
+### Cascading bandits: Learning to rank in the cascade model, 2015
+
+### Combinatorial cascading bandits, 2015
+
+### Learning to rank: Regret lower bounds and efficient algorithms, 2015
+
+### Cascading bandits for large-scale recommendation problems, 2016
+
+### Contextual combinatorial cascading bandits, 2015
+
+### DCM bandits: Learning to rank with multiple clicks, 2016
+
+### Multiple-play bandits in the position-based model, 2016
+
+### An experimental comparison of click positionbias models, 2008
+
+### A comparative study of click models for web search, 2015
+
+### Predicting clicks: Estimating the click-through rate for new ads, 2007
+
+### Click Models for Web Search, 2015
+
+### Learning diverse rankings with multi-armed bandits, 2008
+- multi objective
+- 
 
 ### 28. Stochastic Rank-1 Bandits
 
