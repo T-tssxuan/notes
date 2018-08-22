@@ -444,6 +444,12 @@
 - 无锁并发哈希索引：一种支持内存和主存的并发日志结构，同时支持内存就地更新
 - 专注于：云应用和状态存储可以在低开销下将状态管理深度集成到高级语言逻辑中，
 
+### 58. Universal Transformers
+- 基于Transformer，但是不是一个位置一个位置的迭代，而是整体的对序列进行修改
+- 模型的计算瓶颈不在于序列的长度，而在于改写的版本数
+- 解码的时间，只能是其左边的位置
+
+
 ### 57. Language Modeling with Gated Convolutional Networks
 
 ### 57. Learning Sentiment-Specific Word Embedding for Twitter Sentiment Classification∗
@@ -473,3 +479,4 @@
 
 ### 22. Recurrent neural network based language model
 
+### Neural machine translation in linear time
