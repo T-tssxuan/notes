@@ -250,7 +250,12 @@ representations from the data without “overfitting” to the distributions of 
 - BatchRank针对瀑布流和基于位置的模型
 - stochastic click brandits framework
 - 默认用户的满足度不会随着点击的增加而下降
-- 
+
+### Deep Interest Evolution Network for Click-Through Rate Prediction
+- 一般的interest模型直接把行为当做兴趣，而没有考虑行为背后的潜在兴趣模型
+- DIEN有两个过子模型，一个基于用户行为提取短暂用户兴趣点，一个对用户兴趣演化进行建模
+- 引入一个辅助的loss来监督用户兴趣的学习
+- 使用兴趣状态和目标项来计算相关性，而AUGRU加强兴趣演化中的相关兴趣的影响，减少了兴趣漂移带来的不相关兴趣的影响
 
 ### Cascading bandits: Learning to rank in the cascade model, 2015
 
