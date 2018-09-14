@@ -257,6 +257,16 @@ representations from the data without “overfitting” to the distributions of 
 - 引入一个辅助的loss来监督用户兴趣的学习
 - 使用兴趣状态和目标项来计算相关性，而AUGRU加强兴趣演化中的相关兴趣的影响，减少了兴趣漂移带来的不相关兴趣的影响
 
+### Adversarial Personalized Ranking for Recommendation
+- 为了提升推荐的稳定性，提出Adversarial Personalized Ranking
+- 不同于图像的对抗，对于推荐的对抗主要在推荐模型中进行添加
+
+### Fast matrix factorization for online recommendation with implicit feedback
+
+### Collaborative denoising auto-encoders for top-n recommender systems
+
+### A Generic Coordinate Descent Framework for Learning from Implicit Feedback
+
 ### Cascading bandits: Learning to rank in the cascade model, 2015
 
 ### Combinatorial cascading bandits, 2015

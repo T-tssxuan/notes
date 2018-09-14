@@ -449,6 +449,7 @@
 - 模型的计算瓶颈不在于序列的长度，而在于改写的版本数
 - 解码的时间，只能是其左边的位置
 
+### Adversarial training methods for semi-supervised text classification
 
 ### 57. Language Modeling with Gated Convolutional Networks
 
