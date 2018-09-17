@@ -1,4 +1,4 @@
-## CNN related paper
+## CV related paper
 
 ### 1. Deep Residual Learning for Image Recognition(Residual Net)
 1. 原始问题变成F(x) = H(x) - x
@@ -6,7 +6,6 @@
 3. 有很高的泛化，可以用于视觉和非视觉
 4. 使用y = F(x, {Wi}) + x没有添加额外的复杂度，也没有增加过多的计算量
 5. F函数可以很灵活，两到三层都可以，但如果只有一层，可能不怎么适合
-
 
 ### 2. ImageNet Classification with Deep Convolutional Neural Networks (AlexNet)
 1. top-1 and top-5 error rates of 37.5% and 17.j0%
@@ -27,4 +26,6 @@
 3. observe the evolution of feature during training and diagnose potential problem with the model. 
 4. multi-layer deconvolution network: project the feature activations back to the input pixel space.
 
-###
+### Semantic Soft Segmentation
+1. 本文从分割的角度出发，用神经网络的结果表示图像的材质和颜色
+2. 使用egendecomposition和laplacian matrix进行分割
