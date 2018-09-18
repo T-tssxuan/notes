@@ -171,6 +171,8 @@
 2. GAN经常使用一个非常高维的输入，以保证能覆盖数据中所有的模式。
 3. actnorm, invertible 1x1 convolution, affine coupling layers
 
+### 23. Self-Attention Generative Adversarial Networks
+
 ### 23. Nice: non-linear independent components estimation
 
 ### 24. Density estimation using Real NVP

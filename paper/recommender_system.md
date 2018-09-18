@@ -262,6 +262,18 @@ representations from the data without “overfitting” to the distributions of 
 - 不同于图像的对抗，对于推荐的对抗主要在推荐模型中进行添加
 
 ### Fast matrix factorization for online recommendation with implicit feedback
+- 根本样本的流行程度，来决定样本的权重，这比均匀分布假设要灵活得多
+- 提出element-wise Alternating Least Squares (eALS)
+- 是ALS的k倍快，没有learning rate
+- real-time online learning
+- O((N+M)K^2+|R|K)
+- code: https://github.com/hexiangnan/sigir16-eals
+
+### Iteration Complexity of Randomized Block-Coordinate Descent Methods for Minimizing a Composite Function
+
+### Fast context-aware recommendations with factorization machines
+
+### Dynamic matrix factorization with priors on unknown values
 
 ### Collaborative denoising auto-encoders for top-n recommender systems
 
