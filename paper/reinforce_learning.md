@@ -34,6 +34,12 @@
 - 一个对Arcade game的普适化软件
 - 验证了几种RL方法
 
+### Human-level control through deep reinforcement learning, 2015
+- deep Q-network end2end
+- Q的一点点改变，可能导致很大的结果变化
+- 引入experience replay
+- 引入periodically updated
+
 ### Vector-based navigation using grid-like representations in artificial agents
 
 ### 6. DDPG algorithm
