@@ -40,6 +40,11 @@
 - 引入experience replay
 - 引入periodically updated
 
+### Rainbow: Combining Improvements in Deep Reinforcement Learning, 2018
+- 本文测试了DQN的6种扩展，并对他们的结合进行细致的研究，结果证明，组合结果无论在效率还是性能上都达到了当前最优的结果。
+- 分开online network和target network可以提升agent的性能
+- 本文选取了6个扩展：Double Q-learning, Prioritized replay, Dueling networks, Multi-step learning, Distributional RL, Noisy Nets
+
 ### Vector-based navigation using grid-like representations in artificial agents
 
 ### 6. DDPG algorithm
