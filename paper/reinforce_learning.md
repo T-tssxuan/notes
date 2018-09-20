@@ -45,6 +45,17 @@
 - 分开online network和target network可以提升agent的性能
 - 本文选取了6个扩展：Double Q-learning, Prioritized replay, Dueling networks, Multi-step learning, Distributional RL, Noisy Nets
 
+### PRIORITIZED EXPERIENCE REPLAY, 2016
+- 本文的关键点在于：RL agent可以从一些经验中更有效的学习
+- TD error provide one way to measure these priorities
+- 需要处理好噪声、发散性等问题
+- 结合优先队列和均匀分布两个进行
+- prioritized replay会导致分布向一个不可变的方向变化，因此需要进行控制，本部分引入importance-sampling weights
+
+### Weighted importance sampling for off-policy learning with linear function approximation
+
+### Deep Reinforcement Learning with Double Q-learning
+
 ### Vector-based navigation using grid-like representations in artificial agents
 
 ### 6. DDPG algorithm
