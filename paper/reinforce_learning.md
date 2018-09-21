@@ -52,6 +52,20 @@
 - 结合优先队列和均匀分布两个进行
 - prioritized replay会导致分布向一个不可变的方向变化，因此需要进行控制，本部分引入importance-sampling weights
 
+### Asynchronous Methods for Deep Reinforcement Learning, 2016
+- 介绍一种异少强化学习训练的方法，在4种算法上得到验证
+- 提出A3C算法
+- 在多个线程上运行多个actor，他们的经验的相关性可能更少，因此不使用依赖experience replay的DQN来保证算法的稳定性
+- 使用多个agent增加了探索的发散性
+
+### Simulation and Visual- ization of Multi-Joint Dynamics with Contact
+
+
+### Massively Parallel Methods for Deep Reinforcement Learning, 2018
+
+### Actor-Critic Algorithms, 2000
+
+
 ### Weighted importance sampling for off-policy learning with linear function approximation
 
 ### Deep Reinforcement Learning with Double Q-learning
