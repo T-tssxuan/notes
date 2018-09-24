@@ -58,6 +58,13 @@
 - 在多个线程上运行多个actor，他们的经验的相关性可能更少，因此不使用依赖experience replay的DQN来保证算法的稳定性
 - 使用多个agent增加了探索的发散性
 
+### Revisiting the Arcade Learning Environment: Evaluation Protocols and Open Problems for General Agents
+- multiple different tasks, interesting and challenging for humans, free
+- 1) 一些关于ALE的经验，2) 新的ALE版本，3) 新的benchmark，和reproducibility experiment，4) 总结最新结果，以及当前待解决的问题，5) 介绍平台的特性
+- 规范化的分数可以更容易找到独立于游戏的算法: 1) Frame skipping, 2) Color averaging and frame pooling, 3) frame stacking.
+- 建议只有游戏结束才算是终结状态
+- sticky actions
+
 ### Simulation and Visual- ization of Multi-Joint Dynamics with Contact
 
 
