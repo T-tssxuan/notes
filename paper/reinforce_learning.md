@@ -58,12 +58,21 @@
 - 在多个线程上运行多个actor，他们的经验的相关性可能更少，因此不使用依赖experience replay的DQN来保证算法的稳定性
 - 使用多个agent增加了探索的发散性
 
-### Revisiting the Arcade Learning Environment: Evaluation Protocols and Open Problems for General Agents
+### Revisiting the Arcade Learning Environment: Evaluation Protocols and Open Problems for General Agents, 2018
 - multiple different tasks, interesting and challenging for humans, free
 - 1) 一些关于ALE的经验，2) 新的ALE版本，3) 新的benchmark，和reproducibility experiment，4) 总结最新结果，以及当前待解决的问题，5) 介绍平台的特性
 - 规范化的分数可以更容易找到独立于游戏的算法: 1) Frame skipping, 2) Color averaging and frame pooling, 3) frame stacking.
 - 建议只有游戏结束才算是终结状态
 - sticky actions
+
+### Deep Reinforcement Learning with Double Q-learning, 2015
+- 本文主要回答了关于DQN overestimate相关的问题
+- 由于最大化操作，Q-learning有时会学习到一些大得不真实的action-value
+- 证明Double DQN不可得到更高的分数，也证明了overestimate对结果有害
+- 常规的DQN使用同一参数选择和评估，这很容易导致过于乐观的估计
+- Double Q-learning分解了动作选择和评估
+- overestimate可能会更加的恶化，当值已经过于乐观化时
+- 有些情况overoptimism不一定是对结果有害，但是减少overoptimism可以增加稳定性
 
 ### Simulation and Visual- ization of Multi-Joint Dynamics with Contact
 
