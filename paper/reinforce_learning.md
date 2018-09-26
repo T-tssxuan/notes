@@ -74,7 +74,12 @@
 - overestimate可能会更加的恶化，当值已经过于乐观化时
 - 有些情况overoptimism不一定是对结果有害，但是减少overoptimism可以增加稳定性
 
-### Simulation and Visual- ization of Multi-Joint Dynamics with Contact
+### Distributed Deep Q-Learning, 2015
+- 使用分布式训练，借助DistBelief框架
+- 类似于tensorflow的分布式
+- 每个worker单独自己的experience replay
+
+### Simulation and Visualization of Multi-Joint Dynamics with Contact
 
 
 ### Massively Parallel Methods for Deep Reinforcement Learning, 2018
