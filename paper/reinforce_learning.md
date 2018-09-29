@@ -79,6 +79,18 @@
 - 类似于tensorflow的分布式
 - 每个worker单独自己的experience replay
 
+### A Distributional Perspective on Reinforcement Learning, 2017
+- 把强化学习从均值转移到分布
+- 优点：Contraction of the policy evaluation Bellman operator, Instability in the control setting, Better approximations
+- 从三个方面引入随机性：a)随机的收益，b)随机的状态转移，c)状态收益随机
+- 由于Bellman optimality operator的不稳定性，会导致策略的收敛问题
+- 即使不变的环境也可能导致随机的结果
+- 概率分布形式可以给出更回精细的结果
+- 更加引入先验偏差
+
+### Implicit Quantile Networks for Distributional Reinforcement Learning, 2018
+- 
+
 ### Simulation and Visualization of Multi-Joint Dynamics with Contact
 
 
