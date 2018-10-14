@@ -269,6 +269,10 @@ representations from the data without “overfitting” to the distributions of 
 - O((N+M)K^2+|R|K)
 - code: https://github.com/hexiangnan/sigir16-eals
 
+### Causal Embeddings for Recommendation, 2018
+- 对于新的解决方案主要可以分为两类：a)学习item-item embedding，然后预测item-item相似性，b)学习用户序列embedding，然后预测下一个item
+- 
+
 ### Iteration Complexity of Randomized Block-Coordinate Descent Methods for Minimizing a Composite Function
 
 ### Fast context-aware recommendations with factorization machines

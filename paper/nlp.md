@@ -449,6 +449,21 @@
 - 模型的计算瓶颈不在于序列的长度，而在于改写的版本数
 - 解码的时间，只能是其左边的位置
 
+### BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
+- BERT使用双向表征训练网络，同时在每一层考虑左右两边的context
+- 使用预训表征主要有两种方法，即：feature-based, fine tuning
+- 使用masked language model
+- 使用bidirectional transformer做为encorder，left-context-only transformer做为decoder
+- 每个token的输入是token，segment，position Embedding
+- 使用msked words，使用策略：80%替换为[MASK]，10%替换成随机词，10%保持不变
+- 由于transformer不知道哪个词会被替换，因为他被强制保持了每个词的表征
+
+### Deep contextualized word rep- resentations
+
+### Improving language under- standing with unsupervised learning
+
+### 
+
 ### Adversarial training methods for semi-supervised text classification
 
 ### 57. Language Modeling with Gated Convolutional Networks
