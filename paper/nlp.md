@@ -460,9 +460,11 @@
 
 ### Deep contextualized word rep- resentations
 
-### Improving language under- standing with unsupervised learning
-
-### 
+### Improving language understanding with unsupervised learning
+- 使用transformer
+- 使用无监督语料进行预训
+- 使用辅助loss
+- 使用简单易用的task transfer框架
 
 ### Adversarial training methods for semi-supervised text classification
 
