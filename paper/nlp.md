@@ -466,6 +466,11 @@
 - 使用辅助loss
 - 使用简单易用的task transfer框架
 
+### XNLI: Evaluating Cross-lingual Sentence Representations
+- 生成多种语言的翻译，从而控制了主题
+- 通过多语言表示的词向量的平均进行比较，固定英语表示，训练其它的表示
+
+
 ### Adversarial training methods for semi-supervised text classification
 
 ### 57. Language Modeling with Gated Convolutional Networks
