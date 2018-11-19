@@ -470,6 +470,10 @@
 - 生成多种语言的翻译，从而控制了主题
 - 通过多语言表示的词向量的平均进行比较，固定英语表示，训练其它的表示
 
+### pair2vec: Compositional Word-Pair Embeddings for Cross-Sentence Inference
+- 训练word embedding并得到pair word embedding
+- 训练的基本思路是提升互信息
+- 从top词典中进行sample，用于打压普遍信息
 
 ### Adversarial training methods for semi-supervised text classification
 
