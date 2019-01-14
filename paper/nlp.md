@@ -479,8 +479,12 @@
 - 提出自动适应算法，提升了识别速度，而且保持精度
 - 在架构中加入对性能损耗的预估
 
-## You May Not Need Attention
-- 
+### TRANSFORMER-XL: ATTENTIVE LANGUAGE MODELS BEYOND A FIXED-LENGTH CONTEXT
+- LSTM存在信息丢失情况
+- Transformer-XL每个新的段落不从初始进行训练，而是从上一个段落的基础上进行训练
+- 使用相对位置编码，而非绝对编码，可以防止时间混淆
+- 暴力解法是把文本分成一段段
+
 
 ### Adversarial training methods for semi-supervised text classification
 
