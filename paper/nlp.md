@@ -485,6 +485,13 @@
 - 使用相对位置编码，而非绝对编码，可以防止时间混淆
 - 暴力解法是把文本分成一段段
 
+### What do you learn from context? Probing for sentence structure in contextualized word representations
+- 验证了预训模型相对于word2vec等模型，在语法、语义、局部、全局的表现
+
+
+
+### Learned in translation: Contextualized word vectors
+
 ### Character-Level Language Modeling with Deeper Self-Attention
 
 
