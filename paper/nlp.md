@@ -488,6 +488,8 @@
 ### What do you learn from context? Probing for sentence structure in contextualized word representations
 - 验证了预训模型相对于word2vec等模型，在语法、语义、局部、全局的表现
 
+### Language Models are Unsupervised Multitask Learners
+- GPT-2
 
 
 ### Learned in translation: Contextualized word vectors
