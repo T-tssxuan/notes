@@ -491,6 +491,9 @@
 ### Language Models are Unsupervised Multitask Learners
 - GPT-2
 
+### R-NET: MACHINE READING COMPREHENSION WITH SELF-MATCHING NETWORKS
+-  问题和上下文首先分别输入，然后进行MATCH
+
 
 ### Learned in translation: Contextualized word vectors
 
