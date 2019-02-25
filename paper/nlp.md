@@ -494,6 +494,8 @@
 ### R-NET: MACHINE READING COMPREHENSION WITH SELF-MATCHING NETWORKS
 -  问题和上下文首先分别输入，然后进行MATCH
 
+### Multilingual Constituency Parsing with Self-Attention and Pre-Training
+- 引入pre train，并对比了ELMo和BERT
 
 ### Learned in translation: Contextualized word vectors
 
