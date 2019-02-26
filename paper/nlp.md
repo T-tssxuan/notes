@@ -497,6 +497,13 @@
 ### Multilingual Constituency Parsing with Self-Attention and Pre-Training
 - 引入pre train，并对比了ELMo和BERT
 
+### Google’s Neural Machine Translation System: Bridging the Gap between Human and Machine Translation
+- 为了加速，encoder的底层接入decoder的顶层
+- 为了处理OOV，使用subwords
+- 使用了length normal的beam search
+- 一般来说NMT在三个方面弱于Pharsed based: a. 速度，b. OOV效率, c. 失败率
+- 如果不使用length normalization，解码倾向于短的句子
+
 ### Learned in translation: Contextualized word vectors
 
 ### Character-Level Language Modeling with Deeper Self-Attention
