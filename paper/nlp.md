@@ -504,6 +504,9 @@
 - 一般来说NMT在三个方面弱于Pharsed based: a. 速度，b. OOV效率, c. 失败率
 - 如果不使用length normalization，解码倾向于短的句子
 
+### TriviaQA: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension
+- trivia qa dataset
+
 ### Learned in translation: Contextualized word vectors
 
 ### Character-Level Language Modeling with Deeper Self-Attention
