@@ -507,6 +507,18 @@
 ### TriviaQA: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension
 - trivia qa dataset
 
+### MS MARCO: A Human Generated MAchine Reading COmprehension Dataset
+- 
+
+### To Tune or Not to Tune?  Adapting Pretrained Representations to Diverse Tasks
+- 通过对bert和elom的利用和细调对比，发现在与预训任务相差大和不大的情况下，效果差不多。
+- ELMo在处理序列之间的关系存在问题
+- 额外参数对frozen有较大影响，对fintune没有很大影响
+- fintune对参数有一定的要求
+- 域之间没有多大的影响
+- 随着层的提升，表征的质量也在不断的提升
+- 
+
 ### Learned in translation: Contextualized word vectors
 
 ### Character-Level Language Modeling with Deeper Self-Attention
