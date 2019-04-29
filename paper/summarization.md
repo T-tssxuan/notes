@@ -33,5 +33,15 @@ centrality of the words that it contains.
 5. The centroid of a cluster is a pseudo-document which consists of words that have tf×idf scores above a predefined threshold
 6. We hypothesize that the sentences that are similar to many of the other sentences in a cluster are more central (or salient) to the topic.
 
+### Pretraining-Based Natural Language Generation for Text Summarization
+```
+bert --- info ----------          rst
+          |            |           ^
+          |            |           |
+          |            |-----> transformer
+          |                        ^
+          v                        |
+        transformer --------- > bert
+```
 
 ### 2. QANet: Combining Local Convolution with Global Self-Attention for Reading Comprehension

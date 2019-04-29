@@ -273,6 +273,10 @@ representations from the data without “overfitting” to the distributions of 
 - 对于新的解决方案主要可以分为两类：a)学习item-item embedding，然后预测item-item相似性，b)学习用户序列embedding，然后预测下一个item
 - 
 
+### Click-Through Rate Estimation for Rare Events in Online Advertising
+- 直接计算CTR会远高于实际的CTR
+- 很多页面没有点击
+
 ### Iteration Complexity of Randomized Block-Coordinate Descent Methods for Minimizing a Composite Function
 
 ### Fast context-aware recommendations with factorization machines

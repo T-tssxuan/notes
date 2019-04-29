@@ -517,7 +517,13 @@
 - fintune对参数有一定的要求
 - 域之间没有多大的影响
 - 随着层的提升，表征的质量也在不断的提升
-- 
+
+### Text Classification Algorithms- A Survey
+- 降维比开发新算法，更有效
+
+### Generating Long Sequences with Sparse Transformers
+- 使用不同的PATTERN来加速全连接矩阵计算
+- 更多的head有助于提升准确度
 
 ### Learned in translation: Contextualized word vectors
 
