@@ -525,6 +525,17 @@
 - 使用不同的PATTERN来加速全连接矩阵计算
 - 更多的head有助于提升准确度
 
+### The Curious Case of Neural Text Degeneration
+- 使用beam search会极大的使生成模型退化
+- Nucleus采样，有效的降低了从不可靠的长尾分布采样的风险
+- transformer可能有导至loop的倾向
+
+### VideoBERT: A Joint Model for Video and Language Representation Learning
+- combined bert and video task
+
+### Language Models are Unsupervised Multitask Learners
+- 
+
 ### Learned in translation: Contextualized word vectors
 
 ### Character-Level Language Modeling with Deeper Self-Attention
