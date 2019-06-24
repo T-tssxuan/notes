@@ -533,6 +533,19 @@
 ### VideoBERT: A Joint Model for Video and Language Representation Learning
 - combined bert and video task
 
+### Language Modeling with Gated Convolutional Networks
+- 
+
+### Analogies Explained: Towards Understanding Word Embeddings
+- explain why if “wa is to wa∗ as wb is to wb∗” then a linear relationship manifests between correponding word embeddings.
+- 从PMI的角度来解释W和C的关系，如果W和C等价，也代表PMI为半正定矩阵，这对很多语料是不满足的
+
+### XLNet: Generalized Autoregressive Pretraining for Language Understanding
+- big transformer network
+
+## Language Modeling with Gated Convolutional Networks
+- 一种高速且更有效的语言模型结构
+
 ### Language Models are Unsupervised Multitask Learners
 - 
 
