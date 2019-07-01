@@ -543,8 +543,19 @@
 ### XLNet: Generalized Autoregressive Pretraining for Language Understanding
 - big transformer network
 
-## Language Modeling with Gated Convolutional Networks
+### Language Modeling with Gated Convolutional Networks
 - 一种高速且更有效的语言模型结构
+
+### Chinese NER Using Lattice LSTM
+- sota
+
+### Unsupervised Question Answering by Cloze Translation
+- 结合使用完形填空和翻译的方法完成QA生成
+- 结合使用无监督的端到端翻译方法
+
+
+### Sentence Mover’s Similarity: Automatic Evaluation for Multi-Sentence Texts
+- 
 
 ### Language Models are Unsupervised Multitask Learners
 - 

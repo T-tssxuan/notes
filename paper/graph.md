@@ -7,6 +7,11 @@
 - random wolk过份强调邻近关系，而且也不知道选取的边是否有用
 - Contrastive method: 训练encode来突出相关与非相关
 
+### PYTORCH-BIGGRAPH- A LARGE-SCALE GRAPH EMBEDDING SYSTEM
+- 借鉴了starspace
+- 在GCN中，大部分结点是已经特征化了
+- 无效的edge是无效的
+
 ### Node2vec: Scalable feature learning for networks
 
 ### Deepwalk: Online learning of social representations
