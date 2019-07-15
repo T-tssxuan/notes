@@ -540,7 +540,7 @@
 - explain why if “wa is to wa∗ as wb is to wb∗” then a linear relationship manifests between correponding word embeddings.
 - 从PMI的角度来解释W和C的关系，如果W和C等价，也代表PMI为半正定矩阵，这对很多语料是不满足的
 
-### XLNet: Generalized Autoregressive Pretraining for Language Understanding
+### [refer] XLNet: Generalized Autoregressive Pretraining for Language Understanding
 - big transformer network
 
 ### Language Modeling with Gated Convolutional Networks
@@ -549,9 +549,50 @@
 ### Chinese NER Using Lattice LSTM
 - sota
 
-### Unsupervised Question Answering by Cloze Translation
+### [refer] Unsupervised Question Answering by Cloze Translation
 - 结合使用完形填空和翻译的方法完成QA生成
 - 结合使用无监督的端到端翻译方法
+
+### [refer] MULTIPLE-ATTRIBUTE TEXT STYLE TRANSFER
+- 分离不是控制变量的因素，即使对搞LOSS也不是
+- 使用池化来衡量风格转换和内容保持
+- 支持多特点控制
+- 使用bias来控制生成的风格
+
+### Recursive Regularization for Large-scale Classification with Hierarchical and Graphical Dependencies∗
+- 一般的条件方法，在小的数据集已经证明有效，但是存在大规模扩展的局限性
+- 方法能应用到不同的分类方法，同时也能充分利用层级或者图关系
+- 每个不同的区域可能并行的进行
+
+### Large-Scale Hierarchical Text Classification with Recursively Regularized Deep Graph-CNN
+- 在主题分类中，可能更需要考虑的关键词、句等因素
+- 基于递归正则的方法
+
+### Adaptive Attention Span in Transformers
+- 在底层只需要局部信息就足够了
+- 自动适应Trasnformer的长度
+
+### A NEW METHOD OF REGION EMBEDDING FOR TEXT CLASSIFICATION
+- 提出一种新的n-gram表征方法
+- 每个词向量表生分为embeding和一个局部基于权重context表征
+- 基于region得到word-context和context-word两种向量表示
+
+### Hierarchical Attention Networks for Document Classification
+- 使用层级attention进行文本分类
+- 使用两个级别的attention，分别是词级别和句级别
+
+### [refer] Large Memory Layers with Product Keys
+- 定义一个key set，每个key有相应的内存插条
+- 稀疏参数选取和更新，加速计算
+- 基于knn搜索
+- 12层的bert超过了24层的bert
+- 使用小的vector表征大的vector
+
+### Scaling memory-augmented neural networks with sparse reads and writes
+
+
+### Get To The Point: Summarization with Pointer-Generator Networks
+- 
 
 
 ### Sentence Mover’s Similarity: Automatic Evaluation for Multi-Sentence Texts
