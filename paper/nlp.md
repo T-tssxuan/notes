@@ -588,6 +588,19 @@
 - 12层的bert超过了24层的bert
 - 使用小的vector表征大的vector
 
+### Attentive Convolution: Equipping CNNs with RNN-style Attention Mechanisms
+- 使用attentions让CNN不仅得到局部的信息，还有非局部信息
+- 非局部信息来源：1)相对远处的，2)额外信息
+- 在多层CNN中，直接feed tx or ty效果不好
+
+### Deep Pyramid Convolutional Neural Networks for Text Categorization
+- CNN中词向量优于字向量
+- 增加网络的深度，但是不增加网络的计算复杂度
+- 深度网络可以发现更多长距依赖
+- down sampling, shortcut and text region embedding
+- 增加feature map并没有增加精度
+- 在shortcut中，不进行维度改变
+
 ### Scaling memory-augmented neural networks with sparse reads and writes
 
 
