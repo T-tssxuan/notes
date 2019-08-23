@@ -587,6 +587,9 @@
 - 基于knn搜索
 - 12层的bert超过了24层的bert
 - 使用小的vector表征大的vector
+- 所有操作都是可微分的，保证了在网络是的可插拔
+- 为了保正KNN计算的快速性，使用了product key
+- 对于稀疏矩阵的update，保持一下较高的learning rate是个不错的选择
 
 ### Attentive Convolution: Equipping CNNs with RNN-style Attention Mechanisms
 - 使用attentions让CNN不仅得到局部的信息，还有非局部信息
@@ -601,12 +604,36 @@
 - 增加feature map并没有增加精度
 - 在shortcut中，不进行维度改变
 
+### Effective Use of Word Order for Text Categorization with Convolutional Neural Networks
+- 实验证明seq-CNN在情感分类任务上，优于bow-CNN
+- 使用多种pooling
+
+### Convolutional Neural Networks for Text Categorization: Shallow Word-level vs. Deep Character-level
+- 从已有的结果上可以行到，word-CNN在小数据集上要优于char-CNN
+
+### Efficient softmax approximation for GPUs
+- 使用adaptive的方法，来处理巨量softmax矩阵
+- 自然语言数据分布为Zipf定律
+
+### A Simple Theoretical Model of Importance for Summarization
+- summary不应该包括太多的信息
+- summary是最小化KL，同时最大化Relevance，最小化Redundancy
+- summary是有效信息量
+
+### PREDICTING THE GENERALIZATION GAP IN DEEP NETWORKS WITH MARGIN DISTRIBUTIONS
+- 深度神经网络可以很好的拟合随机数据，但是泛化有限，这证明一般的loss function不足发很好的代表泛化性
+- 跟一般的方法的不同之处
+  - 跟weight normal相关方法不同之处在于，对网络结构变化感知，而且不局限于网络结构
+  - 在一两层设置gap是不够的
+  - 一般的间距设置是指训练集和决策面之间的距离
+  - 仅仅是间距的设置，并不一定能达到提升泛化的效果
+- 
+
 ### Scaling memory-augmented neural networks with sparse reads and writes
 
 
 ### Get To The Point: Summarization with Pointer-Generator Networks
 - 
-
 
 ### Sentence Mover’s Similarity: Automatic Evaluation for Multi-Sentence Texts
 - 
