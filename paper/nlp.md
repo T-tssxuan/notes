@@ -627,6 +627,26 @@
   - 在一两层设置gap是不够的
   - 一般的间距设置是指训练集和决策面之间的距离
   - 仅仅是间距的设置，并不一定能达到提升泛化的效果
+- 如果一些层次跟输入层相差很大，也证明他们在泛化上的贡献很大
+
+### Distilling the Knowledge in a Neural Network
+- 在线上服务时，可以用蒸馏的方法来提取大模型中的知识，以达到模型服务加速的效果
+- 使用soft target相比于hard target可以提供更多的信息，以及在gredient中更少的variance
+- distill: 提升softmax的温度，直到模型产生合适的soft target，再用这些soft target去训练简单模型
+- 在训练小模型时，可以使用一样的数据或者完全没有标签的数据
+- 训练小模型同时使用hard target和soft target可以有更好的结果
+- soft obj仍然使用原模型的high temp loss，hard obj使用正常的，并对soft obj加权T^2
+
+### Directional Skip-Gram- Explicitly Distinguishing Left and Right Context for Word Embeddings
+- 在词向量训练中引入方向向量
+
+### On Extractive and Abstractive Neural Document Summarization with Transformer Language Models
+- 把摘要分为抽限和总结两部分
+- 抽取摘要获取的方法：选择文本中与摘要ROUGE score最高的几个句子
+- 使用ground truth extract在训练时期，在inferenece时使用抽取的，要比都使用抽取的好
+- 使用topk sampling
+
+### Word Mover’s Embedding: From Word2Vec to Document Embedding
 - 
 
 ### Scaling memory-augmented neural networks with sparse reads and writes
