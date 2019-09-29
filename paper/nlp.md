@@ -646,6 +646,24 @@
 - 使用ground truth extract在训练时期，在inferenece时使用抽取的，要比都使用抽取的好
 - 使用topk sampling
 
+### ALBERT: A LITE BERT FOR SELF-SUPERVISED LEARNING OF LANGUAGE REPRESENTATIONS
+- 更大的模型，有更低的mask acc，但是并没有过拟合
+- 减少参数的方法：a. 对embedding table进行分解，b. 多层参数共享
+- 减少参数的情况下，参数量减少了18倍，训练速度提升了1.7倍
+- 引入sop，进行句子级别控制
+- NSP问题，混淆了主题预测和一致性预测
+- 引入SOP能极大的提高
+- 添加额外数据，能提高精度
+- 无dropout也能提高精度
+- dropout可能对transformer-based模型，有负面影响 
+
+### Deep Equilibrium Models
+- 匹敌的效果
+- 算力不变
+- 内存压缩
+- 在很多的应用中，序列模型常常证明是大于深度模型的
+- 可以压缩多层，达以一致效果
+
 ### Word Mover’s Embedding: From Word2Vec to Document Embedding
 - 
 
