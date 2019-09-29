@@ -669,6 +669,12 @@
 - 对部分变量在使用时进行再计算
 - 把模型分成不同的段，只记住每段的输入和输出，对每段进行重计算
 
+### 103. ERNIE 2.0: A CONTINUAL PRE-TRAINING FRAMEWORK FOR LANGUAGE UNDERSTANDING
+- 引入多种任务学习，包括：字、结构、语义等级别
+- 词级别任务：a) 字、实体mask、实体识别，b) 大写词识别，c) 预测词是否在文本中其它的部分出现
+- 结构级别任务：a) 把句子随机分成n个部分，预测order，b) 句子距离预测，0相邻，1同文档，2不同文档
+- 语义级别任务：a) 语义关系，b) 使用搜索引擎数据
+
 ### Extreme Language Model Compression with Optimal Subwords and Shared Projections
 ### UNITER: Learning UNiversal Image-TExt Representations
 ### TinyBERT: Distilling BERT for Natural Language Understanding
