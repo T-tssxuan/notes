@@ -675,6 +675,15 @@
 - 结构级别任务：a) 把句子随机分成n个部分，预测order，b) 句子距离预测，0相邻，1同文档，2不同文档
 - 语义级别任务：a) 语义关系，b) 使用搜索引擎数据
 
+### 104. RoBERTa: A Robustly Optimized BERT Pretraining Approach
+- 发现bert没有训练到位，还有很大的提升空间
+- 1) 更长的序列，更大的bz，和更多的数据，2) 去掉下一句预测，3) 在更长的序列上训练，4) 动态改变mask
+- 对于adam，使用beta2 = 0.98在大batch size下更稳定
+
+### 105. SpanBERT: Improving Pre-training by Representing and Predicting Spans
+
+### 106. Knowledge Enhanced Contextual Word Representations
+
 ### Extreme Language Model Compression with Optimal Subwords and Shared Projections
 ### UNITER: Learning UNiversal Image-TExt Representations
 ### TinyBERT: Distilling BERT for Natural Language Understanding
