@@ -681,8 +681,25 @@
 - 对于adam，使用beta2 = 0.98在大batch size下更稳定
 
 ### 105. SpanBERT: Improving Pre-training by Representing and Predicting Spans
+- 进行连续范围的mask，而非进行个别mask
+- 训练区别边界去预测整个区间，而非个别token
+- 不使用NSP，可取得更好的结果
+- 同时使用边界loss和mlm loss
+
+### 106. LARGE BATCH OPTIMIZATION FOR DEEP LEARNING: TRAINING BERT IN 76 MINUTES
+- 在covex model中，同步训练大batch size可以因为方差的减少而受益，一般而言在大的batch size时，可以相应的方大lr到`sqrt(news_batch_size/old_batch_size)`
+- 在noncovex model中，线性增长lr，一般需要使用warm up，线性增涨lr，在超过一定的batch size时，会变成负收益
+- 本文主要集中在多层网络
+- 基于每一层l2 norm；每一层的lr被放大至f(||xt||)
+- 在bert的第二阶段进行re warm up
+
+### 106. LARGE-SCALE PRETRAINING FOR NEURAL MACHINE TRANSLATION WITH TENS OF BILLIONS OF SENTENCE PAIRS
+- 增加数据，不一定GPU能处理
+- 增加数据也意味着更多的噪声
+- 
 
 ### 106. Knowledge Enhanced Contextual Word Representations
+- 
 
 ### Extreme Language Model Compression with Optimal Subwords and Shared Projections
 ### UNITER: Learning UNiversal Image-TExt Representations
