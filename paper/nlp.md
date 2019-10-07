@@ -699,13 +699,15 @@
 - SOTA结果
 - 基于列分解计算
 
-### 107. LARGE-SCALE PRETRAINING FOR NEURAL MACHINE TRANSLATION WITH TENS OF BILLIONS OF SENTENCE PAIRS
+### 108. LARGE-SCALE PRETRAINING FOR NEURAL MACHINE TRANSLATION WITH TENS OF BILLIONS OF SENTENCE PAIRS
 - 增加数据，不一定GPU能处理
 - 增加数据也意味着更多的噪声
-- 
+- 数据来源很杂乱，使用预训，调整方法
+- 使用dynamic data split
 
-### 106. Knowledge Enhanced Contextual Word Representations
-- 
+### 109. Knowledge Enhanced Contextual Word Representations
+- 提出一种把知识库嵌入到大规模模型中的方法
+- 每个entity span召回一系列的候选
 
 ### Extreme Language Model Compression with Optimal Subwords and Shared Projections
 ### UNITER: Learning UNiversal Image-TExt Representations
