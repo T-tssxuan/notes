@@ -721,6 +721,15 @@
 - 设计一种适合多stage的蒸馏方法
 - 取得了相当的结果
 
+### 112. Get To The Point: Summarization with Pointer-Generator Networks
+- 抽象摘要可能会导致两个问题，a. 不准备的表述；b. 重复
+- 1. 使用pointing来拿取原文中的信息，2. 使用coverage来跟踪摘要，保证不重复
+- 使用coverage来降低重复
+
+### Pointer networks.
+### Incorporating copying mechanism in sequence-to-sequence learning
+### Language as a latent variable: Discrete generative models for sentence compression
+
 ### UNITER: Learning UNiversal Image-TExt Representations
 ### K-BERT: Enabling Language Representation with Knowledge Graph
 ### Language Models as Knowledge Bases?
@@ -733,8 +742,6 @@
 ### Scaling memory-augmented neural networks with sparse reads and writes
 
 
-### Get To The Point: Summarization with Pointer-Generator Networks
-- 
 
 ### Sentence Mover’s Similarity: Automatic Evaluation for Multi-Sentence Texts
 - 
