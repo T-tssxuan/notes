@@ -717,8 +717,11 @@
 - 随机选出一些词，用teacher分割，另一些词用student分割
 - 使用映射矩阵进行对齐
 
+### 111. TinyBERT: Distilling BERT for Natural Language Understanding
+- 设计一种适合多stage的蒸馏方法
+- 取得了相当的结果
+
 ### UNITER: Learning UNiversal Image-TExt Representations
-### TinyBERT: Distilling BERT for Natural Language Understanding
 ### K-BERT: Enabling Language Representation with Knowledge Graph
 ### Language Models as Knowledge Bases?
 ### Investigating BERT's Knowledge of Language: Five Analysis Methods with NPIs
