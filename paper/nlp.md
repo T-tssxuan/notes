@@ -709,7 +709,14 @@
 - 提出一种把知识库嵌入到大规模模型中的方法
 - 每个entity span召回一系列的候选
 
-### Extreme Language Model Compression with Optimal Subwords and Shared Projections
+### 110. Extreme Language Model Compression with Optimal Subwords and Shared Projections
+- 压缩student模型的词表大小
+- 在base model达到了60x的压缩
+- 使用更小的词表
+- nlp中的模型压缩通常包括：矩阵近似，参数裁减/共享，权重量化、知识蒸馏
+- 随机选出一些词，用teacher分割，另一些词用student分割
+- 使用映射矩阵进行对齐
+
 ### UNITER: Learning UNiversal Image-TExt Representations
 ### TinyBERT: Distilling BERT for Natural Language Understanding
 ### K-BERT: Enabling Language Representation with Knowledge Graph
