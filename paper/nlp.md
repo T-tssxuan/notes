@@ -726,7 +726,13 @@
 - 1. 使用pointing来拿取原文中的信息，2. 使用coverage来跟踪摘要，保证不重复
 - 使用coverage来降低重复
 
-### Pointer networks.
+### 113. Pointer networks
+- 可以提供一个可变的词典
+- 主要贡献
+  - 提出一种基于"pointer"的可变词典的生成架构
+  - 应用到各种问题
+  - 完全基于数据驱动
+
 ### Incorporating copying mechanism in sequence-to-sequence learning
 ### Language as a latent variable: Discrete generative models for sentence compression
 
