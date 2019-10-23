@@ -733,6 +733,23 @@
   - 应用到各种问题
   - 完全基于数据驱动
 
+### 114. Realistic Evaluation of Deep Semi-Supervised Learning Algorithms
+- 主要发现：
+  - 同样的参数下，SSL和S的差距要小得多
+  - 使用少量的标注数据和大量的末标注数据在仔细选取的正则下，能达到很高的精度
+  - 在一些设置下，先在未标注数据下先训练，然后在标注数据上训练，这样达到的效果可以更好
+  - SSL算法在末标记数据中包涵很多超出标记数据分布数据时，算法下降很快
+  - 不同的方法，对标注和未标注数据比例有不同的敏感程度
+  - 较小的验证集，会防碍不同的方法、模型和超参的设置
+
+### 115. Jointly Learning to Align and Translate with Transformer Models
+- 使用multi-task loss
+- 自回归与文本对齐有一定的冲突，使用不同的依赖条件放松对自回归的依赖
+- 系统能够通过调整达到对齐状态
+- 平均attention有利于对齐
+- 使用两路loss，一路进行常规的auto-regressive，一路进行对齐训练
+- 网络的倒数第二层，对对齐有不错的效果
+
 ### Incorporating copying mechanism in sequence-to-sequence learning
 ### Language as a latent variable: Discrete generative models for sentence compression
 
