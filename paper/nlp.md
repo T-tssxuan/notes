@@ -750,6 +750,26 @@
 - 使用两路loss，一路进行常规的auto-regressive，一路进行对齐训练
 - 网络的倒数第二层，对对齐有不错的效果
 
+### 116. Universal Text Representation from BERT: An Empirical Study
+- 通过逐层分析bert，理解其如何提取和在层间传递信息
+- 
+
+### 117. Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer
+- 把所有的问题都转化成Text2Text问题
+- 一般来说，使用相对位置embedding可以更加适应key和query模式
+- 在offset在于128的情况，使用固定的embedding
+- 使用标准的Transformer，可能得到更好的精度和泛化
+- 使用指数下降，相比较于三角梯度，本方法效果更好些
+- encoder和decoder可以分开训练，然后拼接达到text-to-text
+- L长的encoder2decoder序列，计算量几乎等价于2L长的encoder2decoder序列
+- span corruption效果可能更好
+- denoise相比于语言模型和打散都有更好的效果
+- 选择不同的denoise目标，对计算性能的损耗有很大的不同
+- 增加适应层，在SQuAD任务上，能够实现很不错的结果
+- 除了翻译任务外，unsupervised train都要好些
+- 使用level-one-out来训练
+- 提升模型大小和训练时长会持续的提升模型的质量
+
 ### Incorporating copying mechanism in sequence-to-sequence learning
 ### Language as a latent variable: Discrete generative models for sentence compression
 
