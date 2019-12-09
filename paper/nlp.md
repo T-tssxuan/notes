@@ -770,6 +770,10 @@
 - 使用level-one-out来训练
 - 提升模型大小和训练时长会持续的提升模型的质量
 
+### 118. Fine-tune BERT for Extractive Summarization
+- 在每个句之前插入[CLS]，句后插入[SEP]
+- 使用Trigram跳过可能重复的
+
 ### Incorporating copying mechanism in sequence-to-sequence learning
 ### Language as a latent variable: Discrete generative models for sentence compression
 
