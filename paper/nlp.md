@@ -774,6 +774,23 @@
 - 在每个句之前插入[CLS]，句后插入[SEP]
 - 使用Trigram跳过可能重复的
 
+### 119. The use of mmr and diversity-based reranking for reodering documents and producing summaries
+- marginal relevance：关于相关度和新鲜度的组合指标
+
+### 120. Plug and Play Language Models- a Simple Approach to Controlled Text Generation.pdf
+- 通过条件控制语言生成
+- 不要再次训练LM
+
+### 121. Fine-Tuning Language Models from Human Preferences
+- rl中常对翻译使用BLUE，摘要使用ROUGE
+- 
+
+### 122. CTRL - A Conditional Transformer Language Model for Controllable Generation
+
+### 123. Putting Machine Translation in Context with the Noisy Channel Model
+
+### 124. Sample Efficient Text Summarization Using a Single Pre-Trained Transformer
+
 ### Incorporating copying mechanism in sequence-to-sequence learning
 ### Language as a latent variable: Discrete generative models for sentence compression
 
