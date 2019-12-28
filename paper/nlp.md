@@ -791,6 +791,26 @@
 
 ### 124. Sample Efficient Text Summarization Using a Single Pre-Trained Transformer
 
+### 125. PEGASUS: Pre-training with Extracted Gap-sentences for Abstractive Summarization
+- 
+
+### 126. GAUSSIAN ERROR LINEAR UNITS (GELUS)
+- GELU的主要特点在于：dripout, zeneout, RELU
+- 老的方法有通过随机01矩阵进行zeneout
+- 对CDF进行近似代替
+
+### 127. REFORMER: THE EFFICIENT TRANSFORMER
+- 使用LSH代替dot-product
+- 使用Reversible layer
+- 减少FF层开销
+- 使用拆分的attention实现超长attention，并在bp时按需计算
+- softmax(QK)的核心在于最大元素的top KNN
+- 充分利用attention矩阵稀疏的特点
+- 为了保正桶的均匀性，保证h(kj) = h(qj)
+- QK分别计算的一个好处在于，保证自己不跟自己玩
+- 使用Reversible Transformer，减少内存使用量
+- 使用分片技术减少每次使用的内存量
+
 ### Incorporating copying mechanism in sequence-to-sequence learning
 ### Language as a latent variable: Discrete generative models for sentence compression
 
