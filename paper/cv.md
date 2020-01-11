@@ -26,12 +26,15 @@
 3. observe the evolution of feature during training and diagnose potential problem with the model. 
 4. multi-layer deconvolution network: project the feature activations back to the input pixel space.
 
-### Semantic Soft Segmentation
+### 4. Semantic Soft Segmentation
 1. 本文从分割的角度出发，用神经网络的结果表示图像的材质和颜色
 2. 使用egendecomposition和laplacian matrix进行分割
 
-### Semantic Human Matting
+### 5. Semantic Human Matting
 1. 创建一个大数据集
 2. SHM水平跟interactive matting methods相当
 3. 使用两个网络进行，即T-Net和M-Net
 4. RGB,trimap构成了6channel的输入
+
+### 6. EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks
+- 

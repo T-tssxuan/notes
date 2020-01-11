@@ -251,17 +251,17 @@ representations from the data without “overfitting” to the distributions of 
 - stochastic click brandits framework
 - 默认用户的满足度不会随着点击的增加而下降
 
-### Deep Interest Evolution Network for Click-Through Rate Prediction
+### 29. Deep Interest Evolution Network for Click-Through Rate Prediction
 - 一般的interest模型直接把行为当做兴趣，而没有考虑行为背后的潜在兴趣模型
 - DIEN有两个过子模型，一个基于用户行为提取短暂用户兴趣点，一个对用户兴趣演化进行建模
 - 引入一个辅助的loss来监督用户兴趣的学习
 - 使用兴趣状态和目标项来计算相关性，而AUGRU加强兴趣演化中的相关兴趣的影响，减少了兴趣漂移带来的不相关兴趣的影响
 
-### Adversarial Personalized Ranking for Recommendation
+### 30. Adversarial Personalized Ranking for Recommendation
 - 为了提升推荐的稳定性，提出Adversarial Personalized Ranking
 - 不同于图像的对抗，对于推荐的对抗主要在推荐模型中进行添加
 
-### Fast matrix factorization for online recommendation with implicit feedback
+### 31. Fast matrix factorization for online recommendation with implicit feedback
 - 根本样本的流行程度，来决定样本的权重，这比均匀分布假设要灵活得多
 - 提出element-wise Alternating Least Squares (eALS)
 - 是ALS的k倍快，没有learning rate
@@ -269,13 +269,23 @@ representations from the data without “overfitting” to the distributions of 
 - O((N+M)K^2+|R|K)
 - code: https://github.com/hexiangnan/sigir16-eals
 
-### Causal Embeddings for Recommendation, 2018
+### 32. Causal Embeddings for Recommendation, 2018
 - 对于新的解决方案主要可以分为两类：a)学习item-item embedding，然后预测item-item相似性，b)学习用户序列embedding，然后预测下一个item
 - 
 
-### Click-Through Rate Estimation for Rare Events in Online Advertising
+### 33. Click-Through Rate Estimation for Rare Events in Online Advertising
 - 直接计算CTR会远高于实际的CTR
 - 很多页面没有点击
+
+### 34. Factorization Machines
+- FM使变量之间使用分解参数，这样对于极其稀疏的数据也能很好的处理
+- SVM在高稀疏的非线性空间，不能学习到很好的支撑平面
+- FM是线性复杂度
+- 通过因数分解，把参数的独立性打破了
+- SVM在数据层组合，在参数层查表；FM在数据层组合，在参数层分解，导致相交
+
+### 35. Field-aware Factorization Machines for CTR Prediction
+- 增加field域
 
 ### Iteration Complexity of Randomized Block-Coordinate Descent Methods for Minimizing a Composite Function
 

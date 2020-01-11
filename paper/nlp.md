@@ -783,16 +783,17 @@
 
 ### 121. Fine-Tuning Language Models from Human Preferences
 - rl中常对翻译使用BLUE，摘要使用ROUGE
-- 
 
-### 122. CTRL - A Conditional Transformer Language Model for Controllable Generation
+### 122. Distant supervision for relation extraction without labeled data
+- 
 
 ### 123. Putting Machine Translation in Context with the Noisy Channel Model
 
 ### 124. Sample Efficient Text Summarization Using a Single Pre-Trained Transformer
 
 ### 125. PEGASUS: Pre-training with Extracted Gap-sentences for Abstractive Summarization
-- 
+- 进行整句mask
+- 先择重要的句子进行mask
 
 ### 126. GAUSSIAN ERROR LINEAR UNITS (GELUS)
 - GELU的主要特点在于：dripout, zeneout, RELU
@@ -810,6 +811,20 @@
 - QK分别计算的一个好处在于，保证自己不跟自己玩
 - 使用Reversible Transformer，减少内存使用量
 - 使用分片技术减少每次使用的内存量
+
+### 128. ELECTRA- Pre-training Text Encoders as Discriminators Rather Than Generators
+- 不是训练MASK去预测token，而是对相应的token使用一个小的生成网络，进行替换，然后训练网络去进行判断
+- 这个网络比一般的MASK网络更加的有效，因为每一个位置都参与判断
+
+### 129. Conditional Random Fields: Probabilistic Models for Segmenting and Labeling Sequence Data
+- 解决MEMM中的label-bias
+- 基于HMM的结构，但是比HMM更有表达能力，因为是无向图
+
+### 130. An Introduction to Hidden Markov Models
+- 1)如何识别周期，2)如何定义这些特性，3)什么样的模型用于建模
+- HMM的数素：1)状态，2)状态间转移，3)状态引出的观察输出
+
+### 122. CTRL - A Conditional Transformer Language Model for Controllable Generation
 
 ### Incorporating copying mechanism in sequence-to-sequence learning
 ### Language as a latent variable: Discrete generative models for sentence compression
