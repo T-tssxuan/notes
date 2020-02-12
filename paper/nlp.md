@@ -824,6 +824,31 @@
 - 1)如何识别周期，2)如何定义这些特性，3)什么样的模型用于建模
 - HMM的数素：1)状态，2)状态间转移，3)状态引出的观察输出
 
+### 131. Maximum Entropy Markov Models for Information Extraction and Segmentation
+- 一种类HMM模型，可以处理各种覆盖模型
+- 1) 很多任务能从富特征中受益，2) 传统的方法，不适当的使用了生成模型来解决条件生成问题
+- 从生成模型，转到基于观察和历史状态的条件模型
+- 使用stat-observation转移函数，而非使用HMM中的分隔开的状态转移和观察函数
+
+### 132. A Simple Introduction to Maximum Entropy Models for Natural Language Processing
+- 自然语言可能转化成为最大熵模型，A为分类，B为context，可以转化成相应最大熵模型
+- 最大熵模型中，约束可以为相应的feature
+- 把问题转化成只要管提什么特征就可以了，剩下的是由GIS找到最优解
+
+### 133. Deep Boltzmann Machines
+- 设置J=0和L=0，BM变成了RBM
+
+### 134. CCMatrix: Mining Billions of High-Quality Parallel Sentences on the WEB
+- 在多个语种上得到超过30m的语料，并在WMT'19的多个任务中实现SOTA
+
+### 135. Encode, Tag, Realize: High-Precision Text Editing
+- 把语言生成问题转换成句子编辑操作：保留token，删除token，在token前添加短语
+- 相比常规的seq2seq，快了近百倍
+- 通过在输入句子上修改，达到句子转换的目的
+- 特别适合较小的标注数据集上
+- 主要分为三步：1) 编码句子，2) 标注，3) 生成
+- 能达到跟seq2seq相似的结果，但是有更快的速度
+
 ### 122. CTRL - A Conditional Transformer Language Model for Controllable Generation
 
 ### Incorporating copying mechanism in sequence-to-sequence learning

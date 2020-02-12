@@ -37,4 +37,37 @@
 4. RGB,trimap构成了6channel的输入
 
 ### 6. EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks
-- 
+- 同时扩展depth/width/resolution，达到更好的扩展效果
+- 使用NAS搜索更好的基础结构
+
+### 7. You Only Look Once: Unified, Real-Time Object Detection
+- 不像传统网络，YOLO每次对整张图进行全局处理
+- YOLO比Fast R-CNN少了一半的背景错误
+- 主要设计
+  - 把图像分成SXS个网格，每个网格预测B个box
+  - 每个box预测相对所以网格的x, y, w, h, conf
+  - 每个grid预测相应的类别
+  - 最后每个图片就是预测：S X S X (B X 5 + C)
+- 直接用squared error可以导致不均匀的问题，对包涵OBJ的告乘以5，对于不包涵OBJ的乘以0.5
+- 为了处理大的box和小的box不一致的问题，直接预测box高和宽的平方根
+- 每个predictor都专门化
+
+### 8. YOLO9000: Better, Faster, Stronger
+- 使用join train能够使模型
+- 添加Batch Normalization
+- 使用更高分辩率的分类器
+- Convolutional With Anchor Boxes
+- 使用dimension cluster
+- Direct location prediction.
+- 使用层级概念
+- 使用wordnet联合不同的数据集
+
+### 9. YOLOv3: An Incremental Improvement
+- 使用lr可以应对多label数据
+- 使有更多的feature map，包括up sampling，以及更前面的层
+
+### 8. Rich feature hierarchies for accurate object detection and semantic segmentation
+
+### 9. Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks
+
+### 10. Object Detection with Discriminatively Trained Part Based Models
