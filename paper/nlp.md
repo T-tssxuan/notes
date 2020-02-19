@@ -849,6 +849,10 @@
 - 主要分为三步：1) 编码句子，2) 标注，3) 生成
 - 能达到跟seq2seq相似的结果，但是有更快的速度
 
+### 136. Compressive Transformers for Long-Range Sequence Modelling
+- 在TransformerXL的基础上，引入压缩记忆
+- 准备了一个更大的数据集PG-19
+
 ### 122. CTRL - A Conditional Transformer Language Model for Controllable Generation
 
 ### Incorporating copying mechanism in sequence-to-sequence learning

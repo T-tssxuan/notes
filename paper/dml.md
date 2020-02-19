@@ -11,3 +11,33 @@
 - Ensemble Method: Bagging, Boosting, Bucketing, Random Forests, Stacking, Learning Classifier Systems
 - 常见的Topology：Tree, Ring, Parameter Server, P2P
 - Communication: Bulk Synchronous Parallel(BSP), Stale Synchronous Parallel(SSP), Approximate Synchronous Parallel(ASP), Barrierless Asynchronous Parallel/Total Asynchronous Parallel(BAP/TAB)
+
+### 2. ZeRO: Memory Optimization Towards Training A Trillion Parameter Models
+- 模型并性有较好的内存使用率，但是有通信效率较差；数据并行，有交好的通信效率，但是内存效率低
+- 激活函数可以需要时再计算
+- 混合精度训练
+- 减少了内存占用，同时保持了通性效率
+
+### 3. Mixed Precision Training
+- 保存权重的FP32拷贝
+- 对loss进行缩放
+- 在FP32中使用FP16的算法
+- 使用单精度拷贝，能够防止FP16精度不够，在乘以lr后直接变成0；另一方面，weight update也可能导致FP16不够用的情况
+- 保留FP32的拷贝并不会消耗太多的内存，系统中主要的内存消耗在于act, fw, bw等，以及大batch size
+- 由于一些较小的gradient十分有效，可能对其进行放大，然后在进行相关gradient操作之前进行缩小
+- FP16可能产生regularizer的效果
+
+### 4. Highly Scalable Deep Learning Training System with Mixed-Precision: Training ImageNet in Four Minutes
+- 结合使用mixed precision train
+- LARS
+- 高性能ring all reduce
+- 在bias和bn上去掉weight decay
+- 使用Tensor Fusion、Hierarchical All-reduce、Hybrid All-reduce加速ring reduce
+
+### 5. AutoAugment: Learning Augmentation Strategies from Data
+- 在数据增强花的时间并不多
+- 实现在自动数据增强策略搜索
+- 数据增强策略迁移
+- 把数据增强转化成一个离散策略搜索问题
+- 搜索空间：5个子策略，每个子策略包涵两个图片操作，每个操作包涵两个参数：1) 应用操作的概率，2）操作的量
+- 离散化操作空间，形成搜索空间

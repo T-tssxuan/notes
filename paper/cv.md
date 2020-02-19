@@ -66,6 +66,22 @@
 - 使用lr可以应对多label数据
 - 使有更多的feature map，包括up sampling，以及更前面的层
 
+### 10. IMAGEBERT: CROSS-MODAL PRE-TRAINING WITH LARGE-SCALE WEAK-SUPERVISED IMAGE-TEXT DATA
+- 上千万量级的图片和描述信息
+- 图文bert
+
+### 11. Bag of Tricks for Image Classification with Convolutional Neural Networks
+- Large-batch training
+  - 线性增加lr
+  - lr warmup
+  - 针对最后一个block的BN层的gamma置0
+  - 只针对cnn和fc层进行weight decay，别的层不使用
+- 低精度训练：使用fp16可以提速2到3倍，使用混合精度能同时提升训练速度和精度
+- 使用不同的网络结构
+- 使用consine learning rate decay
+- 使用label smoothing
+- 使用知识蒸馏
+
 ### 8. Rich feature hierarchies for accurate object detection and semantic segmentation
 
 ### 9. Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks
