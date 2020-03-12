@@ -838,7 +838,7 @@
 ### 133. Deep Boltzmann Machines
 - 设置J=0和L=0，BM变成了RBM
 
-### 134. CCMatrix: Mining Billions of High-Quality Parallel Sentences on the WEB
+### 134. CCMatrix: Mining Billions of High-Quality Parallel Sentences on the WEB, 2019.11
 - 在多个语种上得到超过30m的语料，并在WMT'19的多个任务中实现SOTA
 
 ### 135. Encode, Tag, Realize: High-Precision Text Editing
@@ -852,6 +852,31 @@
 ### 136. Compressive Transformers for Long-Range Sequence Modelling
 - 在TransformerXL的基础上，引入压缩记忆
 - 准备了一个更大的数据集PG-19
+
+### 137. Contrastive Estimation: Training Log-Linear Models on Unlabeled Data
+- 假设X是局部最优，使概率分布从其邻居转入X
+- 不对所有数据做假设，只是对数据及其邻居进行假设
+
+### 138. Noise-contrastive estimation: A new estimation principle for unnormalized statistical models
+- 针对参数未归一化模型设计
+- partition function常常很难计算
+- 主要是通过区分数据和人造数据来实现
+
+### 139. Levenshtein Transformer
+- 常见的生成模型一般是生成固定长度，或者增长序列，这跟人类对文本的常识不一致
+- LevT的两个主要操作是insertion和deletion
+- deletion操作可以近似为gan中的discriminator
+- insertion分为两步：a) 插入空格，b) 结果预测
+- 模型根据两种情况停止：a) 循环，b) 超时
+
+### 140. Realistic Evaluation of Deep Semi-Supervised Learning Algorithms, 2019.06
+- 从以下几方面处理：
+  - 同样预算下，比较SSL和只用较少的label的区别较少
+  - 大模型使用较少的数标注数据，通过仔细的选取正则等方法，可以达到不错的效果
+  - 在一些设置下，先在不同的标注数据下预训，然后在感兴趣的数据下预训，可以达到比SSL更好的效果
+  - 使用SSL时，如果未标数据跟标数据有不同的分布，可能导致效果极大的下降
+  - 不同的方法，对于标注数据与未标注数据数据量的差别有不同的敏感性
+  - 小的验证集，对效果有不同的影响
 
 ### 122. CTRL - A Conditional Transformer Language Model for Controllable Generation
 

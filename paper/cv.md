@@ -82,6 +82,12 @@
 - 使用label smoothing
 - 使用知识蒸馏
 
+### 12. UniViLM: A Unified Video and Language Pre-Training Model for Multimodal Understanding and Generation
+- 不但使用不同的视频间进行采样，也在同一个视频内采样
+
+### 13. Deep Layer Aggregation, 2019.01
+- 引入两种layer aggregation: iterative deep aggregation, hierarchical deep aggregation
+
 ### 8. Rich feature hierarchies for accurate object detection and semantic segmentation
 
 ### 9. Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks
