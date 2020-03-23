@@ -19,4 +19,10 @@
   - 检测相同的算法
   - 使Evolved Transformer
 
+### 4. The Evolved Transformer, 2019.01
+- 常见的方法主要的问题有：
+  - 很难热启动Transformer
+  - ENAS和DARTS需要很多内存
+  - 在视频领域最好的架构来自于进化算法
+
 ### 4. Random Search and Reproducibility for Neural Architecture Search

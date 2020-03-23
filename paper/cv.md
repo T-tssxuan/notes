@@ -88,6 +88,64 @@
 ### 13. Deep Layer Aggregation, 2019.01
 - 引入两种layer aggregation: iterative deep aggregation, hierarchical deep aggregation
 
+### 14. Momentum Contrast for Unsupervised Visual Representation Learning
+- contrast loss可以用于定义目标之间的区别，达到表征学习的目的
+- 直接copy query的encoder到key encoder中，导到失败的原因是encoder改变太快
+- 解决key encoder失败的方法是使用momentum的更新
+- 使用BN可能导致信息泄露，而导致效果不好
+
+### 15. The Devil is in the Channels: Mutual-Channel Loss for Fine-Grained Image Classification
+- 常见的方法
+  - 子网络执行部分检测
+  - 特征学习，最大化差异度
+- 使用一个loss完成差异化特征学习和结构定位
+- 使用不同的通道进行分类专门化
+- 不同的通道class的差异化
+
+### 16. Weakly Supervised Complementary Parts Models for Fine-Grained Image Classification from the Bottom Up, 2019.03
+- 使用Mask R-CNN进行对象检测，以及使用CRF-based segmentation进行instance分割
+- 图像分类会陷入对最大不同的区分
+- 使用CAM产生表征，使用CRF进行分割，再用Mask R-CNN进行分割，在此基础之上，再使用Mask R-CNN替换CAM特征，迭代几轮，达到目的
+
+### 17. Learning Deep Features for Discriminative Localization
+- 使用GAP可以使网络识别完整的对象
+- GAP相对GMP可以使整个感知点受到训练
+
+### 18. Exploring the Limits of Weakly Supervised Pretraining
+- 使用单个类二分类，效果相当的差
+- 使用softmax，且每个tag使用1/k的量
+- 数据量提升和标签提升都可以有效的提升分类效果
+- hashtag数量分布呈Zipfian分布，需要进行采样，主要是对于较少的图片进行上采样
+
+### 19. Deep learning for fine-grained image analysis: A survey
+- fine-grained image recognition, fine-grained image retrieval and fine-grained image generation.
+- 高度相似子类之间的类间较小差异，组内姿态、尺度、旋转带来的较大差异
+- 识别：1) 引入图像本身信息，2)引入web文本，描述等
+- 常规的图像检索着重检测相似，细粒度检索着重于检测子类型
+
+### 20. Learning Attentive Pairwise Interaction for Fine-Grained Classification
+- 模仿人类，对于成对对比图像
+- 可以快速的在其它的网络中进行插拔
+- 同时使用rank loss和cross entropy
+
+### 21. Self-training with Noisy Student improves ImageNet classification
+- 1) 老师模型在标注数据上训练, 2) 学生模型在老师模型的结果上运行，3) 学生变老师继续进行迭代
+- 和模型蒸馏的主要区别在于，本文使用跟teach差不多大的学生模型，并且添加噪声
+- 几个总结
+  - 使用大的teacher效果更好
+  - 使用更多的无标注数据，效果好
+  - soft label效果好
+  - 数据平衡很重要
+  - 标注和无标注一起训练的数果好于先用无标签预训
+  - 使用大的比量有标签和无标签数据
+  - 从零开始训练student模型效果更好
+
+### 21. 
+
+### 20. RPC: A Large-Scale Retail Product Checkout Dataset, 19.01
+- 
+ 
+
 ### 8. Rich feature hierarchies for accurate object detection and semantic segmentation
 
 ### 9. Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks
