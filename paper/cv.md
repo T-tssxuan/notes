@@ -140,7 +140,14 @@
   - 使用大的比量有标签和无标签数据
   - 从零开始训练student模型效果更好
 
-### 21. 
+### 22. Designing Network Design Spaces
+- 在移动设备上高效
+- 提升了resnet
+- 在GPU上比efficientnet快5倍
+- 使用更的操作符可能达到更好的效果
+
+### 22. Fisher Kernels on Visual Vocabularies for Image Categorization
+
 
 ### 20. RPC: A Large-Scale Retail Product Checkout Dataset, 19.01
 - 

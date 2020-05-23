@@ -30,3 +30,6 @@
 
 ### 4. Video Google: A Text Retrieval Approach to Object Matching in Videos
 - 参考文本检索中相关信息，进行视频检索
+
+### 5. Efficient and robust approximate nearest neighbor search using Hierarchical Navigable Small World graphs
+- 

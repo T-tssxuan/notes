@@ -878,6 +878,15 @@
   - 不同的方法，对于标注数据与未标注数据数据量的差别有不同的敏感性
   - 小的验证集，对效果有不同的影响
 
+### 141. (Re)construing Meaning in NLP
+- 讲语言学的，没看明白
+
+### 
+
+### 141. XTREME: A Massively Multilingual Multi-task Benchmark for Evaluating Cross-lingual Generalization, 2020.04
+- 虽然在英语上有较大成就，但是在多语言迁移还是有很大的gap
+- 
+
 ### 122. CTRL - A Conditional Transformer Language Model for Controllable Generation
 
 ### Incorporating copying mechanism in sequence-to-sequence learning

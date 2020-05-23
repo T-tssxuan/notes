@@ -25,4 +25,8 @@
   - ENAS和DARTS需要很多内存
   - 在视频领域最好的架构来自于进化算法
 
+### 5. Evolving Normalization-Activation Layers
+- 找到EvoNorm，相比于BN和GN有很大的提升
+- 从norm和activation联合的角度设计
+
 ### 4. Random Search and Reproducibility for Neural Architecture Search

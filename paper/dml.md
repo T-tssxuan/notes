@@ -42,7 +42,20 @@
 - 搜索空间：5个子策略，每个子策略包涵两个图片操作，每个操作包涵两个参数：1) 应用操作的概率，2）操作的量
 - 离散化操作空间，形成搜索空间
 
-### 4. Second Order Optimization Made Practical
+### 6. Second Order Optimization Made Practical
 - 现代优化器的一个重要挑战就是缩小理论和实际之间的差距
 - 使用Schur-Newton algorithm可以把p'th root转化为一系列的矩阵乘法
 - 一般情况，CPU属于空转状态，正好用于计算二阶能量
+
+### 7. ReZero is All You Need: Fast Convergence at Large Depth, 2020.3
+- 使用ReZero加快训练速度，且达到比LayerNorm和BatchNorm更高的水平
+- 深层次的Transformer有严重的梯度爆炸和消失问题
+
+### 8. Group Normalization, 18.03
+- LN在RNN/LSTM等效果好，IN在GAN效果好，但是在图像作用都有限
+- 主要缓解BN在小batch size时效果的变差
+- GN更适应于图像
+
+### 9. Memory-Efficient Adaptive Optimization, 19.01
+- 很多梯度都有相关性，input和output
+- 
